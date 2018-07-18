@@ -1,0 +1,90 @@
+# --- параметры окна ---
+# эти строки необходимы для нормальной работы лучше не изменять
+own_window		yes
+# для вывода фона раскомментировать следующую строку, установить цвет, в данный момент красный и в строке own_window_transparent прописать no
+#own_window_colour ff0000
+own_window_class Conky 
+own_window_transparent	yes 
+own_window_type	normal 
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager 
+# следующие параметры можно изменять
+# минимальный размер
+minimum_size 470 450
+# минимальная ширина
+maximum_width 500
+
+alignment tm
+# расстояние между кромкой экрана и окном
+# по горизонтали
+gap_x -170 
+# по вертикали
+gap_y 250
+
+# --- графика окна --- 
+# если желаете выводить conky на другом фоне напишите yes
+background no
+# окантовка окна, бордюр
+draw_borders no
+# если бордюр yes
+# длина штрихов бордюра, если 0, то бордюр выводится сплошной линией
+stippled_borders 1
+# толщина линий бордюра 
+border_width 1
+# бордюр вокруг выводимых графиков
+draw_graph_borders no
+# включить тень?
+draw_shades no
+# окантовка вокруг текста и выводимых объектов
+draw_outline no 
+# Добавить пробел?  Только для встраиваемых объектов 
+use_spacer right 
+
+# --- цвет ---
+# основной цвет по умолчанию 
+default_color ffffff
+# цвет тени
+default_shade_color black 
+# цвет окантовки
+default_outline_color ffffff
+
+# Используется ли Xft? 
+use_xft yes 
+
+# Шриф Xft когда Xft доступен, здесь можно ввести название и размер любого шрифта 
+xftfont liberation:size=9 
+
+# яркость шрифта при испоьзовании шрифтов Xft 
+xftalpha 0.75 
+# выводить весь текст прописными буквами 
+uppercase no 
+# использовать кодировку UTF8? ПРИМЕЧАНИЕ: требуется Xft 
+override_utf8_locale yes 
+
+# --- следующие данные необходимы для работы
+# обновление в секундах не имеет смысла ставить больше 2
+# при выводе времени в секундах необходимо значение 1 и менее
+update_interval 1	#0.5 
+# время работы программы до её выключения
+# установите 0 для работы программы без остановки
+total_run_times 0
+# двойная буфферизация (требуется для flicker, может не работать) 
+double_buffer yes 
+# вычитать буферизацию файловой системы из используемой памяти? 
+no_buffers yes 
+# количество cpu
+cpu_avg_samples 2
+# number of net samples to average 
+net_avg_samples 2 
+imlib_cache_size 0 
+short_units yes 
+pad_percents 2 
+text_buffer_size 2048 
+imlib_cache_size 0
+
+
+# — Lua Load — #
+
+lua_load ~/.my_config/scripts/forecast_v.3.lua
+lua_draw_hook_pre forecast_date
+
+TEXT

@@ -1,0 +1,92 @@
+# — SETTINGS — #
+background no
+update_interval 1
+cpu_avg_samples 2
+net_avg_samples 2
+double_buffer yes
+no_buffers yes
+text_buffer_size 1024
+
+# — WINDOW — #
+own_window yes
+own_window_type desktop 
+own_window_transparent no
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+
+# — BORDER — #
+border_inner_margin 1
+border_outer_margin 2
+
+# — SIZE — #
+minimum_size 3030300 
+maximum_width 290
+
+# — ALIGNMENT — #
+alignment top_right
+gap_x 25
+gap_y 100
+
+# — GRAPHIC — #
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+# — TEXT — #
+use_xft yes
+xftfont Liberation:size=10
+xftalpha 0.8
+uppercase no
+override_utf8_locale yes
+default_color fff
+
+# — LUA — #
+#lua_load 
+#lua_draw_hook_pre 
+
+# — Colors — #
+color1 C18C24
+color2 888
+
+own_window_argb_visual yes
+own_window_colour 000000
+own_window_argb_value 0
+TEXT
+${font Orore:size=20}${color2}H${voffset -3}${font Liberation:size=16}${color} Kernel: ${font Liberation:size=15}${color1}${kernel}
+${font Orore:size=20}${color2}A${voffset -3}${font Liberation:size=16}${color} Uptime: ${font Liberation:size=15}${color1}${uptime}
+
+# Процессор
+${font Orore:size=20}${color2}L${voffset -3}${font Liberation:size=16}${color} CPU: ${font Liberation:size=16}${color1}${cpu cpu0}${color2}${font Liberation:size=16:bold}%${font}${voffset -8}${color1}${goto 10}${offset 175}${freq_g cpu}${color} GHz${voffset 9}${goto 10}${offset 145}${cpubar 3,125}
+${voffset 4}${font Liberation:size=11.3}  Core 1 »»» ${goto 10}${offset 100}${cpubar cpu1 6,120}${color1} ${cpu cpu1}${color2}%
+${voffset 4}${font Liberation:size=11.3}${color}  Core 2 »»» ${goto 10}${offset 100}${cpubar cpu2 6,120}${color1} ${cpu cpu2}${color2}%
+#${voffset 4}${font Liberation:size=11.3}${color}  Core 3 »»» ${goto 10}${offset 100}${cpubar cpu3 6,120}${color1} ${cpu cpu3}${color2}%
+#${voffset 4}${font Liberation:size=11.3}${color}  Core 4 »»» ${goto 10}${offset 100}${cpubar cpu4 6,120}${color1} ${cpu cpu4}${color2}%
+
+# Оперативная память
+${voffset -3}${font Orore:size=20}M${voffset -3}${font Liberation:size=16}${color} RAM: ${font Liberation:size=16}${color1}${memperc}${color}${font Liberation:size=16:bold}${color2}%${font}${voffset -8}${color1}${goto 10}${offset 185}${mem}${color}${voffset 9}${goto 10}${offset 165}${membar 3,105}${voffset -8}${color}
+${voffset 12}${font Liberation:size=11.3}  Total Ram »»» ${color1}${memmax}
+
+# Разделы
+ Home:
+${voffset -3}${font Orore:size=20}${color2}Q${voffset -3}${font Liberation:size=16}${color} Home: ${font Liberation:size=16}${color1}${fs_used_perc /home}${color2}${font Liberation:size=16:bold}%${font}${voffset -8}${color1}${goto 10}${offset 185}${fs_used /home}${color}${voffset 9}${goto 10}${offset 165}${fs_bar 3,105 /home}${voffset -8}${color}
+${voffset 12}${font Liberation:size=11.3}  Total Disk »»» ${color1}${fs_size /home}
+
+# Процессы
+${voffset -3}${font Orore:size=20}${color2}U${voffset -3}${font Liberation:size=16}${color} Processes:${color1}${font Liberation:size=12:bold}${alignr 21}Ram${alignr 8}CPU
+
+  ${voffset -20}${color1}${font Liberation:size=11}${top name 1}${alignr 7}${top mem 1}${top cpu 1}${color}
+  ${top name 2} ${alignr 7} ${top mem 2} ${top cpu 2}
+  ${top name 3} ${alignr 7} ${top mem 3} ${top cpu 3}
+  ${top name 4} ${alignr 7} ${top mem 4} ${top cpu 4}
+  ${top name 5} ${alignr 7} ${top mem 5} ${top cpu 5}
+  ${top name 6} ${alignr 7} ${top mem 6} ${top cpu 6}
+  ${top name 7} ${alignr 7} ${top mem 7} ${top cpu 7}
+
+# Сеть
+${voffset -3}${font Orore:size=20}${color2}Y${voffset -3}${font Liberation:size=16}${color} Network:${if_up enp2s0}
+  ${font Orore:size=20}I${font Liberation:size=11.3}${voffset -5}${color} enp2s0${goto 10}${offset 100} »»» ${alignr 7}${color1}${addr enp2s0}${color}
+  ${offset -20}${voffset 5}${font Orore:size=20}K${font Liberation:size=11.3}${voffset -5} ${upspeed enp2s0}${font Liberation:size=11.3}${goto 10}${offset 120}  ${goto 10}${offset 140} Upload: ${color1}${alignr 8}${totalup enp2s0}${color}
+  ${offset -20}${voffset 5}${font Orore:size=20}J${font Liberation:size=11.3}${voffset -5} ${downspeed enp2s0}${font Liberation:size=11.3}${goto 10}${offset 100}  ${goto 10}${offset 100} Donwload: ${color1}${goto 10}${alignr 8}${totaldown enp2s0}
+
+# Почта
+${image ~/.my_config/G.png -p 1,713 -s 30x30}${voffset 3}${font Liberation:size=16}${color}${goto 10}${offset 20} Gmail: ${goto 10}${offset 200}${execpi 5 ~/.my_config/scripts/gmail_generic.py}
