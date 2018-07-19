@@ -1,10 +1,8 @@
 set incsearch
 set nocompatible
 set backspace=indent,eol,start
-set autoindent
-   set history=50
+set history=500
 set ruler
-set showcmd
 set incsearch
 
 if &t_Co > 2 || has("gui_running")
@@ -30,4 +28,28 @@ set showmatch
 set hlsearch
 set incsearch
 set ignorecase
- :noremap <silent> <Space> :silent noh<Bar>echo<CR> 
+ :noremap <silent> <Space> :silent noh<Bar>echo<CR>
+
+set expandtab
+set tabstop=2
+
+let g:mapleader=','
+                    			
+"mappings
+map <C-n> :NERDTreeToggle<CR>
+map <Leader> <Plug>(easymotion-prefix)
+
+call plug#begin('~/.vim/plugged')
+
+"colorscheme
+Plug 'dracula/vim', { 'as': 'dracula'  }
+Plug 'scrooloose/nerdtree', {'on':  'NERDTreeToggle' }
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'kien/ctrlp.vim'
+Plug 'easymotion/vim-easymotion'
+
+
+call plug#end()
+
