@@ -1,0 +1,76 @@
+# .conkyrc - Edited from various examples compiled from the Web
+# by Xplosive
+# by Neonboy
+
+# --- Window Layout & Options --- #
+background no
+own_window yes
+own_window_colour blue
+own_window_transparent yes
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+use_spacer right
+use_xft yes
+alignment top_right
+gap_x 15
+gap_y 22
+
+# --- Colours, Sizes, Fonts & Margins --- #
+update_interval 2
+maximum_width 230
+stippled_borders 3
+border_margin 9
+border_width 10
+default_color ddd
+no_buffers yes
+
+# --- Text --- #
+draw_outline no
+draw_borders no
+font Sans:size=10:weight=bold
+uppercase no
+draw_shades yes
+override_utf8_locale yes
+
+TEXT
+${font}${color orange}CPU-Куллер: ${color cyan}${alignr}${font}${hwmon 1 fan 2} RPM
+
+${font Sans:size=9:weight=bold}${color orange}TOP 5 Процессов (Загрузка ЦП) ${hr 2}$color ${font Sans:size=8:weight=bold}${color #ff0000}
+Название ${alignr}ID ${alignr}ЦП $color
+1. ${top name 1} ${alignr}${top pid 1} ${alignr}${top cpu 1}
+2. ${top name 2} ${alignr}${top pid 2} ${alignr}${top cpu 2}
+3. ${top name 3} ${alignr}${top pid 3} ${alignr}${top cpu 3}
+4. ${top name 4} ${alignr}${top pid 4} ${alignr}${top cpu 4}
+5. ${top name 5} ${alignr}${top pid 5} ${alignr}${top cpu 5}
+
+${font Sans:size=9:weight=bold}${color orange}TOP 5 Процессов (Загрузка ОЗУ) ${hr 2}$color${font Sans:size=8:weight=bold}${color #ff0000}
+Название ${alignr}ID ${alignr}ОЗУ $color
+1. ${top_mem name 1} ${alignr}${top_mem pid 1} ${alignr}${top_mem mem 1}
+2. ${top_mem name 2} ${alignr}${top_mem pid 2} ${alignr}${top_mem mem 2}
+3. ${top_mem name 3} ${alignr}${top_mem pid 3} ${alignr}${top_mem mem 3}
+4. ${top_mem name 4} ${alignr}${top_mem pid 4} ${alignr}${top_mem mem 4}
+5. ${top_mem name 5} ${alignr}${top_mem pid 5} ${alignr}${top_mem mem 5}
+
+${font Sans:size=9:weight=bold}${color orange}ОЗУ и SWAP ${hr 2}$color${font Sans:size=8:weight=bold}
+${color white}ОЗУ$color ${memperc}% ${color #ff6600}${membar 6.180}
+${color white}SWAP$color ${swapperc}% ${color #ff6600}${swapbar 6.180}
+
+${font Sans:size=9:weight=bold}${color orange}Свободное пространство на HDD${hr 2}$color${font Sans:size=8:weight=bold}
+
+${color red}Root$color ${fs_free_perc /}%$alignr${fs_free /}/ ${fs_size /}
+${color #ff6600}${fs_bar 10 /} 
+
+${color orange}Скорость передачи данных$color
+${font Sans:size=10:weight=bold}${color red} Down.$color ${alignr} ${downspeed enp2s0 }Кб/с
+${downspeedgraph enp2s0  30,105 000000 00ff00}
+${font Sans:size=10:weight=bold}${color red}Up.$color${alignr} ${upspeed enp2s0 }Кб/с
+${upspeedgraph enp2s0  30,105 000000 ff0000}$color
+
+${font Sans:size=14:weight=bold}${color orange}Трафик ${hr 2}$color${font Sans:size=8:weight=bold}
+${font Sans:size=12:weight=bold}${color white}Входящ. ${alignr} ${totaldown enp2s0 }
+${font Sans:size=12:weight=bold}${color white}Исходящ.${alignr} ${totalup enp2s0 }
+
+${voffset 3}${font Liberation:size=16}${color}${goto 10}${offset 20} Gmail: ${goto 10}${offset 150}${execpi 5 ~/.conky/my_conky/scripts/gmail_generic.py}
+${voffset 3}${font Liberation:size=16}${color}${goto 10}${offset 20} MailRu: ${goto 10}${offset 150}${execpi 5 ~/.conky/my_conky/scripts/mail_generic.py}
+

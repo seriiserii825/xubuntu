@@ -1,0 +1,18 @@
+#!/bin/bash
+
+case "$1" in
+
+	CPU)
+		str=`sensors | grep "Core 0" | cut -c15-16`
+		for i in 1 2 3
+		do
+			str=$str"+"`sensors | grep "Core $i" | cut -c15-16`
+		done
+		echo `echo $str | bc`\*0.25 | bc
+	;;
+
+	GPU)
+		nvidia-settings -query GPUCoreTemp | grep HDM | cut -c44-45
+	;;
+
+esac
