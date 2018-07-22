@@ -13,6 +13,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   fasd
+  sudo
 )
 
 source $ZSH/oh-my-zsh.sh
