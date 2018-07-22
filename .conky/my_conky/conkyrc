@@ -5,7 +5,7 @@
 # --- Window Layout & Options --- #
 background no
 own_window yes
-own_window_colour blue
+own_window_colour 000000
 own_window_transparent yes
 own_window_type normal
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
@@ -13,8 +13,8 @@ double_buffer yes
 use_spacer right
 use_xft yes
 alignment top_right
-gap_x 15
-gap_y 22
+gap_x 65
+gap_y 142
 
 # --- Colours, Sizes, Fonts & Margins --- #
 update_interval 2
@@ -33,6 +33,9 @@ uppercase no
 draw_shades yes
 override_utf8_locale yes
 
+own_window_argb_value 0
+own_window_argb_visual no
+minimum_size 0 0
 TEXT
 
 ${voffset 3}${font Liberation:size=16}${color}${goto 10}${offset 20} Gmail: ${goto 10}${offset 150}${execpi 5 ~/.conky/my_conky/scripts/gmail_generic.py}

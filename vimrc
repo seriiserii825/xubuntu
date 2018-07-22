@@ -44,7 +44,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 
 "cursors
-Plugin 'terryma/vim-multiple-cursors'
 Plugin 'matze/vim-move'
 "colorscheme
 Plugin'dracula/vim', { 'as': 'dracula'  }
