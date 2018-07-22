@@ -1,8 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-source /etc/profile
-
 plugins=(git fasd)
 
 # Path to your oh-my-zsh installation.
@@ -11,7 +9,8 @@ plugins=(git fasd)
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-export ZSH_THEME="robbyrussell"
+export ZSH_THEME="random"
+
 bindkey -v
 
 umask 022
@@ -45,17 +44,28 @@ setopt MENUCOMPLETE
 # исправлять неверно набранные комманды 
  setopt CORRECT_ALL
 
+alias Install="sudo apt-get install"
+alias Update='sudo apt-get update'
+alias Upgrade='sudo apt-get upgrade'
+alias Search='apt-cache search'
+alias Autoremove='sudo apt-get autoremove'
+alias Autoclean='sudo apt-get autoclean'
+alias Purge='sudo apt-get remove –purge'
+alias cp="cp -v"
+alias mv="mv -v"
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias o='xdg-open'
 alias df='df -h'
-alias ll='ls -la'
 alias du='du -h'
-alias mv='nocorrect mv -i'
-alias vimrc='vim ~/.vimrc'
+alias shn="sudo shutdown -h now"
+alias srn="sudo reboot"
+alias out='pastebinit'
+alias phpr="sudo /etc/init.d/apache2 restart"
+alias mysqlr="sudo systemctl restart mysql"
 alias zshrc='vim ~/.zshrc'
-alias Install='sudo apt install'
-alias Update='sudo apt update'
-alias Purge='sudo apt purge'
-alias Autoremove='sudo apt autoremove'
-
+alias vimrc='vim ~/.vimrc'
 
 
 # Completions 
@@ -72,3 +82,6 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
 zstyle ':completion:*:*:(^rm):*:*files' ignored-patterns '*?.o' '*?.c~''*?.old' '*?.pro'
 zstyle ':completion:*:functions' ignored-patterns '_*'
+
+export NVM_DIR="/home/serii/.nvm"
+[ -s "$NVM_DIR/nvm.sh"  ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
