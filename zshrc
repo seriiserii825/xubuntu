@@ -12,6 +12,7 @@ ZSH_THEME="robbyrussell"
 
 plugins=(
   git
+  fasd
 )
 
 source $ZSH/oh-my-zsh.sh
