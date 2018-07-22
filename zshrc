@@ -1,49 +1,55 @@
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-plugins=(git fasd)
-
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/serii/.oh-my-zsh"
+export ZSH="/home/serii/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-export ZSH_THEME="random"
+ZSH_THEME="robbyrussell"
 
-bindkey -v
+plugins=(
+  git
+)
 
-umask 022
+source $ZSH/oh-my-zsh.sh
 
-# Позволяем разворачивать сокращенный ввод, к примеру cd /u/sh в /usr/share 
-autoload -U compinit && compinit
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
 
-# файл истории команд 
-HISTFILE=~/.zhistory
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
 
-# Число команд, сохраняемых в HISTFILE 
-SAVEHIST=5000
+#save history interactive
+PROMPT_COMMAND='history -a'
 
-setopt MENUCOMPLETE
+#add time 
+export HISTTIMEFORMAT="%h %d %H:%M:%S "
 
-# Дополнение файла истории 
- setopt  APPEND_HISTORY
-#
-# # Игнорировать все повторения команд 
- setopt  HIST_IGNORE_ALL_DUPS
-#
-# # Игнорировать лишние пробелы 
- setopt  HIST_IGNORE_SPACE
-#
-# # не пищать при дополнении или ошибках 
- setopt NO_BEEP
-#
-# # если набрали путь к директории без комманды CD, то перейти 
- setopt AUTO_CD
+#ignore history command
+export HISTIGNORE="ls:ll:ps:history"
 
-# исправлять неверно набранные комманды 
- setopt CORRECT_ALL
+#control history
+export HISTCONTROL=ignorespace:erasedups
 
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# some more ls aliases
 alias Install="sudo apt-get install"
 alias Update='sudo apt-get update'
 alias Upgrade='sudo apt-get upgrade'
@@ -53,6 +59,7 @@ alias Autoclean='sudo apt-get autoclean'
 alias Purge='sudo apt-get remove –purge'
 alias cp="cp -v"
 alias mv="mv -v"
+alias rm="rm -iv"
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -64,24 +71,8 @@ alias srn="sudo reboot"
 alias out='pastebinit'
 alias phpr="sudo /etc/init.d/apache2 restart"
 alias mysqlr="sudo systemctl restart mysql"
-alias zshrc='vim ~/.zshrc'
-alias vimrc='vim ~/.vimrc'
-
-
-# Completions 
-zstyle ':completion:*::::' completer _expand _complete _ignored _approximate
-zstyle -e ':completion:*:approximate:*' max-errors 'reply=( $(( ($#PREFIX+$#SUFFIX)/3  )) numeric  )'
-zstyle ':completion:*:expand:*' tag-order all-expansions
-zstyle ':completion:*' verbose yes
-zstyle ':completion:*:descriptions' format '%B%d%b'
-zstyle ':completion:*:messages' format '%d'
-zstyle ':completion:*:warnings' format 'No matches for: %d'
-zstyle ':completion:*:corrections' format '%B%d (errors: %e)%b'
-zstyle ':completion:*' group-name ''
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
-zstyle ':completion:*:*:(^rm):*:*files' ignored-patterns '*?.o' '*?.c~''*?.old' '*?.pro'
-zstyle ':completion:*:functions' ignored-patterns '_*'
+alias zshrc="vim ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
 
 export NVM_DIR="/home/serii/.nvm"
-[ -s "$NVM_DIR/nvm.sh"  ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
