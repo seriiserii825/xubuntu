@@ -3,7 +3,7 @@ set backspace=indent,eol,start
 set history=500
 set ruler
 set incsearch
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
 set nu
 set hidden
 set termencoding=utf-8
@@ -32,19 +32,22 @@ endif
 "filetype plugin indent on    
 filetype off
 
+runtime macros/matchit.vim
+
 let g:mapleader='['
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
-map <Leader> <Plug>(easymotion-prefix)
+"map <Leader> <Plug>(easymotion-prefix)
 :inoremap jk <Esc>
 :noremap <silent> <Space> :silent noh<Bar>echo<CR>
-nnoremap <tab> <c-w>
-nnoremap <tab><tab> <c-w><c-w>
+nnoremap <C-[> <c-w>
+nnoremap <C-[><C-[> <c-w><c-w>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -54,6 +57,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-surround'
 
 "colorscheme
 Plugin'dracula/vim', { 'as': 'dracula'  }
