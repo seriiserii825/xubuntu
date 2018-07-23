@@ -18,6 +18,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+bindkey -v
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -52,13 +54,14 @@ HISTFILESIZE=2000
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # some more ls aliases
-alias Install="sudo apt-get install"
-alias Update='sudo apt-get update'
-alias Upgrade='sudo apt-get upgrade'
+alias Install="sudo apt install"
+alias Update='sudo apt update'
+alias Upgrade='sudo apt upgrade'
 alias Search='apt-cache search'
-alias Autoremove='sudo apt-get autoremove'
-alias Autoclean='sudo apt-get autoclean'
-alias Purge='sudo apt-get remove –purge'
+alias Autoremove='sudo apt autoremove'
+alias Autoclean='sudo apt autoclean'
+alias Purge='sudo apt remove –purge'
+alias Search='sudo apt search'
 alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -iv"
