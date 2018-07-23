@@ -14,6 +14,7 @@ plugins=(
   git
   fasd
   sudo
+  web-search
 )
 
 source $ZSH/oh-my-zsh.sh
