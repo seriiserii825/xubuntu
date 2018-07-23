@@ -21,6 +21,11 @@ if &t_Co > 2 || has("gui_running")
     syntax on
     set hlsearch
 endif
+" Configure 256 colors for xterm mode
+if &term =~ "xterm"
+  let &t_Co=256
+endif
+"mv#toggle_spell() WinMovie('l')
 
 "filetype plugin indent on    
 filetype off
@@ -33,7 +38,6 @@ map <Leader> <Plug>(easymotion-prefix)
 :inoremap jk <Esc>
 :noremap <silent> <Space> :silent noh<Bar>echo<CR>
 
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
@@ -43,8 +47,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 
-"cursors
-Plugin 'matze/vim-move'
 "colorscheme
 Plugin'dracula/vim', { 'as': 'dracula'  }
 Plugin'scrooloose/nerdtree', {'on':  'NERDTreeToggle' }
