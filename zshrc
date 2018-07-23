@@ -18,7 +18,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-bindkey -v
+#bindkey -v
 
 # If not running interactively, don't do anything
 case $- in
