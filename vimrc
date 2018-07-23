@@ -12,6 +12,8 @@ set wrap
 set showmatch 
 set hlsearch
 set shiftwidth=4 softtabstop=4 expandtab
+set wildmenu
+set wildmode=full
 map :call amv#toggle_spell()
 imap { {}O
 imap [ []
@@ -37,6 +39,12 @@ map <C-n> :NERDTreeToggle<CR>
 map <Leader> <Plug>(easymotion-prefix)
 :inoremap jk <Esc>
 :noremap <silent> <Space> :silent noh<Bar>echo<CR>
+nnoremap <tab> <c-w>
+nnoremap <tab><tab> <c-w><c-w>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
