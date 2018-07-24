@@ -1,6 +1,7 @@
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$HOME/.node/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/serii/.oh-my-zsh"
@@ -79,6 +80,8 @@ alias phpr="sudo /etc/init.d/apache2 restart"
 alias mysqlr="sudo systemctl restart mysql"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
+alias ya="yandex"
+
 
 export NVM_DIR="/home/serii/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

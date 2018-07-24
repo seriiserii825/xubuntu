@@ -3,7 +3,7 @@ set backspace=indent,eol,start
 set history=500
 set ruler
 set incsearch
-"set clipboard=unnamedplus
+set clipboard=unnamedplus
 set nu
 set hidden
 set termencoding=utf-8
@@ -23,6 +23,8 @@ if &t_Co > 2 || has("gui_running")
     syntax on
     set hlsearch
 endif
+set t_Co=256
+
 " Configure 256 colors for xterm mode
 if &term =~ "xterm"
   let &t_Co=256
@@ -60,6 +62,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-surround'
 
 "colorscheme
+
 Plugin'dracula/vim', { 'as': 'dracula'  }
 Plugin'scrooloose/nerdtree', {'on':  'NERDTreeToggle' }
 Plugin'jiangmiao/auto-pairs'
