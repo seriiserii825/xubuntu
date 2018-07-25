@@ -39,8 +39,6 @@ filetype off
 
 runtime macros/matchit.vim
 
-let g:mapleader='['
-
 "mappings
 map <C-n> :NERDTreeToggle<CR>
 "map <Leader> <Plug>(easymotion-prefix)
@@ -55,26 +53,26 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
-"synastic settings
-let g:syntastic_enable_signs=1
+"syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:airline#extensions#syntastic#enabled = 1
-" syntastic error_symbol
-	let airline#extensions#syntastic#error_symbol = 'E:'
-" syntastic statusline error format (see syntastic_stl_format)
-	let airline#extensions#syntastic#stl_format_err = '%E{[%e(#%fe)]}'
-" syntastic warning
-	let airline#extensions#syntastic#warning_symbol = 'W:'
-" syntastic statusline warning format (see syntastic_stl_format)
-	let airline#extensions#syntastic#stl_format_warn = '%W{[%w(#%fw)]}'
+
+"colorscheme
+set background=dark
 
 "indent
 set listchars=tab:→\ ,trail:·
 "set listchars=tab:▸\ ,eol:¬
 set list
 let g:syntastic_scss_checkers = ['scss_lint']
+
+"ale
 
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -87,23 +85,21 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-surround'
 
-"indent
-"Plugin 'nathanaelkane/vim-indent-guides'
-
 "colorscheme
-Plugin'dracula/vim', { 'as': 'dracula'	}
-Plugin'scrooloose/nerdtree', {'on':  'NERDTreeToggle' }
-Plugin'jiangmiao/auto-pairs'
-Plugin'tpope/vim-fugitive'
-
+"Plugin'dracula/vim', { 'as': 'dracula'	}
+Plugin 'skielbasa/vim-material-monokai'
+Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-fugitive'
+Plugin 'flazz/vim-colorschemes'
 "html
-Plugin'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
-Plugin'othree/html5.vim',{'for': ['html', 'javascript']}
+Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
+Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
 
 "css
-Plugin'ap/vim-css-color',{'for': ['css', 'scss']}
-Plugin'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
-Plugin'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
+Plugin 'ap/vim-css-color',{'for': ['css', 'scss']}
+Plugin 'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
+Plugin 'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
 
 "javascript
 Plugin 'jelera/vim-javascript-syntax'
@@ -111,18 +107,19 @@ Plugin 'pangloss/vim-javascript'
 
 
 "git
-Plugin'airblade/vim-gitgutter'
+Plugin 'airblade/vim-gitgutter'
 
 "search
-Plugin'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 
 "comment
-Plugin'tpope/vim-commentary'
+Plugin 'tpope/vim-commentary'
 
 "staus bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'vim-syntastic/syntastic'
+Plugin 'scrooloose/syntastic'
+
 
 
 call vundle#end()			 " required
@@ -140,3 +137,6 @@ filetype plugin indent on		 " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+"ale
+colorscheme deveiate
+
