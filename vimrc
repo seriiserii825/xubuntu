@@ -57,8 +57,8 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 "syntax settings======================
 if &t_Co > 2 || has("gui_running")
-		syntax on
-		set hlsearch
+	syntax on
+	set hlsearch
 endif
 "color settings===================
 set t_Co=256
@@ -138,8 +138,17 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/syntastic'
 
+"snippets
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+
+" Optional:
+Plugin 'honza/vim-snippets'
+
 call vundle#end()			 " required
 filetype plugin indent on		 " required
+file type on
 "Vundle end============================
 
 colorscheme gruvbox
