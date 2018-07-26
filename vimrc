@@ -44,12 +44,16 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
 nmap <F6> :NERDTreeToggle<CR>
 
 "multicursor===================
 let g:multi_cursor_use_default_mapping=1
 " Default mapping
 let g:multi_cursor_select_all_word_key = '<C-S-a>'
+
+"indent guides=====================
+let g:indent_guides_enable_on_vim_startup = 1
 
 "syntax settings======================
 if &t_Co > 2 || has("gui_running")
@@ -77,6 +81,11 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_scss_checkers = ['scss_lint']
 
+"easymotion
+let g:mapleader=','
+map <Leader> <Plug>(easymotion-prefix)
+
+
 "Vundle Plugin====================
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -94,6 +103,11 @@ Plugin 'skielbasa/vim-material-monokai'
 Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'flazz/vim-colorschemes'
+"Plugin 'nathanaelkane/vim-indent-guides'
+
+"search
+Plugin 'mileszs/ack.vim'
+Plugin 'easymotion/vim-easymotion'
 
 "html
 Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
@@ -128,5 +142,4 @@ call vundle#end()			 " required
 filetype plugin indent on		 " required
 "Vundle end============================
 
-colorscheme deveiate
-
+colorscheme gruvbox
