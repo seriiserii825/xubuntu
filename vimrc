@@ -33,7 +33,10 @@ set noexpandtab		 " Use tabs, not spaces
 "colorscheme================
 set background=dark
 
-"mapI"jkjnoremap								<F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
+"map"
+inoremap jk <Esc>
+noremap <silent> <Space> :silent noh<Bar>echo<CR>
+nnoremap <F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
 nnoremap <C-[> <c-w>
 nnoremap <C-[><C-[> <c-w><c-w>
 nnoremap <C-h> <C-w>h
@@ -90,8 +93,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'skielbasa/vim-material-monokai'
 Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'tpope/vim-fugitive'
 Plugin 'flazz/vim-colorschemes'
+
 "html
 Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
 Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
@@ -106,9 +109,9 @@ Plugin 'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 
-
 "git
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
 
 "search
 Plugin 'kien/ctrlp.vim'
