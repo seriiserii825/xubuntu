@@ -1,3 +1,4 @@
+"general settings
 set nocompatible
 set backspace=indent,eol,start
 set history=500
@@ -11,10 +12,6 @@ set updatetime=0
 set wrap
 set showmatch
 set hlsearch
-set tabstop=2			 " To match the sample file
-set shiftwidth=2
-set noexpandtab		 " Use tabs, not spaces
-%retab!						 " Retabulate the whole file
 set wildmenu
 set wildmode=full
 map :call amv#toggle_spell()
@@ -22,29 +19,21 @@ imap { {}O
 imap [ []
 imap ( ()
 
-if &t_Co > 2 || has("gui_running")
-		syntax on
-		set hlsearch
-endif
-set t_Co=256
+"indent
+set listchars=tab:→\ ,trail:·
+"set listchars=tab:▸\ ,eol:¬
+set list
+"tabs settings==========================
+set tabstop=2			 " To match the sample file
+set shiftwidth=2
+set noexpandtab		 " Use tabs, not spaces
+%retab!						 " Retabulate the whole file
 
-" Configure 256 colors for xterm mode
-if &term =~ "xterm"
-	let &t_Co=256
-endif
-"mv#toggle_spell() WinMovie('l')
 
-"filetype plugin indent on		
-filetype off
+"colorscheme================
+set background=dark
 
-runtime macros/matchit.vim
-
-"mappings
-map <C-n> :NERDTreeToggle<CR>
-"map <Leader> <Plug>(easymotion-prefix)
-inoremap jk <Esc>
-noremap <silent> <Space> :silent noh<Bar>echo<CR>
-nnoremap		<F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
+"mapI"jkjnoremap								<F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
 nnoremap <C-[> <c-w>
 nnoremap <C-[><C-[> <c-w><c-w>
 nnoremap <C-h> <C-w>h
@@ -52,8 +41,29 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+nmap <F6> :NERDTreeToggle<CR>
 
-"syntastic
+"multicursor===================
+let g:multi_cursor_use_default_mapping=1
+" Default mapping
+let g:multi_cursor_select_all_word_key = '<C-S-a>'
+
+"syntax settings======================
+if &t_Co > 2 || has("gui_running")
+		syntax on
+		set hlsearch
+endif
+"color settings===================
+set t_Co=256
+if &term =~ "xterm"
+	let &t_Co=256
+endif
+
+"filetype plugin indent on		
+filetype off
+runtime macros/matchit.vim
+
+"syntastic===================
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -62,19 +72,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-"colorscheme
-set background=dark
-
-"indent
-set listchars=tab:→\ ,trail:·
-"set listchars=tab:▸\ ,eol:¬
-set list
 let g:syntastic_scss_checkers = ['scss_lint']
 
-"ale
-
-
+"Vundle Plugin====================
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
@@ -95,6 +95,7 @@ Plugin 'flazz/vim-colorschemes'
 "html
 Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
 Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
+Plugin 'terryma/vim-multiple-cursors'
 
 "css
 Plugin 'ap/vim-css-color',{'for': ['css', 'scss']}
@@ -120,23 +121,9 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/syntastic'
 
-
-
 call vundle#end()			 " required
 filetype plugin indent on		 " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList			- lists configured plugins
-" :PluginInstall		- installs plugins; append `!` to update or just
-" :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean			- confirms removal of unused plugins; append `!` to
-" auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-"ale
+"Vundle end============================
+
 colorscheme deveiate
 
