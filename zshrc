@@ -12,20 +12,27 @@ export ZSH="/home/serii/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
 plugins=(
-  git
-  fasd
-  sudo
-  web-search
-)
+		git
+		fasd
+		sudo
+		web-search
+		history-substring-search
+		zsh-syntax-highlighting
+		)
 
 source $ZSH/oh-my-zsh.sh
 
 bindkey -v
-
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+#Ctrl+←, 
+#bindkey "^R" history-substring-search-backward 
+# Ctrl+→
+#bindkey "^[OC" end-of-line
 # If not running interactively, don't do anything
 case $- in
-    *i*) ;;
-      *) return;;
+*i*) ;;
+*) return;;
 esac
 
 # don't put duplicate lines or lines starting with space in the history.
@@ -74,7 +81,7 @@ alias o='xdg-open'
 alias df='df -h'
 alias du='du -h'
 alias shn="sudo shutdown -h now"
-alias srn="sudo reboot"
+alias srn="sudo shutdown -r now"
 alias out='pastebinit'
 alias phpr="sudo /etc/init.d/apache2 restart"
 alias mysqlr="sudo systemctl restart mysql"
