@@ -17,14 +17,13 @@ plugins=(
 		sudo
 		web-search
 		history-substring-search
-		zsh-syntax-highlighting
 		)
 
 source $ZSH/oh-my-zsh.sh
 
-bindkey -v
-bindkey -M vicmd 'k' history-substring-search-up
-bindkey -M vicmd 'j' history-substring-search-down
+#bindkey -v
+#bindkey -M vicmd 'k' history-substring-search-up
+#bindkey -M vicmd 'j' history-substring-search-down
 #Ctrl+←, 
 #bindkey "^R" history-substring-search-backward 
 # Ctrl+→
@@ -71,7 +70,7 @@ alias Autoremove='sudo apt autoremove'
 alias Autoclean='sudo apt autoclean'
 alias Purge='sudo apt remove –purge'
 alias Search='sudo apt search'
-alias cp="cp -v"
+alias cp="rsync -avz -P"
 alias mv="mv -v"
 alias rm="rm -iv"
 alias ll='ls -alF'
