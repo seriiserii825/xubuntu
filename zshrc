@@ -72,7 +72,6 @@ alias Purge='sudo apt remove –purge'
 alias Search='sudo apt search'
 alias cp="rsync -avz -P"
 alias mv="mv -v"
-alias rm="rm -iv"
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -87,6 +86,7 @@ alias mysqlr="sudo systemctl restart mysql"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias ya="yandex"
+
 
 
 export NVM_DIR="/home/serii/.nvm"
