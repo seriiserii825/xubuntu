@@ -86,6 +86,7 @@ alias mysqlr="sudo systemctl restart mysql"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias ya="yandex"
+alias hib="sudo pm-hibernate"
 
 
 
