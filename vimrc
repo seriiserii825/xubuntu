@@ -102,7 +102,7 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'skielbasa/vim-material-monokai'
 Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
 "Plugin 'jiangmiao/auto-pairs'
-"Plugin 'flazz/vim-colorschemes'
+Plugin 'flazz/vim-colorschemes'
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 "search
