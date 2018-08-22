@@ -34,7 +34,7 @@ set shiftwidth=2
 set background=dark
 
 "map"
-inoremap jk <Esc>
+inoremap jj <Esc>
 noremap <silent> <Space> :silent noh<Bar>echo<CR>
 nnoremap <F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
 nnoremap <C-[> <c-w>
