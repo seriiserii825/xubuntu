@@ -97,6 +97,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 
 #save history interactive
 PROMPT_COMMAND='history -a'
@@ -144,7 +145,8 @@ alias out='pastebinit'
 alias phpr="sudo /etc/init.d/apache2 restart"
 alias mysqlr="sudo systemctl restart mysql"
 alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
+#alias vimrc="vim ~/.vimrc"
+alias bashrc="vim ~/.bashrc"
 alias ya="yandex"
 alias hib="sudo pm-hibernate"
 alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
