@@ -123,6 +123,7 @@ HISTFILESIZE=2000
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # some more ls aliases
+alias dg='sudo dpkg -i'
 alias Install="sudo apt install"
 alias Update='sudo apt update'
 alias Upgrade='sudo apt upgrade'
