@@ -135,7 +135,7 @@ alias Autoremove='sudo apt autoremove'
 alias Autoclean='sudo apt autoclean'
 alias Purge='sudo apt purge'
 alias Search='sudo apt search'
-#alias cp="rsync -avz -P"
+alias cp="rsync -avz -P"
 alias mv="mv -v"
 alias ll='ls -alF'
 alias la='ls -A'
@@ -182,5 +182,5 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
-export NVM_DIR="/home/serii/.nvm"
+export NVM_DIR="/home/burduja/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
