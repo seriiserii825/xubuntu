@@ -182,5 +182,5 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
-export NVM_DIR="/home/burduja/.nvm"
+export NVM_DIR="/home/serghei/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
