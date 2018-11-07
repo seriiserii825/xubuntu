@@ -15,9 +15,6 @@ set hlsearch
 set wildmenu
 set wildmode=full
 map :call amv#toggle_spell()
-imap { {}O
-imap [ []
-imap ( ()
 
 "indent
 "set listchars=tab:→\ ,trail:·
@@ -107,7 +104,7 @@ Plugin 'flazz/vim-colorschemes'
 
 "search
 "Plugin 'mileszs/ack.vim'
-Plugin 'easymotion/vim-easymotion'
+"Plugin 'easymotion/vim-easymotion'
 
 "html
 "Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
