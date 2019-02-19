@@ -160,6 +160,7 @@ alias vimrc="vim ~/.vimrc"
 alias bashrc="vim ~/.bashrc"
 alias ya="yandex"
 alias hib="sudo pm-hibernate"
+alias gitlog='git log --graph --pretty=oneline --abbrev-commit --all --decorate'^
 alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
