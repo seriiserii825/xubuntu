@@ -133,6 +133,9 @@ HISTFILESIZE=2000
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # some more ls aliases
+alias gs='git status'
+alias gc='git add --all && git commit'
+alias gp='git add --all && git commit && git push'
 alias dg='sudo dpkg -i'
 alias Install="sudo apt install"
 alias Update='sudo apt update'
