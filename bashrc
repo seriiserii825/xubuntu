@@ -133,6 +133,7 @@ HISTFILESIZE=2000
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # some more ls aliases
+alias gl='git log --oneline --graph'
 alias gs='git status'
 alias gc='git add --all && git commit'
 alias gp='git add --all && git commit && git push'
