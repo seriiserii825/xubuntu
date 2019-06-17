@@ -16,6 +16,11 @@ set wildmenu
 set wildmode=full
 map :call amv#toggle_spell()
 
+"grip
+let vim_markdown_preview_github=1
+"markdown
+let vim_markdown_preview_toggle=2
+
 "indent
 "set listchars=tab:→\ ,trail:·
 "set listchars=tab:▸\ ,eol:¬
@@ -101,6 +106,7 @@ Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
 "Plugin 'jiangmiao/auto-pairs'
 Plugin 'flazz/vim-colorschemes'
 "Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 
 "search
 "Plugin 'mileszs/ack.vim'
