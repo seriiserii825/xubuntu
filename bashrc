@@ -25,6 +25,7 @@ HISTCONTROL=ignoreboth
 # append to the history file, don't overwrite it
 shopt -s histappend
 
+
 bind 'set completion-ignore-case on'
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
