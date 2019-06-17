@@ -69,7 +69,7 @@ if &term =~ "xterm"
 endif
 
 "filetype plugin indent on		
-filetype off
+filetype on
 runtime macros/matchit.vim
 
 "syntastic===================
@@ -82,6 +82,15 @@ runtime macros/matchit.vim
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 0
 "let g:syntastic_scss_checkers = ['scss_lint']
+
+"Markdown
+"Uncomment to override defaults:
+let g:instant_markdown_slow = 1
+let g:instant_markdown_autostart = 1
+let g:instant_markdown_open_to_the_world = 1 
+let g:instant_markdown_allow_unsafe_content = 1
+let g:instant_markdown_allow_external_content = 0
+let g:instant_markdown_mathjax = 1
 
 "easymotion
 let g:mapleader=','
@@ -106,7 +115,10 @@ Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
 "Plugin 'jiangmiao/auto-pairs'
 Plugin 'flazz/vim-colorschemes'
 "Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'JamshedVesuna/vim-markdown-preview'
+"Plugin 'JamshedVesuna/vim-markdown-preview'
+
+"Markdown
+Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 
 "search
 "Plugin 'mileszs/ack.vim'
