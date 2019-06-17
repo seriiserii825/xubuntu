@@ -17,8 +17,7 @@ set wildmode=full
 "map :call amv#toggle_spell()
 "
 "Mapping=================
-"map <F3> :echo 'Current time is ' . strftime('%c')<CR>
-map! <F3> <C-R>=strftime('%c')<CR>
+map <F3> :w!<CR>:w!/home/serii/tmp/vim-markdown.md<CR>:!pandoc -s -f markdown -t html -o /home/serii/tmp/vim-markdown.html /home/serii/tmp/vim-markdown.md<CR>:!dillo /home/serii/tmp/vim-markdown.html > /dev/null 2> /dev/null&<CR><CR>
 
 "vim snippets =======
 set nocompatible
@@ -151,7 +150,7 @@ Plugin 'flazz/vim-colorschemes'
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 "Markdown
-Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+"Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 "Plugin 'suan/instant-markdown-d', {'rtp': 'after'}
 
 
