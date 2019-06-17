@@ -104,6 +104,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
+alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -136,7 +137,7 @@ HISTFILESIZE=2000
 alias gl='git log --oneline --graph'
 alias gs='git status'
 alias gc='git add --all && git commit'
-alias gp='git add --all && git commit && git push'
+alias gp='git add --all && git commit -m "some" && git push'
 alias dg='sudo dpkg -i'
 alias Install="sudo apt install"
 alias Update='sudo apt update'
@@ -161,7 +162,9 @@ alias phpr="sudo /etc/init.d/apache2 restart"
 alias mysqlr="sudo systemctl restart mysql"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
+alias svimrc="source ~/.vimrc"
 alias bashrc="vim ~/.bashrc"
+alias sbashrc="source ~/.bashrc"
 alias ya="yandex"
 alias hib="sudo pm-hibernate"
 alias gitlog='git log --graph --pretty=oneline --abbrev-commit --all --decorate'

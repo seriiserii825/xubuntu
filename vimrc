@@ -1,4 +1,4 @@
-"general settings
+""general settings
 set nocompatible
 set backspace=indent,eol,start
 set history=500
@@ -14,17 +14,40 @@ set showmatch
 set hlsearch
 set wildmenu
 set wildmode=full
-map :call amv#toggle_spell()
+"map :call amv#toggle_spell()
+"
+"Mapping=================
+"map <F3> :echo 'Current time is ' . strftime('%c')<CR>
+map! <F3> <C-R>=strftime('%c')<CR>
 
-"grip
-let vim_markdown_preview_github=1
-"markdown
-let vim_markdown_preview_toggle=2
+"vim snippets =======
+set nocompatible
 
+filetype on
+filetype plugin on
+"Uncomment to override defaults:
+"let g:instant_markdown_slow = 1
+"let g:instant_markdown_autostart = 0
+"let g:instant_markdown_open_to_the_world = 1 
+"let g:instant_markdown_allow_unsafe_content = 1
+"let g:instant_markdown_allow_external_content = 0
+"let g:instant_markdown_mathjax = 1
+"
+"Snippets setiings ================================
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+"
 "indent
 "set listchars=tab:→\ ,trail:·
 "set listchars=tab:▸\ ,eol:¬
 "set list
+"
 "tabs settings==========================
 set tabstop=2			 " To match the sample file
 set shiftwidth=2
@@ -57,11 +80,6 @@ nmap <F6> :NERDTreeToggle<CR>
 "indent guides=====================
 "let g:indent_guides_enable_on_vim_startup = 1
 
-"syntax settings======================
-if &t_Co > 2 || has("gui_running")
-	syntax on
-	set hlsearch
-endif
 "color settings===================
 set t_Co=256
 if &term =~ "xterm"
@@ -69,7 +87,6 @@ if &term =~ "xterm"
 endif
 
 "filetype plugin indent on		
-filetype on
 runtime macros/matchit.vim
 
 "syntastic===================
@@ -82,20 +99,6 @@ runtime macros/matchit.vim
 "let g:syntastic_check_on_open = 1
 "let g:syntastic_check_on_wq = 0
 "let g:syntastic_scss_checkers = ['scss_lint']
-
-"Markdown
-"Uncomment to override defaults:
-let g:instant_markdown_slow = 1
-let g:instant_markdown_autostart = 1
-let g:instant_markdown_open_to_the_world = 1 
-let g:instant_markdown_allow_unsafe_content = 1
-let g:instant_markdown_allow_external_content = 0
-let g:instant_markdown_mathjax = 1
-
-"easymotion
-let g:mapleader=','
-map <Leader> <Plug>(easymotion-prefix)
-
 
 "Vundle Plugin====================
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -111,14 +114,6 @@ Plugin 'VundleVim/Vundle.vim'
 "colorscheme
 "Plugin'dracula/vim', { 'as': 'dracula'	}
 "Plugin 'skielbasa/vim-material-monokai'
-Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
-"Plugin 'jiangmiao/auto-pairs'
-Plugin 'flazz/vim-colorschemes'
-"Plugin 'nathanaelkane/vim-indent-guides'
-"Plugin 'JamshedVesuna/vim-markdown-preview'
-
-"Markdown
-Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 
 "search
 "Plugin 'mileszs/ack.vim'
@@ -137,7 +132,9 @@ Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 "javascript
 "Plugin 'jelera/vim-javascript-syntax'
 "Plugin 'pangloss/vim-javascript'
-
+"
+"========================================
+"
 "git
 "Plugin 'airblade/vim-gitgutter'
 "Plugin 'tpope/vim-fugitive'
@@ -147,11 +144,28 @@ Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 
 "comment
 "Plugin 'tpope/vim-commentary'
+"
+Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
+"Plugin 'jiangmiao/auto-pairs'
+Plugin 'flazz/vim-colorschemes'
+"Plugin 'nathanaelkane/vim-indent-guides'
+
+"Markdown
+Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+"Plugin 'suan/instant-markdown-d', {'rtp': 'after'}
+
 
 "staus bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'scrooloose/syntastic'
+
+"Snippets=======
+" Track the engine.
+Plugin 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+Plugin 'honza/vim-snippets'
 
 "snippets
 "Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -163,8 +177,6 @@ Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()			 " required
 "Vundle end============================
 
-filetype on
-filetype plugin on
 
 ":imap <C-J> <Plug>snipMateNextOrTrigger
 
