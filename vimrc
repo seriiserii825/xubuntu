@@ -1,4 +1,7 @@
 "general settings
+"show tabs
+"set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+"set list
 set nocompatible
 set backspace=indent,eol,start
 set history=500
@@ -14,7 +17,11 @@ set showmatch
 set hlsearch
 set wildmenu
 set wildmode=full
-
+"tabs settings==========================
+set tabstop=2			 " To match the sample file
+set shiftwidth=2
+set expandtab		 " Use tabs, not spaces
+"%retab!						 " Retabulate the whole file
 
 filetype on
 filetype plugin on
@@ -29,7 +36,7 @@ let g:auto_save_in_insert_mode = 0
 let g:auto_save_silent = 0
 
 "vim-multicursor
-let g:multi_cursor_select_all_word_key = '<S-n>'
+let g:multi_cursor_select_all_word_key = '<S-a>'
 
 "Snippets setiings ================================
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
@@ -40,17 +47,11 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 "
-"tabs settings==========================
-set tabstop=2			 " To match the sample file
-set shiftwidth=2
-"set noexpandtab		 " Use tabs, not spaces
-"%retab!						 " Retabulate the whole file
-
-
 "colorscheme================
 set background=dark
 
 "map"
+noremap <F3> :set list!<CR>
 inoremap jj <Esc>
 noremap <silent> <Space> :silent noh<Bar>echo<CR>
 nnoremap <C-[> <c-w>
@@ -60,7 +61,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
-nmap <F6> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeToggle<CR>
 
 
 "color settings===================
@@ -85,17 +86,12 @@ Plugin 'vim-scripts/vim-auto-save'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'Valloric/YouCompleteMe'
-"Plugin 'SirVer/ultisnips'
-"Plugin 'honza/vim-snippets'
-
-"colorscheme
-"Plugin'dracula/vim', { 'as': 'dracula'	}
-"Plugin 'skielbasa/vim-material-monokai'
+"Plugin 'Valloric/YouCompleteMe'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 "search
 "Plugin 'mileszs/ack.vim'
-"Plugin 'easymotion/vim-easymotion'
 
 "html
 "Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
@@ -124,11 +120,6 @@ Plugin 'Valloric/YouCompleteMe'
 "
 "Plugin 'jiangmiao/auto-pairs'
 "Plugin 'nathanaelkane/vim-indent-guides'
-
-"Markdown
-"Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
-"Plugin 'suan/instant-markdown-d', {'rtp': 'after'}
-
 
 "staus bar
 "Plugin 'scrooloose/syntastic'
