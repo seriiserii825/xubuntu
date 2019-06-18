@@ -1,6 +1,0 @@
-2019/06/18-21:46:32.310 9b3 Reusing MANIFEST /home/serii/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2019/06/18-21:46:32.323 9b3 Recovering log #111
-2019/06/18-21:46:32.636 9b3 Reusing old log /home/serii/.config/google-chrome/Default/Sync Data/LevelDB/000111.log 
-2019/06/18-21:58:24.412 f15 Level-0 table #115: started
-2019/06/18-21:58:24.442 f15 Level-0 table #115: 109173 bytes OK
-2019/06/18-21:58:24.466 f15 Delete type=0 #111

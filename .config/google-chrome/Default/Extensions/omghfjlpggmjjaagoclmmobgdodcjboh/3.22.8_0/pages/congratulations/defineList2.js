@@ -1,1 +1,0 @@
-define(['./congratulations.js']);
