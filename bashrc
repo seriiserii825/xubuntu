@@ -136,11 +136,18 @@ HISTFILESIZE=2000
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
+#git commit function
+#gitcommit() {
+#    git commit -m "$*"
+#}
+
 # some more ls aliases
 alias gl='git log --oneline --graph'
 alias gs='git status'
-alias gc='git add --all && git commit'
-alias gp='git add --all && git commit && git push'
+alias ga='git add --all'
+alias gc='git commit'
+alias gca='git add --all && git commit && git push'
+alias gp='git push'
 alias dg='sudo dpkg -i'
 alias Install="sudo apt install"
 alias Update='sudo apt update'
@@ -150,7 +157,7 @@ alias Autoremove='sudo apt autoremove'
 alias Autoclean='sudo apt autoclean'
 alias Purge='sudo apt purge'
 alias Search='sudo apt search'
-alias cp="rsync -avz -P"
+#alias cp="rsync -avz -P"
 alias mv="mv -v"
 alias ll='ls -alF'
 alias la='ls -A'

@@ -17,10 +17,16 @@ set wildmode=full
 "map :call amv#toggle_spell()
 "
 "Mapping=================
-map <F3> :w!<CR>:w!/home/serii/tmp/vim-markdown.md<CR>:!pandoc -s -f markdown -t html -o /home/serii/tmp/vim-markdown.html /home/serii/tmp/vim-markdown.md<CR>:!dillo /home/serii/tmp/vim-markdown.html > /dev/null 2> /dev/null&<CR><CR>
+"map <F3> :w!<CR>:w!/home/serii/tmp/vim-markdown.md<CR>:!pandoc -s -f markdown -t html -o /home/serii/tmp/vim-markdown.html /home/serii/tmp/vim-markdown.md<CR>:!dillo /home/serii/tmp/vim-markdown.html > /dev/null 2> /dev/null&<CR><CR>
+map <F3> :w!<CR>:w!/home/serii/tmp/vim-markdown.md<CR>:!pandoc -s -f markdown -t html -o /home/serii/tmp/vim-markdown.html /home/serii/tmp/vim-markdown.md<CR>:!google-chrome /home/serii/tmp/vim-markdown.html > /dev/null 2> /dev/null&<CR><CR>
+map <S-F3> a<C-R>=strftime("%c")<CR><Esc>
 
 "vim snippets =======
 set nocompatible
+
+"vim-multicursor
+nnoremap <M-J> :<c-u>call MultiCursorPlaceCursor()<cr>
+noremap <M-d> :echo "m-d works!"<cr>
 
 filetype on
 filetype plugin on
