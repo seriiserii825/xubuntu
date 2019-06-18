@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [  ],
+      "js": [ "js/autoCopy.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Automatically copy selected text to the clipboard. Has options for copying as plain text; including the URL in the copied text; etc.",
+   "icons": {
+      "128": "assets/autoCopy-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOvi2SGofRtCLr2sCvtuAjHfbRFnftZgC2A1YI2HN49DzlzVp8PwjkWptJqtsDdn2ASadnmMLilg+5VsrmtcH+h04eNpj+emvKW2G26PrazKS+76mh8iqgtWrWPyWTRPH3RAjKFHNK+IcAJYKw2x46VWnz9qvaHHbDFIZwhYDbqwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22",
+   "name": "Auto Copy",
+   "options_page": "html/options.html",
+   "permissions": [ "clipboardRead", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.4"
+}

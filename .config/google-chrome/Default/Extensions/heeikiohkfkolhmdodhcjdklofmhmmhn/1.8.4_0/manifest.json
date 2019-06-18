@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/button.png",
+      "default_popup": "popup.html",
+      "default_title": "Vimbox Переводчик от Skyeng"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "includes/content.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file:///*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Бесплатный переводчик английских слов и фраз на сайтах. Читайте зарубежные издания и учите английский язык",
+   "homepage_url": "http://skyeng.ru/",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/button.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzeM9A9sKOhwHySm2K8FHApkj+lQmOyXZv+sJcFXH/PPEQJXSBzPHrNuCbgL/Tb/RDcRppbwvyey7G01u4Op6NFEyvR+0yy1Uar7+m0q0qnFZ2pMpRHpsbsbPDrrwyF/bmJME9uzj4S7Q7WhJ3Gg9VSNN4SU2gjGOVpDf27turWDZ13mvtYQQWkLoss5ZKKilF8eW4ivyLIUsNYdrZENodOW7YA2j1Vk53zKQ2VuIu6rv4kDvzOXKB31mcbwQoXbexKC7m5J+omGzs7Hj5NlD67N2y8hr+bXHJ/Z3f7FUYUgs+NCwLwbQCMGeagv0CPrC8/fGZKiS3jmJgLsQywNwQwIDAQAB",
+   "manifest_version": 2,
+   "name": "Vimbox Переводчик от Skyeng",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webNavigation", "notifications", "cookies" ],
+   "short_name": "Translator",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.4",
+   "web_accessible_resources": [ "res/*", "assets/*", "icons/*" ]
+}

@@ -1,0 +1,14 @@
+Поиск git в: git
+Используется git 2.17.1 из git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/serii/Sites/start-template.loc
+> git status -z -u
+> git show :src/pug/pages/index.pug
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

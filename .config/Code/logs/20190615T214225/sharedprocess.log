@@ -1,0 +1,15 @@
+[2019-06-15 21:42:30.619] [sharedprocess] [info] main {"machineId":"5113cb9c0bc7a2be6573c7bb20cfb8f137ebe75f39ecda87c5797696f7a386fb"}
+[2019-06-15 21:42:31.128] [sharedprocess] [info] Scanned user extensions: 42
+[2019-06-15 21:42:31.139] [sharedprocess] [info] Scanned user extensions: 42
+[2019-06-15 21:42:31.228] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 21:42:31.228] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 21:42:31.329] [sharedprocess] [info] Scanned user extensions: 42
+[2019-06-15 21:42:31.335] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 21:42:32.095] [sharedprocess] [info] Scanned user extensions: 42
+[2019-06-15 21:43:10.571] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-06-15 21:43:10.574] [sharedprocess] [info] Skipping directory d9a62b85119a3fd81e015be6fbc12819.ru. Language pack still in use.
+[2019-06-15 21:46:11.788] [sharedprocess] [info] Scanned user extensions: 42
+[2019-06-15 21:46:11.795] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 21:46:12.002] [sharedprocess] [info] Scanned user extensions: 42
+[2019-06-15 21:46:12.008] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 21:46:14.164] [sharedprocess] [info] Scanned user extensions: 42

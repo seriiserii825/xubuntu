@@ -1,0 +1,7 @@
+Initializing document watcher...
+Detected change in configuration: {"tabSize":2,"insertSpaces":false}
+start-template.loc/src/pug/pages/index.pug: {"insertSpaces":false,"tabSize":2}
+start-template.loc/src/pug/pages/index.pug: Using EditorConfig core...
+src/pug/pages/index.pug: setEndOfLine(LF)
+src/pug/pages/index.pug: editor.action.trimTrailingWhitespace
+start-template.loc/src/pug/pages/index.pug: {"insertSpaces":false,"tabSize":2}

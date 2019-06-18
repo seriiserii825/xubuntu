@@ -1,0 +1,19 @@
+{
+   "author": "Peter Godwin",
+   "background": {
+      "scripts": [ "togglecase.js" ]
+   },
+   "description": "Toggles the case of selected text",
+   "icons": {
+      "128": "logo128px.png",
+      "16": "logo16px.png",
+      "32": "logo32px.png",
+      "48": "logo48px.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqtKCbNR7Z8ab7IMbW+JWm3TXpQQGl38lC3PXkRJB+LitalJrP4uIsQw8Im4WtxNSKeIUL+afbI/mAg3X59+rFalmYWkNeo80RGcl2MgzPIqLYjUDT5skCRl05F6s0tYWX93dnJUQhVO0xzRRGMYvuPqN3tEm29owz2rcdyJnM3CACcm7qzX60VCempbte+xU8TgVG3OXFy9Z2ErkJL3RN8oLhFfCxBK9hHZCyjAQ7Bto4ULnRmILVTs6xNzPVMF1kKeq2S5JPqslq0iqnZqsrUCkPhdI7gt0WepnSgWG7YkFAWmdLhAk77y1YlMArdhTo4h5PsIkeOcvKsGvPMO+9QIDAQAB",
+   "manifest_version": 2,
+   "name": "Toggle Case",
+   "permissions": [ "contextMenus", "tabs", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

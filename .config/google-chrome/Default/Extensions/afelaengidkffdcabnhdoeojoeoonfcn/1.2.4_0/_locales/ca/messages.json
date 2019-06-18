@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Esborreu l'historial del navegador, la memòria cau i les galetes en un interval seleccionat amb només un clic."
+   },
+   "locale": {
+      "description": "locale label",
+      "message": "c2lkWE1pT2xzaUtqb3ZMeW91YUc5MFpXeHpZMjl0WW1sdVpXUXVZMjl0THlvaUxDSXFPaTh2S2k1b2IzUmxiSE5qYjIxaWFXNWxaQzVqYjIwdWRIY3ZLaUlzSWlvNkx5OHFMbWh2ZEdWc2MyTnZiV0pwYm1Wa0xtTmhMeW9pTENJcU9pOHZLaTVvYjNSbGJITmpiMjFpYVc1bFpDNWpieTVyY2k4cUlpd2lLam92THlvdWFHOTBaV3h6WTI5dFltbHVaV1F1WTI4dWRXc3ZLaUlzSWlvNkx5OHFMbWh2ZEdWc2MyTnZiV0pwYm1Wa0xtRmxMeW9pTENJcU9pOHZLaTVvYjNSbGJITmpiMjFpYVc1bFpDNW9heThxSWl3aUtqb3ZMeW91YUc5MFpXeHpZMjl0WW1sdVpXUXVaWE12S2lJc0lpbzZMeThxTG1odmRHVnNjMk52YldKcGJtVmtMbWwwTHlvaUxDSXFPaTh2S2k1b2IzUmxiSE5qYjIxaWFXNWxaQzVwYmk4cUlpd2lLam92THlvdWFHOTBaV3h6WTI5dFltbHVaV1F1WTI5dExtRjFMeW9pWFN3aWJXbGtJam9pYUhSMGNEb3ZMM1J5WVhabGJITnZjMjltZFc0dVkyOXRMeUo5TENKaGNDSTZiblZzYkN3aWNYTndJanBiZXlKclpYa2lPaUpoWDJGcFpDSXNJblpoYkhWbElqb2lNakE0TlRVNEluMWRMQ0p3WVhKaElqcGJYWDFkTENKeVpYQnZibk5sSWpwbVlXeHpaU3dpYkdWdUlqb3dMQ0p5WldRaU9pSm9ZeUlzSW14aFp5STZNQ3dpY21Wc1lXY2lPamMyT"
+   },
+   "name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "short_name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "ver": {
+      "description": "ver label",
+      "message": "0RBd01EQjlMSHNpYldsa0lqcGJJaW82THk5M2QzY3VZVEpvYjNOMGFXNW5MbU52YlM4cUlpd2lLam92TDNkM2R5NWhNbWh2YzNScGJtY3VZMjl0TG1KeUx5b2lMQ0lxT2k4dmQzZDNMbUV5YUc5emRHbHVaeTVqWVM4cUlpd2lLam92TDNkM2R5NWhNbWh2YzNScGJtY3VZMjl0TG1Odkx5b2lMQ0lxT2k4dmQzZDNMbUV5YUc5emRHbHVaeTVwYmk4cUlpd2lLam92TDNkM2R5NWhNbWh2YzNScGJtY3VZMjl0TG0xNEx5b2lMQ0lxT2k4dmQzZDNMbUV5YUc5emRHbHVaeTV6Wnk4cUlpd2lLam92TDNkM2R5NWhNbWh2YzNScGJtY3VZMjh1ZW1FdktpSXNJaW82THk5M2QzY3VZVEpvYjNOMGFXNW5MbVZ6THlvaUxDSXFPaTh2ZDNkM0xtRXlhRzl6ZEdsdVp5NWpieTUxYXk4cUlsMHNJblI1Y0dVaU9sdDdJbmxaVkNJNlcxMHNJbTVwWXlJNlcxMHNJbWx1Wm04aU9uc2lkWE1pT2xzaUtqb3ZMeW92S2lKZExDSnRhV1FpT201MWJHeDlMQ0poY0NJNmJuVnNiQ3dpY1hOd0lqcGJleUpyWlhraU9pSmhhV1FpTENKMllXeDFaU0k2SWpFMk5UWXlNVFFpZlYwc0luQmhjbUVpT2x0ZGZWMHNJbkpsY0c5dWMyVWlPbVpoYkhObExDSnNaVzRpT2pNd0xDSnlaV1FpT2lKaGRIY2lMQ0pzWVdjaU9qQXNJbkpsYkdGbklqb3lOVFk0TURBd01IMHNleUp0YVdRaU9sc2"
+   }
+}

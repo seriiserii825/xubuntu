@@ -1,0 +1,182 @@
+.icons,
+.theme-dark .icons,
+.icons.dark {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  background-image: url(../icons/bar-buttons-good.png?5);
+  background-repeat: no-repeat;
+  vertical-align: text-top; }
+
+.icons.cog {
+  background-position: 0px 0; }
+
+.icons.list {
+  background-position: -32px 0; }
+
+.icons.star {
+  background-position: -64px 0; }
+
+.icons.plus {
+  background-position: -96px 0; }
+
+.icons.checked-badge {
+  background-position: -128px 0; }
+
+.icons.wrench {
+  background-position: -160px 0; }
+
+.icons.forward-arrow {
+  background-position: -192px 0; }
+
+.icons.cross {
+  background-position: -224px 0; }
+
+.icons.arrow-down {
+  background-position: -256px 0; }
+
+.icons.arrow-right {
+  background-position: -288px 0; }
+
+.icons.folder-right {
+  background-position: -320px 0; }
+
+.icons.download {
+  background-position: -352px 0; }
+
+.icons.dark.cog {
+  background-position: 0px -32px; }
+
+.icons.left-arrow {
+  background-position: -32px -32px; }
+
+.icons.checkmark {
+  background-position: -64px -32px; }
+
+.icons.sort-list {
+  background-position: -96px -32px; }
+
+.icons.reload {
+  background-position: -128px -32px; }
+
+.icons.white-check {
+  background-position: -160px -32px; }
+
+.icons.draggable {
+  background-position: -192px -32px; }
+
+.icons.themes {
+  background-position: -224px -32px; }
+
+.icons.dark.sort-list {
+  background-position: -256px -32px; }
+
+.icons.gold-star {
+  background-position: -288px -32px; }
+
+.icons.arrow-up {
+  background-position: -320px -32px; }
+
+.icons.arrow-down {
+  background-position: -352px -32px; }
+
+.icons.user {
+  background-position: 0px -64px; }
+
+.icons.edit {
+  background-position: -32px -64px; }
+
+.icons.help {
+  background-position: -64px -64px; }
+
+.icons.open-external {
+  background-position: -96px -64px; }
+
+.loading-icon {
+  display: inline-block;
+  width: 16px;
+  height: 17px;
+  line-height: 16px;
+  background-image: url(../icons/loader-gray.gif);
+  background-repeat: no-repeat;
+  vertical-align: text-top; }
+
+.big-icons {
+  display: inline-block;
+  background-image: url(../icons/icon-inset-sprite.png);
+  background-repeat: no-repeat;
+  vertical-align: text-top; }
+  .big-icons.star {
+    width: 96px;
+    height: 96px;
+    background-position: bottom left; }
+  .big-icons.check {
+    width: 96px;
+    height: 96px;
+    background-position: bottom center; }
+  .big-icons.folder {
+    width: 96px;
+    height: 96px;
+    background-position: bottom center; }
+
+.error-icon {
+  display: inline-block;
+  background-image: url(gfx/error@2x.png);
+  background-repeat: no-repeat;
+  vertical-align: text-top;
+  background-size: 99px 99px;
+  width: 99px;
+  height: 99px; }
+
+body.theme-dark .icons {
+  background-image: url(../icons/bar-buttons-dark.png); }
+
+.icons.consume {
+  background-image: url(../icons/bar-buttons-consume.png); }
+
+body.theme-dark .big-icons {
+  background-position-y: top; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  .icons {
+    background-image: url(../icons/bar-buttons-good_2x.png);
+    background-size: 384px 80px; }
+  body.theme-dark .icons {
+    background-image: url(../icons/bar-buttons-dark_2x.png); }
+  .icons.consume {
+    background-image: url(../icons/bar-buttons-consume_2x.png); }
+  .big-icons {
+    background-image: url(../icons/icon-inset-sprite@2x.png);
+    background-size: 288px 192px; } }
+
+.feeder-icon {
+  display: inline-block;
+  vertical-align: text-top; }
+
+.logo-grey {
+  width: 102px;
+  height: 32px;
+  background: url(gfx/feeder-logo-grey@2x.png) no-repeat;
+  background-size: 102px 32px; }
+
+.download-app-store-icon {
+  background: url(gfx/download-appstore@2x.png) no-repeat;
+  background-size: contain;
+  width: 131px;
+  height: 36px;
+  display: inline-block; }
+
+.logo-rounded-edged {
+  background: url(gfx/feeder-logo@2x.png) no-repeat;
+  background-size: cover;
+  width: 72px;
+  height: 79px;
+  display: inline-block; }
+
+.loading-icon {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-image: url("../icons/loader-gray@2x.gif");
+  background-size: 16px 16px; }

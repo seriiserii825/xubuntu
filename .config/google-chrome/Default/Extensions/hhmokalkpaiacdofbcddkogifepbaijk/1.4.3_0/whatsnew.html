@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Bookmark Search Extension - What's New</title>
+<script type="text/javascript" src="whatsnew.js"></script>
+<script type="text/javascript" src="page_common.js"></script>
+</head>
+<body>
+<h1><a href="https://chrome.google.com/webstore/detail/hhmokalkpaiacdofbcddkogifepbaijk" target="_blank">Bookmark Search</a> Extension - What's New</h1>
+<span id="msg_firstinstall" style="display:none;color:red">
+Thanks for installing Bookmark Search <span name="version">this version</span>!<br />
+Please also check the <a href="options.html" target="_blank">options page</a>.
+</span>
+<span id="msg_update" style="display:none;color:red">
+Here are the changes from <span id="version_old">old version</span> to <span name="version">this version</span>!<br />
+Please also check the <a href="options.html" target="_blank">options page for any new options.</a>
+</span>
+<span id="msg_this" style="display:none;color:red">
+This version is <span name="version">this version</span>.
+</span>
+<h2>Version 1.4.3</h2>
+<ul id="v1.4.3">
+<li>Fix the bookmark page search link on more recent Chrome versions. (Thanks <span style="font-style:italic;">nbegley</span> for the patch.)</li>
+<li>Fix a typo. (Thanks <span style="font-style:italic;">nbegley</span> for the patch.)</li>
+</ul>
+<h2>Version 1.4.2.1</h2>
+<ul id="v1.4.2.1">
+<li>Pressing arrow keys or switching windows could cause automatic matches (first match item) to be forgotten. Some code has been modified to prevent this from happening. (Thanks <span style="font-style:italic;">northtea</span> for pointing it out)</li>
+</ul>
+<h2>Version 1.4.2</h2>
+<ul id="v1.4.2">
+<li>JavaScript bookmarklets now requires a lesser permission. If you had enabled JavaScript bookmarklets before, you'll need to re-enable it.</li>
+<li>You may now choose where bookmarks are opened with the keyboard. The option is available in the options page. With this option, you can open bookmarks on a new foreground tab by pressing <kbd>Alt</kbd> + <kbd>Enter</kbd>, or on a new background tab by clicking on an item with the middle mouse button.</li>
+<li>Fixed a minor bug which sometimes causes the wrong page to be opened.</li>
+</ul>
+<h2>Version 1.4.1</h2>
+<ul id="v1.4.1">
+<li>Made the searching algorithm selection option more clearer.</li>
+<li>Added <a href="search_test.html" target="_blank">a page</a> to test different searching algorithm.</li>
+</ul>
+<h2>Version 1.4</h2>
+<ul id="v1.4">
+<li>Implemented a new searching and sorting algorithm which should give better and more useful results in general.</li>
+</ul>
+<h2>Version 1.3.4</h2>
+<ul id="v1.3.4">
+<li>Removed an optional permission which is no longer needed.</li>
+<li>Changed the way of informing version updated.</li>
+</ul>
+<h2>Version 1.3.3</h2>
+<ul id="v1.3.3">
+<li>Changed the bookmark manager's page back to chrome://bookmarks/ (which I forgot to change in 1.3.2).</li>
+<li>Changed the way of invoking JavaScript bookmarklet due to some security concern.</li>
+</ul>
+<h2>Version 1.3.2</h2>
+<ul id="v1.3.2">
+<li>Slightly improved the options page.</li>
+<li>The extension will now ask you to enable JavaScript bookmarklet support when attempt to use one.</li>
+<li>Minor code changes produces slight unnoticeable performance increase.</li>
+<li>Chrome will now unload this extension when not being used, so it will not consume any system resources when idle.</li>
+</ul>
+<span style="color:gray;font-style:italic;">Version 1.3.1 is not released.</span>
+<h2>Version 1.3</h2>
+<ul id="v1.3">
+<li>(internal) Switched to manifest version 2.</li>
+<li>The persist permission to "your data on all websites" and "your tabs and browsing activity" is removed.<br />
+Instead an option is added for enabling support for JavaScript bookmarklet.<br />
+The related permissions will be requested only when the option is enabled.</li>
+<li>A bug that prevents automatically navigating to the only match when the option "Automatically selects full match on name" is disabled is fixed.</li>
+</ul>
+<h2>Version 1.2.2</h2>
+<ul id="v1.2.2">
+<li>Javascript bookmarks had never worked before due to lack of permission. This version should have fixed it.</li>
+</ul>
+<h2>Version 1.2.1</h2>
+<ul id="v1.2.1">
+<li>Due to my carelessness, a full match will pops out both the selected page and the bookmark search page. This is likely fixed.</li>
+<li>Automatically selects if there is only one search result.</li>
+<li>Allow setting the maximum items to show.</li>
+<li>The option page should work fine.</li>
+<li>Some minor improvements.</li>
+</ul>
+<h2>Version 1.2</h2>
+<ul id="v1.2">
+<li><b>Bookmark Search</b> can now automatically select the full match. (see <a href="options.html" target="_blank">Options</a>)</li>
+<li>Display is improved. It now shows both name and address.</li>
+<li>Some minor improvements.</li>
+<li>The icons are updated, although they are still...</li>
+</ul>
+<h2>Version 1.1</h2>
+<ul id="v1.1">
+<li>The search keyword has changed to "<b>bm</b>"!</li>
+</ul>
+<h2>Version 1.0</h2>
+<ul id="v1.0">
+<li>First release!</li>
+</ul>
+</body>
+</html>

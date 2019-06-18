@@ -1,0 +1,91 @@
+{
+	//workbench
+	"workbench.startupEditor": "newUntitledFile",
+	//vim
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"j",
+				"j"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.useCtrlKeys": true,
+	"vim.incsearch": true,
+	"vim.hlsearch": true,
+	"vim.leader": "<space>",
+	//files
+	"files.autoSave": "onFocusChange",
+	"files.trimTrailingWhitespace": true,
+	//pug
+	"puglint.enable": true,
+	//editor
+	"editor.tabSize": 2,
+	"editor.smoothScrolling": true,
+	"editor.renderWhitespace": "all",
+	//workbench
+	"workbench.activityBar.visible": true,
+	"workbench.iconTheme": "ayu",
+	"explorer.openEditors.visible": 0,
+	//emmet
+	"emmet.triggerExpansionOnTab": true,
+	"path-intellisense.showHiddenFiles": true,
+	"sync.gist": "75a1ba04ece93daf0f6573d44be744de",
+	//javascript
+	//"javascript.implicitProjectConfig.experimentalDecorators": false,
+	//sass-lint
+	// "sasslint.nodePath": "/home/serii/.nvm/versions/node/v10.14.1/bin/node",
+	// "sasslint.configFile": "/var/www/barbershop.loc/.sass-lint.yml",
+	// "sasslint.enable": true,
+	//stylelint
+	// "css.validate": false,
+	// "scss.validate": false,
+	//php
+	"php.validate.executablePath": "D:\\\\OSPanel\\\\userdata\\\\config\\\\PHP-7.2-x64_php.ini",
+	"php.executablePath": "D:\\\\OSPanel\\\\userdata\\\\config\\\\PHP-7.2-x64_php.ini",
+	"php.suggest.basic": false,
+
+	//terminal
+	"terminal.external.windowsExec": "C:\\\\Program Files\\\\Git\\\\git-bash.exe",
+	"terminal.integrated.rendererType": "dom",
+	"terminal.integrated.shell.windows": "C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe",
+	"window.menuBarVisibility": "default",
+	"window.zoomLevel": 1,
+	"vim.useSystemClipboard": true,
+	"git.enableSmartCommit": true,
+	"less.lint.idSelector": "warning",
+	"less.lint.duplicateProperties": "warning",
+	"less.lint.important": "error",
+	"less.lint.unknownProperties": "error",
+	"less.lint.zeroUnits": "error",
+	"explorer.confirmDragAndDrop": false,
+	"terminal.integrated.confirmOnExit": true,
+	"files.insertFinalNewline": true,
+	"search.location": "panel",
+	"editor.wordWrap": "on",
+	"workbench.colorTheme": "One Dark Pro",
+	"editor.insertSpaces": false,
+	"editor.autoIndent": false,
+	"editor.detectIndentation": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.formatOnType": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"vim.easymotion": true,
+	"stylint.alwaysShowStatus": true,
+	"AllAutocomplete.cycleOpenDocumentsOnLaunch": true,
+	"AllAutocomplete.minWordLength": 1,
+	"breadcrumbs.enabled": true,
+	"workbench.editor.revealIfOpen": true,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.tips.enabled": false,
+	"liveServer.settings.donotVerifyTags": true,
+	"phpSniffer.executablesFolder": "D:\\OSPanel\\userdata\\config\\PHP-7.2-x64_php.ini",
+	"phpSniffer.run": "onType",
+	"files.eol": "\n",
+	"terminal.explorerKind": "external",
+}

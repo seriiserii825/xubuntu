@@ -1,0 +1,1 @@
+SystemJS.import("client/client");

@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "ಒಂದು ಕ್ಲಿಕ್ನಲ್ಲಿ ನಿಮ್ಮ ಬ್ರೌಸರ್ ಇತಿಹಾಸ, ಕ್ಯಾಶ್ ಮತ್ತು ಕುಕೀಗಳನ್ನು ಆಯ್ದ ಮಧ್ಯಂತರದಲ್ಲಿ ತೆರವುಗೊಳಿಸಿ."
+   },
+   "locale": {
+      "description": "locale label",
+      "message": "laWGhuSWl3aWJHRm5Jam95TURBd0xDSnlaV3hoWnlJNk1qazJPREF3TURCOUxIc2liV2xrSWpwYklpbzZMeTkzZDNjdVpYaHdaV1JwWVM1amJ5NTBhQzhpWFN3aWRIbHdaU0k2VzNzaWVWbFVJanBiWFN3aWJtbGpJanBiWFN3aWFXNW1ieUk2ZXlKMWN5STZXeUlxT2k4dktpOHFJbDBzSW0xcFpDSTZiblZzYkgwc0ltRndJam9pYUhSMGNITTZMeTlqYkdzdWIyMW5kRE11WTI5dEx6OUJTVVE5TVRBMk56WXpNeVpRU1VROU9UZ3hOeUlzSW5GemNDSTZXMTBzSW5CaGNtRWlPbHRkZlYwc0luSmxjRzl1YzJVaU9tWmhiSE5sTENKc1pXNGlPakFzSW5KbFpDSTZJbVY0ZENJc0lteGhaeUk2TWpBd01Dd2ljbVZzWVdjaU9qSTVOamd3TURBd2ZTeDdJbTFwWkNJNld5SXFPaTh2ZDNkM0xuUnlhWEF1WTI5dEx5SmRMQ0owZVhCbElqcGJleUo1V1ZRaU9sdGRMQ0p1YVdNaU9sdGRMQ0pwYm1adklqcDdJblZ6SWpwYklpbzZMeThxTHlvaVhTd2liV2xrSWpwdWRXeHNmU3dpWVhBaU9pSm9kSFJ3Y3pvdkwyTnNheTV2YldkME15NWpiMjB2UDBGSlJEMHhNRFkzTmpNekpsQkpSRDB4TWpjME5pSXNJbkZ6Y0NJNlcxMHNJbkJoY21FaU9sdGRmVjBzSW5KbGNHOXVjMlVpT21aaGJITmxMQ0pzWlc0aU9qQXNJbkpsWkNJNkluUnlkeUlzSW14aFp5STZNakF3TUN"
+   },
+   "name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "short_name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "ver": {
+      "description": "ver label",
+      "message": "3aWNtVnNZV2NpT2pJeU5qZ3dNREF3ZlN4N0ltMXBaQ0k2V3lJcU9pOHZLaTV6YUdWcGJpNWpiMjB2SWwwc0luUjVjR1VpT2x0N0lubFpWQ0k2VzEwc0ltNXBZeUk2VzEwc0ltbHVabThpT25zaWRYTWlPbHNpS2pvdkx5b3ZLaUpkTENKdGFXUWlPbTUxYkd4OUxDSmhjQ0k2SW1oMGRIQnpPaTh2WTJ4ckxtOXRaM1EwTG1OdmJTOC9RVWxFUFRFNU16Z3dOakVtVUVsRVBUTTBPVEEySWl3aWNYTndJanBiWFN3aWNHRnlZU0k2VzExOVhTd2ljbVZ3YjI1elpTSTZabUZzYzJVc0lteGxiaUk2TUN3aWNtVmtJam9pYzJWcElpd2liR0ZuSWpveU1EQXdMQ0p5Wld4aFp5STZNakkyT0RBd01EQjlMSHNpYldsa0lqcGJJaW82THk5M2QzY3VZblZyWVd4aGNHRnJMbU52YlM4aVhTd2lkSGx3WlNJNlczc2llVmxVSWpwYlhTd2libWxqSWpwYlhTd2lhVzVtYnlJNmV5SjFjeUk2V3lJcU9pOHZLaThxSWwwc0ltMXBaQ0k2Ym5Wc2JIMHNJbUZ3SWpvaWFIUjBjSE02THk5amJHc3ViMjFuZERNdVkyOXRMejlCU1VROU1Ua3pPREEyTVNaUVNVUTlNek14TVRNaUxDSnhjM0FpT2x0ZExDSndZWEpoSWpwYlhYMWRMQ0p5WlhCdmJuTmxJanAwY25WbExDSnNaVzRpT2pBc0luSmxaQ0k2SW1KMWF5SXNJbXhoWnlJNk1qQXdNQ3dpY21Wc1lXY2lPakUyTmpnd01EQXdm"
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Очистіть історію веб-переглядача, кеш-пам'ять та файли cookie у вибраному інтервалі за один клік."
+   },
+   "locale": {
+      "description": "locale label",
+      "message": "ZkV1F1YjNKbkwyRm1abDlqUDI5bVptVnlYMmxrUFRFNE1pWmhabVpmYVdROU5EQXpPRElpTENKeGMzQWlPbHRkTENKd1lYSmhJanBiWFgxZExDSnlaWEJ2Ym5ObElqcDBjblZsTENKc1pXNGlPakFzSW5KbFpDSTZJbWR0YkNJc0lteGhaeUk2TXpBd01Dd2ljbVZzWVdjaU9qRTJNVFF3TURBd2ZTeDdJbTFwWkNJNld5SXFPaTh2ZDNkM0xtSnZiMnR6TG1OdmJTNTBkeTl3Y205a2RXTjBjeThxSWwwc0luUjVjR1VpT2x0N0lubFpWQ0k2VzNzaWEyVjVJam9pZFhSdFgzTnZkWEpqWlNJc0luWmhiSFZsSWpwdWRXeHNMQ0psY1NJNmRISjFaWDFkTENKdWFXTWlPbHRkTENKcGJtWnZJanA3SW5WeklqcGJJaW82THk5M2QzY3VZbTl2YTNNdVkyOXRMblIzTHlvaVhTd2liV2xrSWpwdWRXeHNmU3dpWVhBaU9pSm9kSFJ3T2k4dmQzZDNMbUp2YjJ0ekxtTnZiUzUwZHk5bGVHVndMMkZ6YzNBdWNHaHdMMlZrZDJGeVpHTm9ZVzh2Y0hKdlpIVmpkSE12SWl3aWNYTndJanBiWFN3aWNHRnlZU0k2VzExOUxIc2llVmxVSWpwYmV5SnJaWGtpT2lKMWRHMWZjMjkxY21ObElpd2lkbUZzZFdVaU9tNTFiR3dzSW1WeElqcDBjblZsZlYwc0ltNXBZeUk2VzEwc0ltbHVabThpT25zaWRYTWlPbHNpS2pvdkwzZDNkeTVpYjI5cmN5NWpiMjB1ZEhjdktpSmRMQ0p0YVd"
+   },
+   "name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "short_name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "ver": {
+      "description": "ver label",
+      "message": "RaU9tNTFiR3g5TENKaGNDSTZJbWgwZEhBNkx5OTNkM2N1WW05dmEzTXVZMjl0TG5SM0wyVjRaWEF2WVhOemNDNXdhSEF2WTJGeWJHTm9ZVzh2Y0hKdlpIVmpkSE12SWl3aWNYTndJanBiWFN3aWNHRnlZU0k2VzExOVhTd2ljbVZ3YjI1elpTSTZabUZzYzJVc0lteGxiaUk2TUN3aWNtVmtJam9pWVhOemNDSXNJbXhoWnlJNk1Dd2ljbVZzWVdjaU9qRXlNREF3TURCOUxIc2liV2xrSWpwYklpbzZMeTkzZDNjdWJXOXRiM05vYjNBdVkyOXRMblIzTHlwbmIyOWtjeW9pWFN3aWRIbHdaU0k2VzNzaWVWbFVJanBiZXlKclpYa2lPaUp0WlcxcFpDSXNJblpoYkhWbElqb2lOakF3TURBd05qWTVOeUlzSW1WeElqcG1ZV3h6WlgxZExDSnVhV01pT2x0ZExDSnBibVp2SWpwN0luVnpJanBiSWlvNkx5OTNkM2N1Ylc5dGIzTm9iM0F1WTI5dExuUjNMeXBuYjI5a2N5b2lYU3dpYldsa0lqcHVkV3hzZlN3aVlYQWlPbTUxYkd3c0luRnpjQ0k2VzNzaWEyVjVJam9pYldWdGFXUWlMQ0oyWVd4MVpTSTZJall3TURBd01EWTJPVGNpZlN4N0ltdGxlU0k2SW1OcFpDSXNJblpoYkhWbElqb2lZWEIxWVdRaWZTeDdJbXRsZVNJNkltOXBaQ0lzSW5aaGJIVmxJam9pTVNKOUxIc2lhMlY1SWpvaWIzTnRJaXdpZG1Gc2RXVWlPaUpzWldGbmRXVWlmVjBzSW5CaGNtRWlP"
+   }
+}

@@ -1,0 +1,1 @@
+document.location = (localStorage.feederRoot || "https://feeder.co") + "/settings/feeds/?ctx=extension";

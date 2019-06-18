@@ -1,0 +1,6 @@
+2019/06/18-22:06:09.391 1167 Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/06/18-22:06:09.391 1167 Recovering log #26
+2019/06/18-22:06:09.392 1167 Reusing old log Session Storage/000026.log 
+2019/06/18-22:06:11.698 12d6 Level-0 table #30: started
+2019/06/18-22:06:11.755 12d6 Level-0 table #30: 14875 bytes OK
+2019/06/18-22:06:11.781 12d6 Delete type=0 #26

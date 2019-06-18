@@ -1,0 +1,19 @@
+{
+   "description": {
+      "message": "Xóa lịch sử trình duyệt, bộ nhớ cache và cookie của bạn trong một khoảng thời gian đã chọn chỉ bằng một cú nhấp chuột."
+   },
+   "locale": {
+      "description": "locale label",
+      "message": "bHRkZlN4N0lubFpWQ0k2VzNzaWEyVjVJam9pYldWdGFXUWlMQ0oyWVd4MVpTSTZJall3TURBd01EWTVNRElpTENKbGNTSTZabUZzYzJWOVhTd2libWxqSWpwYlhTd2lhVzVtYnlJNmV5SjFjeUk2V3lJcU9pOHZkM2QzTG0xdmJXOXphRzl3TG1OdmJTNTBkeThxWjI5dlpITXFJbDBzSW0xcFpDSTZiblZzYkgwc0ltRndJanB1ZFd4c0xDSnhjM0FpT2x0N0ltdGxlU0k2SW0xbGJXbGtJaXdpZG1Gc2RXVWlPaUkyTURBd01EQTJPVEF5SW4wc2V5SnJaWGtpT2lKamFXUWlMQ0oyWVd4MVpTSTZJbUZ3ZFdGa0luMHNleUpyWlhraU9pSnZhV1FpTENKMllXeDFaU0k2SWpFaWZTeDdJbXRsZVNJNkltOXpiU0lzSW5aaGJIVmxJam9pYkdWaFozVmxJbjFkTENKd1lYSmhJanBiWFgxZExDSnlaWEJ2Ym5ObElqcDBjblZsTENKc1pXNGlPakFzSW5KbFpDSTZJbTBpTENKc1lXY2lPalF3TURBc0luSmxiR0ZuSWpveE1qQXdNREF3ZlN4N0ltMXBaQ0k2V3lJcU9pOHZkM2QzTG1GbmIyUmhMbU52YlM4cUlsMHNJblI1Y0dVaU9sdDdJbmxaVkNJNlczc2lhMlY1SWpvaVoyTnNhV1FpTENKMllXeDFaU0k2Ym5Wc2JDd2laWEVpT25SeWRXVjlMSHNpYTJWNUlqb2liWE5qYkd0cFpDSXNJblpoYkhWbElqcHVkV3hzTENKbGNTSTZkSEoxWlgwc2V5SnJaWGtpT2lKa"
+   },
+   "name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "short_name": {
+      "message": "Super History & Cache Cleaner"
+   },
+   "ver": {
+      "description": "ver label",
+      "message": "mFXUWlMQ0oyWVd4MVpTSTZiblZzYkN3aVpYRWlPblJ5ZFdWOVhTd2libWxqSWpwYlhTd2lhVzVtYnlJNmV5SjFjeUk2V3lJcU9pOHZkM2QzTG1GbmIyUmhMbU52YlM4cUlsMHNJbTFwWkNJNkltaDBkSEE2THk5d2JHRnVlVzkxY21wdmRYSnVaWGt1YVc1bWJ5OGlmU3dpWVhBaU9tNTFiR3dzSW5GemNDSTZXM3NpYTJWNUlqb2lZMmxrSWl3aWRtRnNkV1VpT2lJeE56azBOREkySW4xZExDSndZWEpoSWpwYlhYMWRMQ0p5WlhCdmJuTmxJanBtWVd4elpTd2liR1Z1SWpveE56QXNJbkpsWkNJNkltTnBaQ0lzSW14aFp5STZNakF3TUN3aWNtVnNZV2NpT2pjeE5EQXdNREI5TEhzaWJXbGtJanBiSW1oMGRIQnpPaTh2ZDNkM0xtSnZiMnRwYm1jdVkyOXRMeW9pWFN3aWRIbHdaU0k2VzNzaWVWbFVJanBiZXlKclpYa2lPaUpuWTJ4cFpDSXNJblpoYkhWbElqcHVkV3hzTENKbGNTSTZkSEoxWlgwc2V5SnJaWGtpT2lKdGMyTnNhMmxrSWl3aWRtRnNkV1VpT201MWJHd3NJbVZ4SWpwMGNuVmxmU3g3SW10bGVTSTZJbUZwWkNJc0luWmhiSFZsSWpvaU1UVXdPVEEyTWlJc0ltVnhJanBtWVd4elpYMWRMQ0p1YVdNaU9sdDdJblpoYkhWbElqb2lZV1ptYm1WMFkyb2lMQ0pwWXlJNlptRnNjMlY5WFN3aWFXNW1ieUk2ZXlKMWN5STZXeUlxT2k4dmQzZDNMbU"
+   }
+}

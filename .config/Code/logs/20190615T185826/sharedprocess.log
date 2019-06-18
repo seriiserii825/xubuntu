@@ -1,0 +1,34 @@
+[2019-06-15 18:58:29.659] [sharedprocess] [info] main {"machineId":"5113cb9c0bc7a2be6573c7bb20cfb8f137ebe75f39ecda87c5797696f7a386fb"}
+[2019-06-15 18:58:29.667] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:58:29.682] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:58:29.688] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:58:29.748] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:58:29.753] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:58:29.758] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:58:29.775] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:58:29.796] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:58:30.441] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:09.611] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-06-15 18:59:44.697] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:44.700] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:44.701] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:44.708] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:44.775] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:59:44.778] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:59:44.781] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:59:44.797] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:44.819] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:44.821] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:44.822] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:59:44.860] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:59:44.862] [sharedprocess] [info] Scanned system extensions: 72
+[2019-06-15 18:59:50.070] [sharedprocess] [info] Installing extension: shan.code-settings-sync
+[2019-06-15 18:59:50.072] [sharedprocess] [info] Scanned user extensions: 0
+[2019-06-15 18:59:50.366] [sharedprocess] [info] Downloaded extension: shan.code-settings-sync /tmp/9a7d61f0-3c21-42de-a5a6-366bba2d3a17
+[2019-06-15 18:59:50.401] [sharedprocess] [info] Extracted extension to /home/serii/.vscode/extensions/.shan.code-settings-sync-3.2.9: shan.code-settings-sync
+[2019-06-15 18:59:50.401] [sharedprocess] [info] Renamed to /home/serii/.vscode/extensions/shan.code-settings-sync-3.2.9
+[2019-06-15 18:59:50.402] [sharedprocess] [info] Installation completed. shan.code-settings-sync
+[2019-06-15 18:59:50.439] [sharedprocess] [info] Extensions installed successfully: shan.code-settings-sync
+[2019-06-15 19:03:30.505] [sharedprocess] [info] Scanned user extensions: 29
+[2019-06-15 19:08:30.553] [sharedprocess] [info] Scanned user extensions: 42
+[2019-06-15 19:13:31.350] [sharedprocess] [info] Scanned user extensions: 42

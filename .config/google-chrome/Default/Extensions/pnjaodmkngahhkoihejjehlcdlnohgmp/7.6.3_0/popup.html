@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html style="width: 333px">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Feeder</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
+    <meta name="apple-itunes-app" content="app-id=668210239">
+
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+
+    <link rel="stylesheet" data-base-path href="css/icons.css">
+    <link rel="stylesheet" data-base-path href="css/popup.css">
+  </head>
+  <body class="popup-loading theme-light is-not-standalone" style="width: 333px">
+    <div id="is-popup"></div>
+
+    <div id="ERROR" style="display:none">
+    	<h2 class="margin-bottom-medium">An error occured while opening the popup.</h2>
+    	<p class="margin-bottom-small">We're so sorry about this.</p>
+    	<p class="margin-bottom-medium"><b>Please follow the following steps:</b></p>
+    	<ol>
+    		<li>Restart your browser</li>
+    		<li>Check your internet connection</li>
+    		<li><a target="_blank" href="http://erikrothoff.com/2012/11/debugging-a-broken-rss-feed-reader/">Follow the steps provided here</a></li>
+    	</ol>
+    </div>
+
+    <div id="backend-is-loading" style="display:none">
+      <div class="is-loading-text">Feeder is starting...</div>
+    </div>
+
+  	<div class="popup">
+      <div class="popup-content has-initial">
+        <div class="the-initial screen-with-topbar tpl-screen-main no-feeds">
+          <div style="height: 100%;">
+            <div class="screen-container">
+              <div class="screen-main-content">
+                <div class="tpl-bar-main">
+                  <div class="bar bar--fixed main">
+                    <div class="bottom-cover"></div>
+                  </div>
+                </div>
+                <div class="tpl-feed-list" data-loader="">
+                  <div class="placeholder"></div>
+                </div>
+                <div class="tpl-screen-no-unread">
+                  <div style="height: 100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:none">
+    	<div class="intercom-activator" href="mailto:qci8slyd@incoming.intercom.io"></div>
+    </div>
+
+    <div style="display:none" id="ui">
+
+<!-- Popup -->
+
+<template id="popup#head">
+  <div class="link-queue">
+    <div class="link-queue--text">
+      <div>Open <span class="num">10</span> post<span class="one">s</span></div>
+    </div>
+    <a href="#" class="close">×</a>
+  </div>
+  <div id="notifications">
+    <div class="notifications--content"></div>
+    <span class="close">×</span>
+  </div>
+</template>
+
+<!-- Main -->
+
+<template id="screen#main" class="screen-with-topbar">
+  <div class="screen-container screen-with-topbar--content-container">
+    <div class="screen-main-content">
+      <div class="consume-header consume-header--inline hide--all-but-consume hide--mobile">
+        <div class="nav-button nav-button--icon settings-button push-right" title="Settings">
+          <svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M11.8738492,7.98646825 C9.72761905,7.98646825 7.98761905,9.72646825 7.98761905,11.8738492 C7.98761905,14.0200794 9.72761905,15.7600794 11.8738492,15.7600794 C14.0200794,15.7600794 15.7612302,14.0200794 15.7612302,11.8738492 C15.7612302,9.72646825 14.0200794,7.98646825 11.8738492,7.98646825 L11.8738492,7.98646825 Z M19.2078571,13.6069444 C18.8718254,13.7231746 18.517381,14.0384921 18.4207143,14.3054762 C18.3240476,14.5724603 18.1261111,15.5011508 18.2837698,15.8199206 L18.7072619,17.0731349 C18.7947222,17.418373 18.6600794,17.9063095 18.4080556,18.1583333 L18.1583333,18.4080556 C17.9063095,18.6600794 17.418373,18.7924206 17.0742857,18.7038095 L15.8245238,18.2791667 C15.5046032,18.1238095 15.0350794,18.0984921 14.7819048,18.2239286 C14.5275794,18.3493651 13.7231746,18.8718254 13.6069444,19.2078571 L13.0280952,20.3793651 C12.8474206,20.686627 12.4078175,20.9375 12.0522222,20.9375 L11.6989286,20.9375 C11.3421825,20.9375 10.9025794,20.686627 10.7219048,20.3805159 L10.1396032,19.2044048 C10.0245238,18.8672222 9.70805556,18.5150794 9.43876984,18.4207143 C9.16833333,18.3251984 8.23734127,18.1272619 7.91742063,18.2837698 L6.67686508,18.7038095 C6.33162698,18.7924206 5.84369048,18.6600794 5.59166667,18.4080556 L5.34194444,18.1583333 C5.09107143,17.9063095 4.95757937,17.418373 5.04503968,17.0731349 L5.46738095,15.8256746 C5.62388889,15.505754 5.65265873,15.0362302 5.5318254,14.7830556 C5.41099206,14.5287302 4.89313492,13.726627 4.55595238,13.6115476 L3.37063492,13.0269444 C3.06337302,12.8462698 2.8125,12.4078175 2.8125,12.0510714 L2.8125,11.6977778 C2.8125,11.3421825 3.06337302,10.9025794 3.37063492,10.7219048 L4.56055556,10.1338492 C4.8965873,10.0187698 5.25103175,9.70920635 5.34769841,9.4456746 C5.44321429,9.18214286 5.63654762,8.26265873 5.48003968,7.9427381 L5.04849206,6.67571429 C4.95873016,6.33047619 5.08992063,5.84369048 5.34194444,5.59166667 L5.59166667,5.34194444 C5.84369048,5.08992063 6.33162698,4.95757937 6.67686508,5.04619048 L7.94619048,5.4777381 C8.26611111,5.63424603 8.73103175,5.66301587 8.97845238,5.53988095 C9.2281746,5.41674603 10.017619,4.8965873 10.1315476,4.55940476 L10.720754,3.36948413 C10.9025794,3.06222222 11.3421825,2.8125 11.6989286,2.8125 L12.0522222,2.8125 C12.4078175,2.8125 12.8474206,3.06337302 13.0280952,3.36948413 L13.6115476,4.55710317 C13.7289286,4.89313492 14.0430952,5.24412698 14.3112302,5.33619048 C14.5782143,5.42940476 15.5046032,5.6215873 15.8245238,5.46507937 L17.0731349,5.0427381 C17.418373,4.95527778 17.9063095,5.08992063 18.1583333,5.34194444 L18.4080556,5.59166667 C18.6600794,5.84369048 18.7935714,6.33162698 18.7049603,6.67571429 L18.2837698,7.91742063 C18.1284127,8.23849206 18.1019444,8.70801587 18.2239286,8.96349206 C18.3459127,9.21781746 18.8672222,10.0210714 19.2044048,10.1361508 L20.3816667,10.7196032 C20.6877778,10.9014286 20.9375,11.3421825 20.9375,11.6977778 L20.9375,12.0510714 C20.9375,12.4078175 20.686627,12.8474206 20.3805159,13.0280952 L19.2078571,13.6069444 Z"/>
+</svg>
+
+        </div>
+        <h1 class="feeder-logo push-center">Feeder</h1>
+        <div class="nav-button nav-button--icon add-feed-button push-left" title="Add feed">
+          <svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M13,11 L13,5.00087166 C13,4.44463086 12.5522847,4 12,4 C11.4438648,4 11,4.4481055 11,5.00087166 L11,11 L5.00087166,11 C4.44463086,11 4,11.4477153 4,12 C4,12.5561352 4.4481055,13 5.00087166,13 L11,13 L11,18.9991283 C11,19.5553691 11.4477153,20 12,20 C12.5561352,20 13,19.5518945 13,18.9991283 L13,13 L18.9991283,13 C19.5553691,13 20,12.5522847 20,12 C20,11.4438648 19.5518945,11 18.9991283,11 L13,11 Z"/>
+</svg>
+
+        </div>
+      </div>
+      <tpl from="bar#main"></tpl>
+      <div class="page-scroll-container put-feed-list-here"></div>
+    </div>
+  </div>
+</template>
+
+<template id="count-group">
+  <div class="mark-as-read green-button--extra">✔</div>
+  <div class="count" data="count:text"></div>
+</template>
+
+<template id="bar#top">
+  <div class="bar bar--fixed top">
+    <div class="bar--bottom-cover"></div>
+
+    <div class="nav-button nav-button--icon back smaller-in-ext"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M20,11.5 C20.2761424,11.5 20.5,11.7238576 20.5,12 C20.5,12.2761424 20.2761424,12.5 20,12.5 L6.87026146,13.3206087 L10.6910398,17.1779526 C11.1040457,17.5946033 11.102984,18.2708593 10.6878547,18.6885783 C10.2727254,19.1052289 9.60066189,19.1030923 9.18659431,18.6864416 L4.04702811,13.4970607 L4,13.5 L4,13.4495768 L3.31001983,12.7529091 C3.10404775,12.5445838 3,12.2721583 3,11.9986646 C3,11.7251708 3.10404775,11.4527454 3.31001983,11.2444201 L4,10.5476251 L4,10.5 L4.04441079,10.5027757 L9.18234746,5.31409254 C9.59641504,4.89637356 10.2684786,4.89530523 10.6836079,5.31088754 C11.0987372,5.72646985 11.1008606,6.40379423 10.686793,6.82258155 L6.86751278,10.6792195 L20,11.5 Z"/>
+</svg>
+</div>
+    <div class="title">
+      <img data="favicon:src" class="title-click-area" />
+      <span data="title:text" class="title-click-area"></span>
+    </div>
+    <tpl from="count-group"></tpl>
+    <tpl from="deck-settings"></tpl>
+  </div>
+</template>
+
+<template id="bar#main">
+  <div class="bar bar--fixed main">
+    <div class="bar--bottom-cover"></div>
+    <div class="nav-button nav-button--icon smaller-in-ext settings" title="Settings"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M11.8738492,7.98646825 C9.72761905,7.98646825 7.98761905,9.72646825 7.98761905,11.8738492 C7.98761905,14.0200794 9.72761905,15.7600794 11.8738492,15.7600794 C14.0200794,15.7600794 15.7612302,14.0200794 15.7612302,11.8738492 C15.7612302,9.72646825 14.0200794,7.98646825 11.8738492,7.98646825 L11.8738492,7.98646825 Z M19.2078571,13.6069444 C18.8718254,13.7231746 18.517381,14.0384921 18.4207143,14.3054762 C18.3240476,14.5724603 18.1261111,15.5011508 18.2837698,15.8199206 L18.7072619,17.0731349 C18.7947222,17.418373 18.6600794,17.9063095 18.4080556,18.1583333 L18.1583333,18.4080556 C17.9063095,18.6600794 17.418373,18.7924206 17.0742857,18.7038095 L15.8245238,18.2791667 C15.5046032,18.1238095 15.0350794,18.0984921 14.7819048,18.2239286 C14.5275794,18.3493651 13.7231746,18.8718254 13.6069444,19.2078571 L13.0280952,20.3793651 C12.8474206,20.686627 12.4078175,20.9375 12.0522222,20.9375 L11.6989286,20.9375 C11.3421825,20.9375 10.9025794,20.686627 10.7219048,20.3805159 L10.1396032,19.2044048 C10.0245238,18.8672222 9.70805556,18.5150794 9.43876984,18.4207143 C9.16833333,18.3251984 8.23734127,18.1272619 7.91742063,18.2837698 L6.67686508,18.7038095 C6.33162698,18.7924206 5.84369048,18.6600794 5.59166667,18.4080556 L5.34194444,18.1583333 C5.09107143,17.9063095 4.95757937,17.418373 5.04503968,17.0731349 L5.46738095,15.8256746 C5.62388889,15.505754 5.65265873,15.0362302 5.5318254,14.7830556 C5.41099206,14.5287302 4.89313492,13.726627 4.55595238,13.6115476 L3.37063492,13.0269444 C3.06337302,12.8462698 2.8125,12.4078175 2.8125,12.0510714 L2.8125,11.6977778 C2.8125,11.3421825 3.06337302,10.9025794 3.37063492,10.7219048 L4.56055556,10.1338492 C4.8965873,10.0187698 5.25103175,9.70920635 5.34769841,9.4456746 C5.44321429,9.18214286 5.63654762,8.26265873 5.48003968,7.9427381 L5.04849206,6.67571429 C4.95873016,6.33047619 5.08992063,5.84369048 5.34194444,5.59166667 L5.59166667,5.34194444 C5.84369048,5.08992063 6.33162698,4.95757937 6.67686508,5.04619048 L7.94619048,5.4777381 C8.26611111,5.63424603 8.73103175,5.66301587 8.97845238,5.53988095 C9.2281746,5.41674603 10.017619,4.8965873 10.1315476,4.55940476 L10.720754,3.36948413 C10.9025794,3.06222222 11.3421825,2.8125 11.6989286,2.8125 L12.0522222,2.8125 C12.4078175,2.8125 12.8474206,3.06337302 13.0280952,3.36948413 L13.6115476,4.55710317 C13.7289286,4.89313492 14.0430952,5.24412698 14.3112302,5.33619048 C14.5782143,5.42940476 15.5046032,5.6215873 15.8245238,5.46507937 L17.0731349,5.0427381 C17.418373,4.95527778 17.9063095,5.08992063 18.1583333,5.34194444 L18.4080556,5.59166667 C18.6600794,5.84369048 18.7935714,6.33162698 18.7049603,6.67571429 L18.2837698,7.91742063 C18.1284127,8.23849206 18.1019444,8.70801587 18.2239286,8.96349206 C18.3459127,9.21781746 18.8672222,10.0210714 19.2044048,10.1361508 L20.3816667,10.7196032 C20.6877778,10.9014286 20.9375,11.3421825 20.9375,11.6977778 L20.9375,12.0510714 C20.9375,12.4078175 20.686627,12.8474206 20.3805159,13.0280952 L19.2078571,13.6069444 Z"/>
+</svg>
+</div>
+    <div class="nav-button nav-button--icon pro-user to-feeder-co hide--online feeder-online smaller-in-ext"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g fill="#979797" fill-rule="evenodd">
+    <path d="M16.1568542,7 L13.5,7 C13.2238576,7 13,6.77614237 13,6.5 L13,6.5 L13,6.5 C13,6.22385763 13.2238576,6 13.5,6 L17.5,6 C17.6380712,6 17.7630712,6.05596441 17.8535534,6.14644661 C17.9440356,6.23692881 18,6.36192881 18,6.5 L18,10.5 C18,10.7761424 17.7761424,11 17.5,11 C17.2238576,11 17,10.7761424 17,10.5 L17,7.57106781 L10.8535534,13.7175144 C10.6582912,13.9127766 10.3417088,13.9127766 10.1464466,13.7175144 C9.95118446,13.5222523 9.95118446,13.2056698 10.1464466,13.0104076 L16.1568542,7 Z"/>
+    <path d="M14,8 L12,8 L12,8.5 L12,9 L14,9 C14.552,9 15,9.448 15,10 L15,16 C15,16.552 14.552,17 14,17 L8,17 C7.448,17 7,16.552 7,16 L7,14 L6.5,14 L6,14 L6,16 C6,17.105 6.895,18 8,18 L14,18 C15.105,18 16,17.105 16,16 L16,10 C16,8.895 15.105,8 14,8" transform="rotate(90 11 13)"/>
+    <path d="M10.5 8.5C10.5 8.224 10.276 8 10 8 9.724 8 9.5 8.224 9.5 8.5 9.5 8.776 9.724 9 10 9 10.276 9 10.5 8.776 10.5 8.5M15.5 13.5C15.224 13.5 15 13.724 15 14 15 14.276 15.224 14.5 15.5 14.5 15.776 14.5 16 14.276 16 14 16 13.724 15.776 13.5 15.5 13.5"/>
+  </g>
+</svg>
+</div>
+    <div class="option no-pro feeder-online hidden-on-consume">
+      <span class="upgrade">upgrade</span>
+    </div>
+    <div class="button-group" id="filter-settings">
+      <div class="option all current" title="Show all"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M2,7 C2,6.44771525 2.45530558,6 2.99180311,6 L21.0081969,6 C21.5559546,6 22,6.44386482 22,7 C22,7.55228475 21.5446944,8 21.0081969,8 L2.99180311,8 C2.44404538,8 2,7.55613518 2,7 Z M2,12 C2,11.4477153 2.4556644,11 2.99539757,11 L11.0046024,11 C11.5543453,11 12,11.4438648 12,12 C12,12.5522847 11.5443356,13 11.0046024,13 L2.99539757,13 C2.44565467,13 2,12.5561352 2,12 Z M2,17 C2,16.4477153 2.44892021,16 3.00748397,16 L15.992516,16 C16.5489341,16 17,16.4438648 17,17 C17,17.5522847 16.5510798,18 15.992516,18 L3.00748397,18 C2.45106594,18 2,17.5561352 2,17 Z"/>
+</svg>
+</div>
+      <div class="option starred" title="Show starred"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M16.9390596,20.203454 C16.8228304,20.203454 16.6811494,20.1661249 16.5199556,20.0498957 L12.1473598,16.9422476 C12.0862759,16.9006766 11.9445949,16.8998282 11.8843593,16.943096 L7.51176361,20.0507441 C7.15204677,20.3078059 6.88989464,20.1780024 6.7948751,20.1092829 C6.69815878,20.0414118 6.48690998,19.8344049 6.61247152,19.4008783 L8.12090675,14.1468066 C8.14635841,14.0619677 8.09884864,13.9050158 8.03267432,13.8532641 L3.81957569,10.5182478 C3.4708879,10.2408247 3.52179123,9.95152414 3.55912034,9.84038521 C3.59644944,9.72924628 3.73049487,9.4713361 4.16571831,9.46115543 L9.47323845,9.3203229 C9.54280633,9.31862612 9.66497431,9.23124208 9.69297114,9.14809998 L11.4610133,3.97971559 C11.6069362,3.55382443 11.8979336,3.50801144 12.0158596,3.50801144 C12.1337856,3.50801144 12.424783,3.55382443 12.5707058,3.97971559 L14.338748,9.14725159 C14.3675933,9.23124208 14.4897612,9.31862612 14.556784,9.3203229 L19.8676977,9.46115543 C20.3029211,9.4713361 20.4361181,9.72924628 20.4734472,9.84038521 C20.5107763,9.95152414 20.5616797,10.2408247 20.2129919,10.5173995 L16.0007416,13.8532641 C15.9345673,13.9050158 15.8870575,14.0628161 15.9108124,14.147655 L17.4200961,19.4017266 C17.546506,19.8344049 17.3344088,20.0414118 17.2385409,20.1092829 C17.1850924,20.1474604 17.0815889,20.203454 16.9390596,20.203454"/>
+</svg>
+</div>
+      <div class="option unread" title="Show unread"><span data="num_unread:text">...</span></div>
+    </div>
+    <div class="nav-button nav-button--icon add smaller-in-ext" title="Add feed"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M13,11 L13,5.00087166 C13,4.44463086 12.5522847,4 12,4 C11.4438648,4 11,4.4481055 11,5.00087166 L11,11 L5.00087166,11 C4.44463086,11 4,11.4477153 4,12 C4,12.5561352 4.4481055,13 5.00087166,13 L11,13 L11,18.9991283 C11,19.5553691 11.4477153,20 12,20 C12.5561352,20 13,19.5518945 13,18.9991283 L13,13 L18.9991283,13 C19.5553691,13 20,12.5522847 20,12 C20,11.4438648 19.5518945,11 18.9991283,11 L13,11 Z"/>
+</svg>
+<span class="bubble" data="num_feeds:text" /></div>
+    <tpl from="deck-settings"></tpl>
+  </div>
+</template>
+
+<template id="deck-settings">
+  <div class="deck-settings nav-button nav-button--icon smaller-in-ext" title="Deck settings">
+    <svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M11.8738492,7.98646825 C9.72761905,7.98646825 7.98761905,9.72646825 7.98761905,11.8738492 C7.98761905,14.0200794 9.72761905,15.7600794 11.8738492,15.7600794 C14.0200794,15.7600794 15.7612302,14.0200794 15.7612302,11.8738492 C15.7612302,9.72646825 14.0200794,7.98646825 11.8738492,7.98646825 L11.8738492,7.98646825 Z M19.2078571,13.6069444 C18.8718254,13.7231746 18.517381,14.0384921 18.4207143,14.3054762 C18.3240476,14.5724603 18.1261111,15.5011508 18.2837698,15.8199206 L18.7072619,17.0731349 C18.7947222,17.418373 18.6600794,17.9063095 18.4080556,18.1583333 L18.1583333,18.4080556 C17.9063095,18.6600794 17.418373,18.7924206 17.0742857,18.7038095 L15.8245238,18.2791667 C15.5046032,18.1238095 15.0350794,18.0984921 14.7819048,18.2239286 C14.5275794,18.3493651 13.7231746,18.8718254 13.6069444,19.2078571 L13.0280952,20.3793651 C12.8474206,20.686627 12.4078175,20.9375 12.0522222,20.9375 L11.6989286,20.9375 C11.3421825,20.9375 10.9025794,20.686627 10.7219048,20.3805159 L10.1396032,19.2044048 C10.0245238,18.8672222 9.70805556,18.5150794 9.43876984,18.4207143 C9.16833333,18.3251984 8.23734127,18.1272619 7.91742063,18.2837698 L6.67686508,18.7038095 C6.33162698,18.7924206 5.84369048,18.6600794 5.59166667,18.4080556 L5.34194444,18.1583333 C5.09107143,17.9063095 4.95757937,17.418373 5.04503968,17.0731349 L5.46738095,15.8256746 C5.62388889,15.505754 5.65265873,15.0362302 5.5318254,14.7830556 C5.41099206,14.5287302 4.89313492,13.726627 4.55595238,13.6115476 L3.37063492,13.0269444 C3.06337302,12.8462698 2.8125,12.4078175 2.8125,12.0510714 L2.8125,11.6977778 C2.8125,11.3421825 3.06337302,10.9025794 3.37063492,10.7219048 L4.56055556,10.1338492 C4.8965873,10.0187698 5.25103175,9.70920635 5.34769841,9.4456746 C5.44321429,9.18214286 5.63654762,8.26265873 5.48003968,7.9427381 L5.04849206,6.67571429 C4.95873016,6.33047619 5.08992063,5.84369048 5.34194444,5.59166667 L5.59166667,5.34194444 C5.84369048,5.08992063 6.33162698,4.95757937 6.67686508,5.04619048 L7.94619048,5.4777381 C8.26611111,5.63424603 8.73103175,5.66301587 8.97845238,5.53988095 C9.2281746,5.41674603 10.017619,4.8965873 10.1315476,4.55940476 L10.720754,3.36948413 C10.9025794,3.06222222 11.3421825,2.8125 11.6989286,2.8125 L12.0522222,2.8125 C12.4078175,2.8125 12.8474206,3.06337302 13.0280952,3.36948413 L13.6115476,4.55710317 C13.7289286,4.89313492 14.0430952,5.24412698 14.3112302,5.33619048 C14.5782143,5.42940476 15.5046032,5.6215873 15.8245238,5.46507937 L17.0731349,5.0427381 C17.418373,4.95527778 17.9063095,5.08992063 18.1583333,5.34194444 L18.4080556,5.59166667 C18.6600794,5.84369048 18.7935714,6.33162698 18.7049603,6.67571429 L18.2837698,7.91742063 C18.1284127,8.23849206 18.1019444,8.70801587 18.2239286,8.96349206 C18.3459127,9.21781746 18.8672222,10.0210714 19.2044048,10.1361508 L20.3816667,10.7196032 C20.6877778,10.9014286 20.9375,11.3421825 20.9375,11.6977778 L20.9375,12.0510714 C20.9375,12.4078175 20.686627,12.8474206 20.3805159,13.0280952 L19.2078571,13.6069444 Z"/>
+</svg>
+
+    <span class="deck-settings--move"></span>
+  </div>
+</template>
+
+<template id="screen#no-feeds">
+  <div class="import-from">
+    <div class="not-online for-not-logged-in button--secondary spacing--xsmall-bottom get-feeder-pro">Login to Feeder-account</div>
+    <div class="button--link open-sync-settings">Import from .opml</div>
+  </div>
+  <div class="bar bar--no-sides">
+    <div class="title"><span data="title:text"></span></div>
+    <div class="nav-button nav-button--icon done smaller-in-ext done visible"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#979797" d="M19.5984032,6.34444824 L19.6346451,6.38384165 L10.7827485,18.6290868 L10.7790061,18.6257384 C10.7689608,18.6373594 10.7620669,18.6507532 10.7516277,18.6621773 C10.1894837,19.273366 9.29288961,19.2889264 8.70513991,18.7216613 L8.70139753,18.7259946 L8.67815542,18.6976313 C8.66476166,18.6842376 8.64939823,18.6747831 8.6363984,18.6607985 C8.58814147,18.6082083 8.54992986,18.5495121 8.50974858,18.4921947 L4.5099385,13.6117449 C4.49949924,13.6009117 4.48709032,13.59323 4.477045,13.5818059 C3.93577952,12.9824351 3.94976418,12.0281297 4.5087567,11.4506223 C5.06735528,10.8731149 5.95902516,10.8908419 6.50029064,11.4904096 C6.55248691,11.548121 6.59503179,11.6117414 6.63678881,11.6755587 L9.67658145,15.1585272 L18.4949937,5.14432794 L18.5245387,5.17643357 C18.8215651,4.85793783 19.2996041,4.8587257 19.5950547,5.18017594 C19.8905053,5.50142922 19.8912932,6.02142226 19.5984032,6.34444824"/>
+</svg>
+</div>
+  </div>
+
+  <tpl from="feed-suggestion" class="tpl-list-item-feed list-item" many="feeds"></tpl>
+
+  <div class="arrow-text right-up add-feeds-here">Click here to add feeds</div>
+</template>
+
+<template id="feed-suggestion">
+  <div class="item">
+    <div class="item-icon"><img data="favicon:src" /></div>
+    <div class="item-title">
+      <span class="item-title--text" data="title:text"></span>
+    </div>
+    <div class="item-count-holder">
+      <div class="tpl-count-group">
+        <div class="count" data="count:text"></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="screen#welcome">
+  <div class="welcome-container screen-overlay--container">
+    <div class="cover"></div>
+
+    <h3 class="margin-bottom-small">Welcome to Feeder</h3>
+    <h2 class="with-ribbon">The easiest way to<br>follow your favorite sites</h2>
+
+    <div class="get-started-button spacing--medium-vertical">
+      <div class="button--primary button--100 start-using-feeder">Get started</div>
+    </div>
+    <div class="feeder-logo"></div>
+  </div>
+</template>
+
+<template id="screen#signup">
+  <div class="signup-container screen-overlay--container">
+    <div class="cover"></div>
+    <div class="bar">
+      <div class="pill-buttons">
+        <a href="" class="pill-buttons--button signup-please active">Sign up</a>
+        <a href="" class="pill-buttons--button already-account">Log in</a>
+      </div>
+    </div>
+    <form class="compact-form signup-form">
+      <div class="main-header margin-bottom-small">Hello!</div>
+      <div class="main-subtext no-image">Get started by signing up</div>
+
+      <p class="input top">
+        <label>
+          <span>E-mail:</span>
+          <input type="text" name="email" placeholder="E-mail" />
+        </label>
+      </p>
+      <p class="input middle">
+        <label>
+          <span>Password:</span>
+          <input type="password" name="password" placeholder="Password" />
+        </label>
+      </p>
+      <p class="input bottom">
+        <label>
+          <span>Confirm Password:</span>
+          <input type="password" name="password_confirmation" placeholder="Confirm password" />
+        </label>
+      </p>
+      <p class="submit"><input type="submit" value="Sign up" class="button--primary button--100" /></p>
+      <p class="terms-and-conditions margin-bottom-large"><a href="">By signing up you agree to our terms</a></p>
+      <div class="skip-signup">
+        <a href="" class="button--secondary i-dont-want-pro">Continue without signing up</a>
+      </div>
+    </form>
+
+    <form class="compact-form login-form">
+      <div class="main-header margin-bottom-small">Log in</div>
+      <div class="main-subtext no-image">Access your feeds</div>
+
+      <p class="input top">
+        <label>
+          <span>E-mail:</span>
+          <input type="text" name="email" placeholder="E-mail" />
+        </label>
+      </p>
+      <p class="input bottom">
+        <label>
+          <span>Password:</span>
+          <input type="password" name="password" placeholder="Password" />
+        </label>
+      </p>
+      <p class="submit"><input type="submit" value="Log in" class="button--primary" /></p>
+      <p class="forgot-link margin-bottom-large"><a href="https://feeder.co/forgot" target="_blank">Forgot password?</a></p>
+      <div class="skip-signup">
+        <a href="" class="button--secondary i-dont-want-pro">Continue without logging in</a>
+      </div>
+    </form>
+  </div>
+</template>
+
+<template id="screen#expired">
+  <div class="trial-expired">
+    <h2 class="margin-bottom-small">Your trial of <span class="product-name"></span> is over</h2>
+    <p class="margin-bottom-small">Add payment information to continue using <span class="product-name"></span>, or downgrade to <b>Feeder Basic</b> for free.</p>
+    <p class="margin-bottom-medium">Compare our plans pick and the one that suit your needs.</p>
+    <p><a class="button--primary button--100 add-payment" href="">Click here to choose</a></p>
+  </div>
+</template>
+
+<template id="screen#user-message">
+  <div class="user-message-container"></div>
+</template>
+
+<template id="screen#connected-automatically">
+  <div class="">
+    <h2 class="margin-bottom-medium">Hello there.</h2>
+
+    <div class="margin-bottom-medium">
+      We detected that you were logged in as <strong data="email:text"></strong>.
+      If this is not you, go to the sync settings.
+    </div>
+
+    <div class="the-buttons">
+      <div class="button--danger">
+        Log out
+      </div>
+
+      <div class="button--primary">
+        OK
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="screen#could-not-verify-token">
+  <div class="">
+    <h2 class="margin-bottom-medium">Hello there.</h2>
+
+    <div class="margin-bottom-medium">
+      There was a problem with your login to Feeder. Please login again.
+    </div>
+
+    <div class="the-buttons">
+      <div class="button--grey">
+        Go to settings
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="screen#payment-required">
+  <div>
+    <h2 class="margin-bottom-medium">Payment required</h2>
+
+    <div class="margin-bottom-medium">
+      We detected a problem with your payments. Please visit the billing page to read more.
+    </div>
+
+    <div class="button--primary">
+      Go to billing
+    </div>
+  </div>
+</template>
+
+<template id="screen#pro-only-feature">
+  <div>
+    <h2 class="margin-bottom-medium">Feature locked</h2>
+
+    <div class="margin-bottom-medium">
+      This and many more features are available with a Feeder Pro account.
+    </div>
+
+    <div class="button--primary">
+      Upgrade now
+    </div>
+  </div>
+</template>
+
+<template id="screen#is-in-sync">
+  <div class="vertical-align-box">
+    <h2 class="margin-bottom-large">Sync in progress...</h2>
+
+    <div class="margin-bottom-medium">
+      <div class="loading-icon"></div>
+    </div>
+  </div>
+</template>
+
+<!-- Folder -->
+
+<template id="screen#folder" class="screen-with-topbar">
+  <div class="screen-with-topbar--content-container">
+    <tpl from="bar#top"></tpl>
+    <div class="page-scroll-container">
+      <div class="tpl-feed-list"></div>
+    </div>
+  </div>
+</template>
+
+<!-- Posts -->
+
+<template id="screen#posts" class="screen-with-topbar">
+  <div class="screen-with-topbar--content-container">
+    <tpl from="bar#top"></tpl>
+    <div class="page-scroll-container">
+      <div class="post-list-container" style="height: 100%"></div>
+    </div>
+  </div>
+</template>
+
+<template id="bar#navigate">
+  <div class="bar bar--fixed top">
+    <div class="bar--bottom-cover"></div>
+
+    <div class="nav-button nav-button--icon back smaller-in-ext"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M20,11.5 C20.2761424,11.5 20.5,11.7238576 20.5,12 C20.5,12.2761424 20.2761424,12.5 20,12.5 L6.87026146,13.3206087 L10.6910398,17.1779526 C11.1040457,17.5946033 11.102984,18.2708593 10.6878547,18.6885783 C10.2727254,19.1052289 9.60066189,19.1030923 9.18659431,18.6864416 L4.04702811,13.4970607 L4,13.5 L4,13.4495768 L3.31001983,12.7529091 C3.10404775,12.5445838 3,12.2721583 3,11.9986646 C3,11.7251708 3.10404775,11.4527454 3.31001983,11.2444201 L4,10.5476251 L4,10.5 L4.04441079,10.5027757 L9.18234746,5.31409254 C9.59641504,4.89637356 10.2684786,4.89530523 10.6836079,5.31088754 C11.0987372,5.72646985 11.1008606,6.40379423 10.686793,6.82258155 L6.86751278,10.6792195 L20,11.5 Z"/>
+</svg>
+</div>
+    <div class="title">
+      <img data="favicon:src" />
+      <span data="title:text"></span>
+    </div>
+  </div>
+</template>
+
+<template id="slider">
+  <div class="slider">
+    <div class="current">
+      <div class="handle"></div>
+    </div>
+  </div>
+  <div class="slider-minimum-value"></div>
+</template>
+
+<template id="screen#popup-consume" class="screen-with-topbar">
+  <div class="screen-with-topbar--content-container">
+    <tpl from="bar#navigate-for-post"></tpl>
+    <x-iframe
+      sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"></x-iframe>
+    </div>
+</template>
+
+<template id="bar#navigate-for-post">
+  <div class="bar bar--fixed bar--clickable">
+    <div class="bar--bottom-cover"></div>
+
+    <div class="back nav-button nav-button--icon"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M20,11.5 C20.2761424,11.5 20.5,11.7238576 20.5,12 C20.5,12.2761424 20.2761424,12.5 20,12.5 L6.87026146,13.3206087 L10.6910398,17.1779526 C11.1040457,17.5946033 11.102984,18.2708593 10.6878547,18.6885783 C10.2727254,19.1052289 9.60066189,19.1030923 9.18659431,18.6864416 L4.04702811,13.4970607 L4,13.5 L4,13.4495768 L3.31001983,12.7529091 C3.10404775,12.5445838 3,12.2721583 3,11.9986646 C3,11.7251708 3.10404775,11.4527454 3.31001983,11.2444201 L4,10.5476251 L4,10.5 L4.04441079,10.5027757 L9.18234746,5.31409254 C9.59641504,4.89637356 10.2684786,4.89530523 10.6836079,5.31088754 C11.0987372,5.72646985 11.1008606,6.40379423 10.686793,6.82258155 L6.86751278,10.6792195 L20,11.5 Z"/>
+</svg>
+</div>
+    <div class="title">
+      <div class="item-starred"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M16.9390596,20.203454 C16.8228304,20.203454 16.6811494,20.1661249 16.5199556,20.0498957 L12.1473598,16.9422476 C12.0862759,16.9006766 11.9445949,16.8998282 11.8843593,16.943096 L7.51176361,20.0507441 C7.15204677,20.3078059 6.88989464,20.1780024 6.7948751,20.1092829 C6.69815878,20.0414118 6.48690998,19.8344049 6.61247152,19.4008783 L8.12090675,14.1468066 C8.14635841,14.0619677 8.09884864,13.9050158 8.03267432,13.8532641 L3.81957569,10.5182478 C3.4708879,10.2408247 3.52179123,9.95152414 3.55912034,9.84038521 C3.59644944,9.72924628 3.73049487,9.4713361 4.16571831,9.46115543 L9.47323845,9.3203229 C9.54280633,9.31862612 9.66497431,9.23124208 9.69297114,9.14809998 L11.4610133,3.97971559 C11.6069362,3.55382443 11.8979336,3.50801144 12.0158596,3.50801144 C12.1337856,3.50801144 12.424783,3.55382443 12.5707058,3.97971559 L14.338748,9.14725159 C14.3675933,9.23124208 14.4897612,9.31862612 14.556784,9.3203229 L19.8676977,9.46115543 C20.3029211,9.4713361 20.4361181,9.72924628 20.4734472,9.84038521 C20.5107763,9.95152414 20.5616797,10.2408247 20.2129919,10.5173995 L16.0007416,13.8532641 C15.9345673,13.9050158 15.8870575,14.0628161 15.9108124,14.147655 L17.4200961,19.4017266 C17.546506,19.8344049 17.3344088,20.0414118 17.2385409,20.1092829 C17.1850924,20.1474604 17.0815889,20.203454 16.9390596,20.203454"/>
+</svg>
+</div>
+      <span data="title:text"></span>
+    </div>
+
+    <div class="buttons arrows">
+      <div class="history-previous nav-button nav-button--icon"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#8C8C8C" fill-rule="evenodd" d="M11.9986646,15 C11.7251708,15 11.4527454,14.8959522 11.2444201,14.6899802 L5.31409254,8.81765254 C4.89637356,8.40358496 4.89530523,7.73152143 5.31088754,7.31639214 C5.72646985,6.90126285 6.40379423,6.89913943 6.82258155,7.313207 L11.9986646,12.4391513 L17.1779526,7.30896016 C17.5946033,6.89595429 18.2708593,6.897016 18.6885783,7.31214529 C19.1052289,7.72727458 19.1030923,8.39933811 18.6864416,8.81340569 L12.7529091,14.6899802 C12.5445838,14.8959522 12.2721583,15 11.9986646,15" transform="rotate(180 12 11)"/>
+</svg>
+</div>
+      <div class="history-next nav-button nav-button--icon"><svg class="feeder-icon" aria-hidden=true  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path fill="#707070" fill-rule="evenodd" d="M11.9986646,16 C11.7251708,16 11.4527454,15.8959522 11.2444201,15.6899802 L5.31409254,9.81765254 C4.89637356,9.40358496 4.89530523,8.73152143 5.31088754,8.31639214 C5.72646985,7.90126285 6.40379423,7.89913943 6.82258155,8.313207 L11.9986646,13.4391513 L17.1779526,8.30896016 C17.5946033,7.89595429 18.2708593,7.897016 18.6885783,8.31214529 C19.1052289,8.72727458 19.1030923,9.39933811 18.6864416,9.81340569 L12.7529091,15.6899802 C12.5445838,15.8959522 12.2721583,16 11.9986646,16"/>
+</svg>
+</div>
+    </div>
+  </div>
+</template>
+
+<template id="screen#iframe">
+  <tpl from="bar#top"></tpl>
+  <x-iframe></x-iframe>
+</template>
+
+<template id="screen#get-started">
+  <div class="modal two-phase-modal">
+    <div class="two-phase-modal-inner">
+      <div class="setup phase">
+        <h2 class="margin-bottom-small">Get started by following feeds</h2>
+        <p>Pick categories you like and we’ll get you started with a collection of great feeds to follow.</p>
+        <tpl from="suggestion-box" class="margin-bottom-medium" key="suggestions"></tpl>
+        <div class="margin-bottom-small add-and-get-started-container">
+          <a href="" class="add-and-get-started button--primary">Get started</a>
+        </div>
+        <div class="margin-bottom-small pick-one-to-get-started-container">
+          <p>Pick at least one to get started</p>
+        </div>
+        <div class="alternate-buttons">
+          <a href="" class="button--secondary file-input-container">
+            Import from .OPML
+            <input type="file" class="opml-file">
+          </a>
+          <a href="" class="skip button--secondary button--small">Skip</a>
+        </div>
+      </div>
+      <div class="loading phase">
+        <h2 class="margin-bottom-small">Processing...</h2>
+        <p>Please wait while we're preparing your account.</p>
+        <div class="loading-icon margin-bottom-medium"></div>
+        <p class="status-text" data="loadingText:text"></p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="suggestion-box">
+  <tpl from="suggestion-box#item" many="suggestions"></tpl>
+</template>
+
+<template id="suggestion-box#item">
+  <span class="suggestion-title h3 serif" data="name:html;id:data-id"></span>
+</template>
+
+<template id="popup">
+  <div class="popup">
+    <div class="popup-content"></div>
+  </div>
+</template>
+
+</div>
+
+
+    <div style="display:none" id="__is-what" data-type="popup"></div>
+
+    
+    	<script data-base-path src="client-library.js"></script>
+      <script data-base-path src="client.js"></script>
+    	<script data-base-path src="client-trigger.js"></script>
+    
+  </body>
+</html>

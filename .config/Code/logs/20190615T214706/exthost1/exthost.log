@@ -1,0 +1,102 @@
+[2019-06-15 21:47:08.386] [exthost] [info] extension host started
+[2019-06-15 21:47:08.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-06-15 21:47:08.403] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-15 21:47:08.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-06-15 21:47:08.406] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-06-15 21:47:08.418] [exthost] [info] ExtensionService#_doActivateExtension AESSoft.aessoft-class-autocomplete {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-06-15 21:47:08.418] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/aessoft.aessoft-class-autocomplete-0.1.0/extension
+[2019-06-15 21:47:08.430] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.jshint {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-06-15 21:47:08.430] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/dbaeumer.jshint-0.10.20/jshint/out/extension
+[2019-06-15 21:47:08.454] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.454] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-15 21:47:08.456] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.456] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-15 21:47:08.479] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.479] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-15 21:47:08.480] [exthost] [info] ExtensionService#_doActivateExtension aaronphy.scss-scan {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.481] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/aaronphy.scss-scan-0.1.67/out/src/extension
+[2019-06-15 21:47:08.508] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.508] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/alefragnani.project-manager-10.5.2/dist/extension
+[2019-06-15 21:47:08.510] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.511] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/atishay-jain.all-autocomplete-0.0.20/out/src/extension
+[2019-06-15 21:47:08.515] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.515] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-06-15 21:47:08.520] [exthost] [info] ExtensionService#_doActivateExtension cssho.vscode-svgviewer {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.520] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/cssho.vscode-svgviewer-2.0.0/out/src/extension
+[2019-06-15 21:47:08.532] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.532] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/eamodio.gitlens-9.8.2/dist/extension
+[2019-06-15 21:47:08.562] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.562] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/editorconfig.editorconfig-0.13.0/out/src/editorConfigMain
+[2019-06-15 21:47:08.571] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.571] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-06-15 21:47:08.572] [exthost] [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.572] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/gruntfuggly.todo-tree-0.0.135/extension
+[2019-06-15 21:47:08.655] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.655] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/ionutvmi.path-autocomplete-1.13.3/out/src/extension
+[2019-06-15 21:47:08.658] [exthost] [info] ExtensionService#_doActivateExtension kenhowardpdx.vscode-gist {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.658] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/kenhowardpdx.vscode-gist-3.0.3/out/extension
+[2019-06-15 21:47:08.748] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.748] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/mhutchie.git-graph-1.8.0/out/extension.js
+[2019-06-15 21:47:08.752] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.752] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2019-06-15 21:47:08.760] [exthost] [info] ExtensionService#_doActivateExtension nickdodd79.gulptasks {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.760] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/nickdodd79.gulptasks-1.3.1/out/extension
+[2019-06-15 21:47:08.768] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.768] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2019-06-15 21:47:08.909] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.909] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/shan.code-settings-sync-3.2.9/out/extension.js
+[2019-06-15 21:47:08.932] [exthost] [info] ExtensionService#_doActivateExtension tungvn.wordpress-snippet {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.932] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/tungvn.wordpress-snippet-1.1.5/extension
+[2019-06-15 21:47:08.932] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:47:08.932] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/vscodevim.vim-1.8.1/out/extension
+[2019-06-15 21:47:09.085] [exthost] [info] eager extensions activated
+[2019-06-15 21:48:21.079] [exthost] [info] extension host started
+[2019-06-15 21:48:21.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.107] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-15 21:48:21.109] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.109] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-06-15 21:48:21.112] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.112] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-06-15 21:48:21.128] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.128] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-15 21:48:21.129] [exthost] [info] ExtensionService#_doActivateExtension aaronphy.scss-scan {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.129] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/aaronphy.scss-scan-0.1.67/out/src/extension
+[2019-06-15 21:48:21.148] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.148] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/alefragnani.project-manager-10.5.2/dist/extension
+[2019-06-15 21:48:21.150] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.150] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/atishay-jain.all-autocomplete-0.0.20/out/src/extension
+[2019-06-15 21:48:21.154] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.154] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2019-06-15 21:48:21.158] [exthost] [info] ExtensionService#_doActivateExtension cssho.vscode-svgviewer {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.158] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/cssho.vscode-svgviewer-2.0.0/out/src/extension
+[2019-06-15 21:48:21.171] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.171] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/eamodio.gitlens-9.8.2/dist/extension
+[2019-06-15 21:48:21.200] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.200] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/editorconfig.editorconfig-0.13.0/out/src/editorConfigMain
+[2019-06-15 21:48:21.208] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.208] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-06-15 21:48:21.210] [exthost] [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.210] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/gruntfuggly.todo-tree-0.0.135/extension
+[2019-06-15 21:48:21.289] [exthost] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.289] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/ionutvmi.path-autocomplete-1.13.3/out/src/extension
+[2019-06-15 21:48:21.293] [exthost] [info] ExtensionService#_doActivateExtension kenhowardpdx.vscode-gist {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.293] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/kenhowardpdx.vscode-gist-3.0.3/out/extension
+[2019-06-15 21:48:21.389] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.390] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/mhutchie.git-graph-1.8.0/out/extension.js
+[2019-06-15 21:48:21.395] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.395] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2019-06-15 21:48:21.403] [exthost] [info] ExtensionService#_doActivateExtension nickdodd79.gulptasks {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.403] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/nickdodd79.gulptasks-1.3.1/out/extension
+[2019-06-15 21:48:21.410] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.410] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2019-06-15 21:48:21.545] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.545] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/shan.code-settings-sync-3.2.9/out/extension.js
+[2019-06-15 21:48:21.568] [exthost] [info] ExtensionService#_doActivateExtension tungvn.wordpress-snippet {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.568] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/tungvn.wordpress-snippet-1.1.5/extension
+[2019-06-15 21:48:21.569] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-06-15 21:48:21.569] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/vscodevim.vim-1.8.1/out/extension
+[2019-06-15 21:48:21.728] [exthost] [info] eager extensions activated
+[2019-06-15 21:48:22.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:scss"}
+[2019-06-15 21:48:22.164] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2019-06-15 21:48:22.214] [exthost] [info] ExtensionService#_doActivateExtension mrmlnc.vscode-scss {"startup":false,"activationEvent":"onLanguage:scss"}
+[2019-06-15 21:48:22.214] [exthost] [info] ExtensionService#loadCommonJSModule /home/serii/.vscode/extensions/mrmlnc.vscode-scss-0.6.2/out/client.js

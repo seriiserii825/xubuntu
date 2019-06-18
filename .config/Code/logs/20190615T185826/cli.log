@@ -1,0 +1,371 @@
+[2019-06-15 19:02:08.381] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"AESSoft.aessoft-class-autocomplete"}
+[2019-06-15 19:02:08.399] [cli] [info] Scanned user extensions: 1
+[2019-06-15 19:02:09.172] [cli] [info] Installing extension: aessoft.aessoft-class-autocomplete
+[2019-06-15 19:02:09.381] [cli] [info] Scanned user extensions: 1
+[2019-06-15 19:02:10.543] [cli] [info] Downloaded extension: aessoft.aessoft-class-autocomplete /tmp/f936d054-b5ae-4bdc-8279-4bc99870768f
+[2019-06-15 19:02:10.797] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.aessoft.aessoft-class-autocomplete-0.1.0: aessoft.aessoft-class-autocomplete
+[2019-06-15 19:02:10.797] [cli] [info] Renamed to /home/serii/.vscode/extensions/aessoft.aessoft-class-autocomplete-0.1.0
+[2019-06-15 19:02:10.798] [cli] [info] Installation completed. aessoft.aessoft-class-autocomplete
+[2019-06-15 19:02:10.821] [cli] [info] Extensions installed successfully: aessoft.aessoft-class-autocomplete
+[2019-06-15 19:02:11.444] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"Atishay-Jain.All-Autocomplete"}
+[2019-06-15 19:02:11.461] [cli] [info] Scanned user extensions: 2
+[2019-06-15 19:02:12.451] [cli] [info] Installing extension: atishay-jain.all-autocomplete
+[2019-06-15 19:02:12.655] [cli] [info] Scanned user extensions: 2
+[2019-06-15 19:02:14.030] [cli] [info] Downloaded extension: atishay-jain.all-autocomplete /tmp/0f7e0d2f-2fc0-4eb2-a8e6-fbace5709395
+[2019-06-15 19:02:14.437] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.atishay-jain.all-autocomplete-0.0.20: atishay-jain.all-autocomplete
+[2019-06-15 19:02:14.437] [cli] [info] Renamed to /home/serii/.vscode/extensions/atishay-jain.all-autocomplete-0.0.20
+[2019-06-15 19:02:14.437] [cli] [info] Installation completed. atishay-jain.all-autocomplete
+[2019-06-15 19:02:14.467] [cli] [info] Extensions installed successfully: atishay-jain.all-autocomplete
+[2019-06-15 19:02:15.039] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"formulahendry.auto-rename-tag"}
+[2019-06-15 19:02:15.057] [cli] [info] Scanned user extensions: 3
+[2019-06-15 19:02:15.992] [cli] [info] Installing extension: formulahendry.auto-rename-tag
+[2019-06-15 19:02:16.183] [cli] [info] Scanned user extensions: 3
+[2019-06-15 19:02:17.249] [cli] [info] Downloaded extension: formulahendry.auto-rename-tag /tmp/ea41ddd0-73f6-4439-9d72-a8205f41996b
+[2019-06-15 19:02:17.289] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.formulahendry.auto-rename-tag-0.1.0: formulahendry.auto-rename-tag
+[2019-06-15 19:02:17.290] [cli] [info] Renamed to /home/serii/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0
+[2019-06-15 19:02:17.290] [cli] [info] Installation completed. formulahendry.auto-rename-tag
+[2019-06-15 19:02:17.326] [cli] [info] Extensions installed successfully: formulahendry.auto-rename-tag
+[2019-06-15 19:02:17.902] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"teabyii.ayu"}
+[2019-06-15 19:02:17.920] [cli] [info] Scanned user extensions: 4
+[2019-06-15 19:02:18.914] [cli] [info] Installing extension: teabyii.ayu
+[2019-06-15 19:02:19.121] [cli] [info] Scanned user extensions: 4
+[2019-06-15 19:02:20.262] [cli] [info] Downloaded extension: teabyii.ayu /tmp/07000ae3-45d4-4940-a777-be35f062b181
+[2019-06-15 19:02:20.489] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.teabyii.ayu-0.18.0: teabyii.ayu
+[2019-06-15 19:02:20.490] [cli] [info] Renamed to /home/serii/.vscode/extensions/teabyii.ayu-0.18.0
+[2019-06-15 19:02:20.490] [cli] [info] Installation completed. teabyii.ayu
+[2019-06-15 19:02:20.665] [cli] [info] Extensions installed successfully: teabyii.ayu
+[2019-06-15 19:02:21.267] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"Zaczero.bootstrap-v4-snippets"}
+[2019-06-15 19:02:21.286] [cli] [info] Scanned user extensions: 5
+[2019-06-15 19:02:21.831] [cli] [info] Installing extension: zaczero.bootstrap-v4-snippets
+[2019-06-15 19:02:22.035] [cli] [info] Scanned user extensions: 5
+[2019-06-15 19:02:22.802] [cli] [info] Downloaded extension: zaczero.bootstrap-v4-snippets /tmp/dd50c285-8378-43a2-ac4f-c841c4aeb5fe
+[2019-06-15 19:02:22.829] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.zaczero.bootstrap-v4-snippets-1.1.1: zaczero.bootstrap-v4-snippets
+[2019-06-15 19:02:22.830] [cli] [info] Renamed to /home/serii/.vscode/extensions/zaczero.bootstrap-v4-snippets-1.1.1
+[2019-06-15 19:02:22.833] [cli] [info] Installation completed. zaczero.bootstrap-v4-snippets
+[2019-06-15 19:02:22.880] [cli] [info] Extensions installed successfully: zaczero.bootstrap-v4-snippets
+[2019-06-15 19:02:23.560] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"formulahendry.code-runner"}
+[2019-06-15 19:02:23.569] [cli] [info] Scanned user extensions: 6
+[2019-06-15 19:02:24.109] [cli] [info] Installing extension: formulahendry.code-runner
+[2019-06-15 19:02:24.315] [cli] [info] Scanned user extensions: 6
+[2019-06-15 19:02:25.418] [cli] [info] Downloaded extension: formulahendry.code-runner /tmp/f0d17dee-ea70-44cc-ba30-74c7b068ee87
+[2019-06-15 19:02:25.634] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.formulahendry.code-runner-0.9.11: formulahendry.code-runner
+[2019-06-15 19:02:25.634] [cli] [info] Renamed to /home/serii/.vscode/extensions/formulahendry.code-runner-0.9.11
+[2019-06-15 19:02:25.635] [cli] [info] Installation completed. formulahendry.code-runner
+[2019-06-15 19:02:25.668] [cli] [info] Extensions installed successfully: formulahendry.code-runner
+[2019-06-15 19:02:26.404] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"naumovs.color-highlight"}
+[2019-06-15 19:02:26.413] [cli] [info] Scanned user extensions: 7
+[2019-06-15 19:02:26.931] [cli] [info] Installing extension: naumovs.color-highlight
+[2019-06-15 19:02:27.124] [cli] [info] Scanned user extensions: 7
+[2019-06-15 19:02:27.811] [cli] [info] Downloaded extension: naumovs.color-highlight /tmp/09dd1ae7-3c27-4da1-865f-3e7c3fc67526
+[2019-06-15 19:02:27.935] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.naumovs.color-highlight-2.3.0: naumovs.color-highlight
+[2019-06-15 19:02:27.936] [cli] [info] Renamed to /home/serii/.vscode/extensions/naumovs.color-highlight-2.3.0
+[2019-06-15 19:02:27.936] [cli] [info] Installation completed. naumovs.color-highlight
+[2019-06-15 19:02:27.959] [cli] [info] Extensions installed successfully: naumovs.color-highlight
+[2019-06-15 19:02:28.528] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"EditorConfig.EditorConfig"}
+[2019-06-15 19:02:28.548] [cli] [info] Scanned user extensions: 8
+[2019-06-15 19:02:29.095] [cli] [info] Installing extension: editorconfig.editorconfig
+[2019-06-15 19:02:29.313] [cli] [info] Scanned user extensions: 8
+[2019-06-15 19:02:29.998] [cli] [info] Downloaded extension: editorconfig.editorconfig /tmp/80dd0519-8953-47a6-9ad8-e4acca6f1a7e
+[2019-06-15 19:02:30.112] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.editorconfig.editorconfig-0.13.0: editorconfig.editorconfig
+[2019-06-15 19:02:30.112] [cli] [info] Renamed to /home/serii/.vscode/extensions/editorconfig.editorconfig-0.13.0
+[2019-06-15 19:02:30.114] [cli] [info] Installation completed. editorconfig.editorconfig
+[2019-06-15 19:02:30.155] [cli] [info] Extensions installed successfully: editorconfig.editorconfig
+[2019-06-15 19:02:30.783] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"mhutchie.git-graph"}
+[2019-06-15 19:02:30.804] [cli] [info] Scanned user extensions: 9
+[2019-06-15 19:02:31.402] [cli] [info] Installing extension: mhutchie.git-graph
+[2019-06-15 19:02:31.604] [cli] [info] Scanned user extensions: 9
+[2019-06-15 19:02:32.221] [cli] [info] Downloaded extension: mhutchie.git-graph /tmp/59cfd3fc-f8b7-4c97-a8f9-85318c89c793
+[2019-06-15 19:02:32.272] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.mhutchie.git-graph-1.8.0: mhutchie.git-graph
+[2019-06-15 19:02:32.273] [cli] [info] Renamed to /home/serii/.vscode/extensions/mhutchie.git-graph-1.8.0
+[2019-06-15 19:02:32.274] [cli] [info] Installation completed. mhutchie.git-graph
+[2019-06-15 19:02:32.303] [cli] [info] Extensions installed successfully: mhutchie.git-graph
+[2019-06-15 19:02:32.976] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"eamodio.gitlens"}
+[2019-06-15 19:02:32.999] [cli] [info] Scanned user extensions: 10
+[2019-06-15 19:02:34.206] [cli] [info] Installing extension: eamodio.gitlens
+[2019-06-15 19:02:34.418] [cli] [info] Scanned user extensions: 10
+[2019-06-15 19:02:35.637] [cli] [info] Downloaded extension: eamodio.gitlens /tmp/ee0ab2bc-b78a-4aca-b32f-98e39053eee5
+[2019-06-15 19:02:35.934] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.eamodio.gitlens-9.8.2: eamodio.gitlens
+[2019-06-15 19:02:35.934] [cli] [info] Renamed to /home/serii/.vscode/extensions/eamodio.gitlens-9.8.2
+[2019-06-15 19:02:35.943] [cli] [info] Installation completed. eamodio.gitlens
+[2019-06-15 19:02:35.989] [cli] [info] Extensions installed successfully: eamodio.gitlens
+[2019-06-15 19:02:36.512] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"nickdodd79.gulptasks"}
+[2019-06-15 19:02:36.541] [cli] [info] Scanned user extensions: 11
+[2019-06-15 19:02:37.141] [cli] [info] Installing extension: nickdodd79.gulptasks
+[2019-06-15 19:02:37.386] [cli] [info] Scanned user extensions: 11
+[2019-06-15 19:02:38.021] [cli] [info] Downloaded extension: nickdodd79.gulptasks /tmp/515715b9-1f76-4c3e-b15a-5de827196c21
+[2019-06-15 19:02:38.099] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.nickdodd79.gulptasks-1.3.1: nickdodd79.gulptasks
+[2019-06-15 19:02:38.099] [cli] [info] Renamed to /home/serii/.vscode/extensions/nickdodd79.gulptasks-1.3.1
+[2019-06-15 19:02:38.099] [cli] [info] Installation completed. nickdodd79.gulptasks
+[2019-06-15 19:02:38.133] [cli] [info] Extensions installed successfully: nickdodd79.gulptasks
+[2019-06-15 19:02:38.717] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"brunnerh.insert-unicode"}
+[2019-06-15 19:02:38.748] [cli] [info] Scanned user extensions: 12
+[2019-06-15 19:02:39.344] [cli] [info] Installing extension: brunnerh.insert-unicode
+[2019-06-15 19:02:39.568] [cli] [info] Scanned user extensions: 12
+[2019-06-15 19:02:41.376] [cli] [info] Downloaded extension: brunnerh.insert-unicode /tmp/08ce1e51-0aa1-4035-9e9d-369fa9ab7cfb
+[2019-06-15 19:02:41.446] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.brunnerh.insert-unicode-0.6.0: brunnerh.insert-unicode
+[2019-06-15 19:02:41.446] [cli] [info] Renamed to /home/serii/.vscode/extensions/brunnerh.insert-unicode-0.6.0
+[2019-06-15 19:02:41.446] [cli] [info] Installation completed. brunnerh.insert-unicode
+[2019-06-15 19:02:41.554] [cli] [info] Extensions installed successfully: brunnerh.insert-unicode
+[2019-06-15 19:02:42.187] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"xabikos.JavaScriptSnippets"}
+[2019-06-15 19:02:42.219] [cli] [info] Scanned user extensions: 13
+[2019-06-15 19:02:42.761] [cli] [info] Installing extension: xabikos.javascriptsnippets
+[2019-06-15 19:02:42.996] [cli] [info] Scanned user extensions: 13
+[2019-06-15 19:02:43.572] [cli] [info] Downloaded extension: xabikos.javascriptsnippets /tmp/89d05490-aa79-417b-918c-d61d38a9bf87
+[2019-06-15 19:02:43.607] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.xabikos.javascriptsnippets-1.7.2: xabikos.javascriptsnippets
+[2019-06-15 19:02:43.608] [cli] [info] Renamed to /home/serii/.vscode/extensions/xabikos.javascriptsnippets-1.7.2
+[2019-06-15 19:02:43.608] [cli] [info] Installation completed. xabikos.javascriptsnippets
+[2019-06-15 19:02:43.636] [cli] [info] Extensions installed successfully: xabikos.javascriptsnippets
+[2019-06-15 19:02:44.237] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"donjayamanne.jquerysnippets"}
+[2019-06-15 19:02:44.267] [cli] [info] Scanned user extensions: 14
+[2019-06-15 19:02:44.812] [cli] [info] Installing extension: donjayamanne.jquerysnippets
+[2019-06-15 19:02:45.055] [cli] [info] Scanned user extensions: 14
+[2019-06-15 19:02:45.799] [cli] [info] Downloaded extension: donjayamanne.jquerysnippets /tmp/f1b04fb5-6a4a-4ff2-b82d-20e115709244
+[2019-06-15 19:02:46.185] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.donjayamanne.jquerysnippets-0.0.1: donjayamanne.jquerysnippets
+[2019-06-15 19:02:46.185] [cli] [info] Renamed to /home/serii/.vscode/extensions/donjayamanne.jquerysnippets-0.0.1
+[2019-06-15 19:02:46.185] [cli] [info] Installation completed. donjayamanne.jquerysnippets
+[2019-06-15 19:02:46.269] [cli] [info] Extensions installed successfully: donjayamanne.jquerysnippets
+[2019-06-15 19:02:46.820] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"dbaeumer.jshint"}
+[2019-06-15 19:02:46.852] [cli] [info] Scanned user extensions: 15
+[2019-06-15 19:02:47.775] [cli] [info] Installing extension: dbaeumer.jshint
+[2019-06-15 19:02:47.994] [cli] [info] Scanned user extensions: 15
+[2019-06-15 19:02:49.664] [cli] [info] Downloaded extension: dbaeumer.jshint /tmp/82d39510-f91a-48b2-ac00-205cbbf9fd47
+[2019-06-15 19:02:52.314] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.dbaeumer.jshint-0.10.20: dbaeumer.jshint
+[2019-06-15 19:02:52.315] [cli] [info] Renamed to /home/serii/.vscode/extensions/dbaeumer.jshint-0.10.20
+[2019-06-15 19:02:52.316] [cli] [info] Installation completed. dbaeumer.jshint
+[2019-06-15 19:02:52.370] [cli] [info] Extensions installed successfully: dbaeumer.jshint
+[2019-06-15 19:02:53.000] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"sysoev.language-stylus"}
+[2019-06-15 19:02:53.033] [cli] [info] Scanned user extensions: 16
+[2019-06-15 19:02:53.653] [cli] [info] Installing extension: sysoev.language-stylus
+[2019-06-15 19:02:53.880] [cli] [info] Scanned user extensions: 16
+[2019-06-15 19:02:54.707] [cli] [info] Downloaded extension: sysoev.language-stylus /tmp/05ed01be-4166-43e4-a678-6d208939e983
+[2019-06-15 19:02:55.113] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.sysoev.language-stylus-1.11.0: sysoev.language-stylus
+[2019-06-15 19:02:55.114] [cli] [info] Renamed to /home/serii/.vscode/extensions/sysoev.language-stylus-1.11.0
+[2019-06-15 19:02:55.115] [cli] [info] Installation completed. sysoev.language-stylus
+[2019-06-15 19:02:55.160] [cli] [info] Extensions installed successfully: sysoev.language-stylus
+[2019-06-15 19:02:55.784] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"ritwickdey.LiveServer"}
+[2019-06-15 19:02:55.822] [cli] [info] Scanned user extensions: 17
+[2019-06-15 19:02:56.390] [cli] [info] Installing extension: ritwickdey.liveserver
+[2019-06-15 19:02:56.604] [cli] [info] Scanned user extensions: 17
+[2019-06-15 19:02:57.593] [cli] [info] Downloaded extension: ritwickdey.liveserver /tmp/ff334403-9440-457b-bbfe-2dd839e6786d
+[2019-06-15 19:02:59.169] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.ritwickdey.liveserver-5.6.1: ritwickdey.liveserver
+[2019-06-15 19:02:59.169] [cli] [info] Renamed to /home/serii/.vscode/extensions/ritwickdey.liveserver-5.6.1
+[2019-06-15 19:02:59.170] [cli] [info] Installation completed. ritwickdey.liveserver
+[2019-06-15 19:02:59.220] [cli] [info] Extensions installed successfully: ritwickdey.liveserver
+[2019-06-15 19:02:59.854] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"zhuangtongfa.Material-theme"}
+[2019-06-15 19:02:59.891] [cli] [info] Scanned user extensions: 18
+[2019-06-15 19:03:00.597] [cli] [info] Installing extension: zhuangtongfa.material-theme
+[2019-06-15 19:03:00.806] [cli] [info] Scanned user extensions: 18
+[2019-06-15 19:03:01.424] [cli] [info] Downloaded extension: zhuangtongfa.material-theme /tmp/fdf000c5-69bd-456d-ab7e-4c0e14f1d2e3
+[2019-06-15 19:03:01.447] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.zhuangtongfa.material-theme-2.24.1: zhuangtongfa.material-theme
+[2019-06-15 19:03:01.447] [cli] [info] Renamed to /home/serii/.vscode/extensions/zhuangtongfa.material-theme-2.24.1
+[2019-06-15 19:03:01.448] [cli] [info] Installation completed. zhuangtongfa.material-theme
+[2019-06-15 19:03:01.471] [cli] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2019-06-15 19:03:02.083] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"techer.open-in-browser"}
+[2019-06-15 19:03:02.121] [cli] [info] Scanned user extensions: 19
+[2019-06-15 19:03:02.664] [cli] [info] Installing extension: techer.open-in-browser
+[2019-06-15 19:03:02.896] [cli] [info] Scanned user extensions: 19
+[2019-06-15 19:03:03.562] [cli] [info] Downloaded extension: techer.open-in-browser /tmp/a80c2632-c694-4a1b-aaf5-caf292320932
+[2019-06-15 19:03:03.610] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.techer.open-in-browser-2.0.0: techer.open-in-browser
+[2019-06-15 19:03:03.611] [cli] [info] Renamed to /home/serii/.vscode/extensions/techer.open-in-browser-2.0.0
+[2019-06-15 19:03:03.611] [cli] [info] Installation completed. techer.open-in-browser
+[2019-06-15 19:03:03.638] [cli] [info] Extensions installed successfully: techer.open-in-browser
+[2019-06-15 19:03:04.196] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"ionutvmi.path-autocomplete"}
+[2019-06-15 19:03:04.233] [cli] [info] Scanned user extensions: 20
+[2019-06-15 19:03:04.885] [cli] [info] Installing extension: ionutvmi.path-autocomplete
+[2019-06-15 19:03:05.086] [cli] [info] Scanned user extensions: 20
+[2019-06-15 19:03:05.819] [cli] [info] Downloaded extension: ionutvmi.path-autocomplete /tmp/02605feb-4bc9-4912-9914-0bd033d5b9fd
+[2019-06-15 19:03:05.868] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.ionutvmi.path-autocomplete-1.13.3: ionutvmi.path-autocomplete
+[2019-06-15 19:03:05.868] [cli] [info] Renamed to /home/serii/.vscode/extensions/ionutvmi.path-autocomplete-1.13.3
+[2019-06-15 19:03:05.869] [cli] [info] Installation completed. ionutvmi.path-autocomplete
+[2019-06-15 19:03:05.889] [cli] [info] Extensions installed successfully: ionutvmi.path-autocomplete
+[2019-06-15 19:03:06.522] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"christian-kohler.path-intellisense"}
+[2019-06-15 19:03:06.565] [cli] [info] Scanned user extensions: 21
+[2019-06-15 19:03:07.076] [cli] [info] Installing extension: christian-kohler.path-intellisense
+[2019-06-15 19:03:07.279] [cli] [info] Scanned user extensions: 21
+[2019-06-15 19:03:07.894] [cli] [info] Downloaded extension: christian-kohler.path-intellisense /tmp/40e0c4f4-cfbe-497f-9985-3acf96ea90ed
+[2019-06-15 19:03:07.961] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.christian-kohler.path-intellisense-1.4.2: christian-kohler.path-intellisense
+[2019-06-15 19:03:07.961] [cli] [info] Renamed to /home/serii/.vscode/extensions/christian-kohler.path-intellisense-1.4.2
+[2019-06-15 19:03:07.962] [cli] [info] Installation completed. christian-kohler.path-intellisense
+[2019-06-15 19:03:07.992] [cli] [info] Extensions installed successfully: christian-kohler.path-intellisense
+[2019-06-15 19:03:08.610] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"bschulte.php-autocomplete"}
+[2019-06-15 19:03:08.649] [cli] [info] Scanned user extensions: 22
+[2019-06-15 19:03:09.234] [cli] [info] Installing extension: bschulte.php-autocomplete
+[2019-06-15 19:03:09.466] [cli] [info] Scanned user extensions: 22
+[2019-06-15 19:03:10.044] [cli] [info] Downloaded extension: bschulte.php-autocomplete /tmp/c84b536c-394d-47ab-8c1e-af554546e9ec
+[2019-06-15 19:03:10.084] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.bschulte.php-autocomplete-0.4.2: bschulte.php-autocomplete
+[2019-06-15 19:03:10.085] [cli] [info] Renamed to /home/serii/.vscode/extensions/bschulte.php-autocomplete-0.4.2
+[2019-06-15 19:03:10.085] [cli] [info] Installation completed. bschulte.php-autocomplete
+[2019-06-15 19:03:10.112] [cli] [info] Extensions installed successfully: bschulte.php-autocomplete
+[2019-06-15 19:03:10.884] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"neilbrayfield.php-docblocker"}
+[2019-06-15 19:03:10.949] [cli] [info] Scanned user extensions: 23
+[2019-06-15 19:03:11.530] [cli] [info] Installing extension: neilbrayfield.php-docblocker
+[2019-06-15 19:03:11.759] [cli] [info] Scanned user extensions: 23
+[2019-06-15 19:03:12.409] [cli] [info] Downloaded extension: neilbrayfield.php-docblocker /tmp/21c91393-aa2d-4ac0-b7ed-732c6e366140
+[2019-06-15 19:03:12.464] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.neilbrayfield.php-docblocker-1.8.0: neilbrayfield.php-docblocker
+[2019-06-15 19:03:12.464] [cli] [info] Renamed to /home/serii/.vscode/extensions/neilbrayfield.php-docblocker-1.8.0
+[2019-06-15 19:03:12.465] [cli] [info] Installation completed. neilbrayfield.php-docblocker
+[2019-06-15 19:03:12.505] [cli] [info] Extensions installed successfully: neilbrayfield.php-docblocker
+[2019-06-15 19:03:13.081] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"alefragnani.project-manager"}
+[2019-06-15 19:03:13.120] [cli] [info] Scanned user extensions: 24
+[2019-06-15 19:03:13.794] [cli] [info] Installing extension: alefragnani.project-manager
+[2019-06-15 19:03:14.033] [cli] [info] Scanned user extensions: 24
+[2019-06-15 19:03:14.751] [cli] [info] Downloaded extension: alefragnani.project-manager /tmp/e441b7c7-0a85-4e59-8a19-5191dac08a35
+[2019-06-15 19:03:14.793] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.alefragnani.project-manager-10.5.2: alefragnani.project-manager
+[2019-06-15 19:03:14.793] [cli] [info] Renamed to /home/serii/.vscode/extensions/alefragnani.project-manager-10.5.2
+[2019-06-15 19:03:14.794] [cli] [info] Installation completed. alefragnani.project-manager
+[2019-06-15 19:03:14.822] [cli] [info] Extensions installed successfully: alefragnani.project-manager
+[2019-06-15 19:03:15.407] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"aaronphy.scss-scan"}
+[2019-06-15 19:03:15.448] [cli] [info] Scanned user extensions: 25
+[2019-06-15 19:03:16.046] [cli] [info] Installing extension: aaronphy.scss-scan
+[2019-06-15 19:03:16.261] [cli] [info] Scanned user extensions: 25
+[2019-06-15 19:03:17.239] [cli] [info] Downloaded extension: aaronphy.scss-scan /tmp/769ba804-fc8d-49f2-9070-619e7f914562
+[2019-06-15 19:03:18.245] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.aaronphy.scss-scan-0.1.67: aaronphy.scss-scan
+[2019-06-15 19:03:18.245] [cli] [info] Renamed to /home/serii/.vscode/extensions/aaronphy.scss-scan-0.1.67
+[2019-06-15 19:03:18.246] [cli] [info] Installation completed. aaronphy.scss-scan
+[2019-06-15 19:03:18.299] [cli] [info] Extensions installed successfully: aaronphy.scss-scan
+[2019-06-15 19:03:18.924] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"liximomo.sftp"}
+[2019-06-15 19:03:18.953] [cli] [info] Scanned user extensions: 26
+[2019-06-15 19:03:19.680] [cli] [info] Installing extension: liximomo.sftp
+[2019-06-15 19:03:19.915] [cli] [info] Scanned user extensions: 26
+[2019-06-15 19:03:20.826] [cli] [info] Downloaded extension: liximomo.sftp /tmp/793e34ba-3e0d-4779-a3d0-90b351593862
+[2019-06-15 19:03:22.917] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.liximomo.sftp-1.12.7: liximomo.sftp
+[2019-06-15 19:03:22.918] [cli] [info] Renamed to /home/serii/.vscode/extensions/liximomo.sftp-1.12.7
+[2019-06-15 19:03:22.920] [cli] [info] Installation completed. liximomo.sftp
+[2019-06-15 19:03:23.170] [cli] [info] Extensions installed successfully: liximomo.sftp
+[2019-06-15 19:03:23.924] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"jock.svg"}
+[2019-06-15 19:03:23.965] [cli] [info] Scanned user extensions: 27
+[2019-06-15 19:03:24.536] [cli] [info] Installing extension: jock.svg
+[2019-06-15 19:03:24.750] [cli] [info] Scanned user extensions: 27
+[2019-06-15 19:03:25.603] [cli] [info] Downloaded extension: jock.svg /tmp/aa5fbce5-7c2a-445b-9a16-fe3b763b02ac
+[2019-06-15 19:03:26.378] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.jock.svg-0.1.4: jock.svg
+[2019-06-15 19:03:26.378] [cli] [info] Renamed to /home/serii/.vscode/extensions/jock.svg-0.1.4
+[2019-06-15 19:03:26.379] [cli] [info] Installation completed. jock.svg
+[2019-06-15 19:03:26.487] [cli] [info] Extensions installed successfully: jock.svg
+[2019-06-15 19:03:27.170] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"Gruntfuggly.todo-tree"}
+[2019-06-15 19:03:27.215] [cli] [info] Scanned user extensions: 28
+[2019-06-15 19:03:27.760] [cli] [info] Installing extension: gruntfuggly.todo-tree
+[2019-06-15 19:03:27.974] [cli] [info] Scanned user extensions: 28
+[2019-06-15 19:03:28.812] [cli] [info] Downloaded extension: gruntfuggly.todo-tree /tmp/41ce9e2e-ac91-4bb1-bf03-7b12b8268716
+[2019-06-15 19:03:30.166] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.gruntfuggly.todo-tree-0.0.135: gruntfuggly.todo-tree
+[2019-06-15 19:03:30.167] [cli] [info] Renamed to /home/serii/.vscode/extensions/gruntfuggly.todo-tree-0.0.135
+[2019-06-15 19:03:30.167] [cli] [info] Installation completed. gruntfuggly.todo-tree
+[2019-06-15 19:03:30.212] [cli] [info] Extensions installed successfully: gruntfuggly.todo-tree
+[2019-06-15 19:03:30.879] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"vscodevim.vim"}
+[2019-06-15 19:03:30.924] [cli] [info] Scanned user extensions: 29
+[2019-06-15 19:03:31.567] [cli] [info] Installing extension: vscodevim.vim
+[2019-06-15 19:03:31.804] [cli] [info] Scanned user extensions: 29
+[2019-06-15 19:03:32.735] [cli] [info] Downloaded extension: vscodevim.vim /tmp/37b1131a-87cc-4eb2-b6ca-5911839d9bb7
+[2019-06-15 19:03:34.076] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.vscodevim.vim-1.8.1: vscodevim.vim
+[2019-06-15 19:03:34.076] [cli] [info] Renamed to /home/serii/.vscode/extensions/vscodevim.vim-1.8.1
+[2019-06-15 19:03:34.078] [cli] [info] Installation completed. vscodevim.vim
+[2019-06-15 19:03:34.121] [cli] [info] Extensions installed successfully: vscodevim.vim
+[2019-06-15 19:03:34.771] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"fabiospampinato.vscode-diff"}
+[2019-06-15 19:03:34.818] [cli] [info] Scanned user extensions: 30
+[2019-06-15 19:03:35.363] [cli] [info] Installing extension: fabiospampinato.vscode-diff
+[2019-06-15 19:03:35.601] [cli] [info] Scanned user extensions: 30
+[2019-06-15 19:03:36.361] [cli] [info] Downloaded extension: fabiospampinato.vscode-diff /tmp/58a0969c-72b7-4539-8d18-2a1ca61aeee9
+[2019-06-15 19:03:37.156] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.fabiospampinato.vscode-diff-1.4.0: fabiospampinato.vscode-diff
+[2019-06-15 19:03:37.156] [cli] [info] Renamed to /home/serii/.vscode/extensions/fabiospampinato.vscode-diff-1.4.0
+[2019-06-15 19:03:37.156] [cli] [info] Installation completed. fabiospampinato.vscode-diff
+[2019-06-15 19:03:37.191] [cli] [info] Extensions installed successfully: fabiospampinato.vscode-diff
+[2019-06-15 19:03:37.746] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"kenhowardpdx.vscode-gist"}
+[2019-06-15 19:03:37.789] [cli] [info] Scanned user extensions: 31
+[2019-06-15 19:03:38.385] [cli] [info] Installing extension: kenhowardpdx.vscode-gist
+[2019-06-15 19:03:38.595] [cli] [info] Scanned user extensions: 31
+[2019-06-15 19:03:40.010] [cli] [info] Downloaded extension: kenhowardpdx.vscode-gist /tmp/e40c7ec3-f480-44ff-9642-650bc47262d5
+[2019-06-15 19:03:40.470] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.kenhowardpdx.vscode-gist-3.0.3: kenhowardpdx.vscode-gist
+[2019-06-15 19:03:40.470] [cli] [info] Renamed to /home/serii/.vscode/extensions/kenhowardpdx.vscode-gist-3.0.3
+[2019-06-15 19:03:40.471] [cli] [info] Installation completed. kenhowardpdx.vscode-gist
+[2019-06-15 19:03:40.506] [cli] [info] Extensions installed successfully: kenhowardpdx.vscode-gist
+[2019-06-15 19:03:41.139] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"wix.vscode-import-cost"}
+[2019-06-15 19:03:41.183] [cli] [info] Scanned user extensions: 32
+[2019-06-15 19:03:41.749] [cli] [info] Installing extension: wix.vscode-import-cost
+[2019-06-15 19:03:41.985] [cli] [info] Scanned user extensions: 32
+[2019-06-15 19:03:43.968] [cli] [info] Downloaded extension: wix.vscode-import-cost /tmp/bef4ff5e-05e9-402d-9ef6-280ba7ad35c6
+[2019-06-15 19:03:49.201] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.wix.vscode-import-cost-2.12.0: wix.vscode-import-cost
+[2019-06-15 19:03:49.201] [cli] [info] Renamed to /home/serii/.vscode/extensions/wix.vscode-import-cost-2.12.0
+[2019-06-15 19:03:49.202] [cli] [info] Installation completed. wix.vscode-import-cost
+[2019-06-15 19:03:49.336] [cli] [info] Extensions installed successfully: wix.vscode-import-cost
+[2019-06-15 19:03:49.843] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"bmewburn.vscode-intelephense-client"}
+[2019-06-15 19:03:49.890] [cli] [info] Scanned user extensions: 33
+[2019-06-15 19:03:50.552] [cli] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2019-06-15 19:03:50.756] [cli] [info] Scanned user extensions: 33
+[2019-06-15 19:03:51.920] [cli] [info] Downloaded extension: bmewburn.vscode-intelephense-client /tmp/022f810b-0cfe-4a31-9e45-f8d70b76fac4
+[2019-06-15 19:03:53.134] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.bmewburn.vscode-intelephense-client-1.0.14: bmewburn.vscode-intelephense-client
+[2019-06-15 19:03:53.135] [cli] [info] Renamed to /home/serii/.vscode/extensions/bmewburn.vscode-intelephense-client-1.0.14
+[2019-06-15 19:03:53.136] [cli] [info] Installation completed. bmewburn.vscode-intelephense-client
+[2019-06-15 19:03:53.202] [cli] [info] Extensions installed successfully: bmewburn.vscode-intelephense-client
+[2019-06-15 19:03:53.776] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"akamud.vscode-javascript-snippet-pack"}
+[2019-06-15 19:03:53.824] [cli] [info] Scanned user extensions: 34
+[2019-06-15 19:03:54.377] [cli] [info] Installing extension: akamud.vscode-javascript-snippet-pack
+[2019-06-15 19:03:54.616] [cli] [info] Scanned user extensions: 34
+[2019-06-15 19:03:55.180] [cli] [info] Downloaded extension: akamud.vscode-javascript-snippet-pack /tmp/b24753f7-a8d1-4ca4-9397-2af72604adf1
+[2019-06-15 19:03:55.197] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.akamud.vscode-javascript-snippet-pack-0.1.5: akamud.vscode-javascript-snippet-pack
+[2019-06-15 19:03:55.197] [cli] [info] Renamed to /home/serii/.vscode/extensions/akamud.vscode-javascript-snippet-pack-0.1.5
+[2019-06-15 19:03:55.198] [cli] [info] Installation completed. akamud.vscode-javascript-snippet-pack
+[2019-06-15 19:03:55.253] [cli] [info] Extensions installed successfully: akamud.vscode-javascript-snippet-pack
+[2019-06-15 19:03:55.815] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"MS-CEINTL.vscode-language-pack-ru"}
+[2019-06-15 19:03:55.864] [cli] [info] Scanned user extensions: 35
+[2019-06-15 19:03:56.391] [cli] [info] Installing extension: ms-ceintl.vscode-language-pack-ru
+[2019-06-15 19:03:56.596] [cli] [info] Scanned user extensions: 35
+[2019-06-15 19:03:57.254] [cli] [info] Downloaded extension: ms-ceintl.vscode-language-pack-ru /tmp/ef3b1f7a-036e-49a6-9113-456aee8cd5de
+[2019-06-15 19:03:57.362] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.ms-ceintl.vscode-language-pack-ru-1.35.1: ms-ceintl.vscode-language-pack-ru
+[2019-06-15 19:03:57.362] [cli] [info] Renamed to /home/serii/.vscode/extensions/ms-ceintl.vscode-language-pack-ru-1.35.1
+[2019-06-15 19:03:57.363] [cli] [info] Installation completed. ms-ceintl.vscode-language-pack-ru
+[2019-06-15 19:03:57.405] [cli] [info] Extensions installed successfully: ms-ceintl.vscode-language-pack-ru
+[2019-06-15 19:03:57.445] [cli] [info] Scanned user extensions: 36
+[2019-06-15 19:03:57.451] [cli] [info] Scanned system extensions: 72
+[2019-06-15 19:03:58.090] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"ziyasal.vscode-open-in-github"}
+[2019-06-15 19:03:58.125] [cli] [info] Scanned user extensions: 36
+[2019-06-15 19:03:58.667] [cli] [info] Installing extension: ziyasal.vscode-open-in-github
+[2019-06-15 19:03:58.902] [cli] [info] Scanned user extensions: 36
+[2019-06-15 19:03:59.615] [cli] [info] Downloaded extension: ziyasal.vscode-open-in-github /tmp/4b69df87-d2e3-4923-bca0-0ea072150065
+[2019-06-15 19:03:59.738] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.ziyasal.vscode-open-in-github-1.3.6: ziyasal.vscode-open-in-github
+[2019-06-15 19:03:59.738] [cli] [info] Renamed to /home/serii/.vscode/extensions/ziyasal.vscode-open-in-github-1.3.6
+[2019-06-15 19:03:59.739] [cli] [info] Installation completed. ziyasal.vscode-open-in-github
+[2019-06-15 19:03:59.770] [cli] [info] Extensions installed successfully: ziyasal.vscode-open-in-github
+[2019-06-15 19:04:00.340] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"mrmlnc.vscode-pugbeautify"}
+[2019-06-15 19:04:00.386] [cli] [info] Scanned user extensions: 37
+[2019-06-15 19:04:00.978] [cli] [info] Installing extension: mrmlnc.vscode-pugbeautify
+[2019-06-15 19:04:01.218] [cli] [info] Scanned user extensions: 37
+[2019-06-15 19:04:01.857] [cli] [info] Downloaded extension: mrmlnc.vscode-pugbeautify /tmp/b6ddcb96-9445-4f47-b03d-0d21748822af
+[2019-06-15 19:04:01.896] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.mrmlnc.vscode-pugbeautify-1.0.2: mrmlnc.vscode-pugbeautify
+[2019-06-15 19:04:01.897] [cli] [info] Renamed to /home/serii/.vscode/extensions/mrmlnc.vscode-pugbeautify-1.0.2
+[2019-06-15 19:04:01.897] [cli] [info] Installation completed. mrmlnc.vscode-pugbeautify
+[2019-06-15 19:04:01.945] [cli] [info] Extensions installed successfully: mrmlnc.vscode-pugbeautify
+[2019-06-15 19:04:02.608] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"mrmlnc.vscode-scss"}
+[2019-06-15 19:04:02.681] [cli] [info] Scanned user extensions: 38
+[2019-06-15 19:04:03.219] [cli] [info] Installing extension: mrmlnc.vscode-scss
+[2019-06-15 19:04:03.498] [cli] [info] Scanned user extensions: 38
+[2019-06-15 19:04:04.268] [cli] [info] Downloaded extension: mrmlnc.vscode-scss /tmp/d5a898f1-f7dc-486c-b166-3ab34a7e020e
+[2019-06-15 19:04:04.605] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.mrmlnc.vscode-scss-0.6.2: mrmlnc.vscode-scss
+[2019-06-15 19:04:04.605] [cli] [info] Renamed to /home/serii/.vscode/extensions/mrmlnc.vscode-scss-0.6.2
+[2019-06-15 19:04:04.606] [cli] [info] Installation completed. mrmlnc.vscode-scss
+[2019-06-15 19:04:04.641] [cli] [info] Extensions installed successfully: mrmlnc.vscode-scss
+[2019-06-15 19:04:05.182] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"cssho.vscode-svgviewer"}
+[2019-06-15 19:04:05.230] [cli] [info] Scanned user extensions: 39
+[2019-06-15 19:04:05.771] [cli] [info] Installing extension: cssho.vscode-svgviewer
+[2019-06-15 19:04:06.011] [cli] [info] Scanned user extensions: 39
+[2019-06-15 19:04:08.516] [cli] [info] Downloaded extension: cssho.vscode-svgviewer /tmp/f102ea85-2413-474c-bdc3-f4c0286f57e7
+[2019-06-15 19:04:09.764] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.cssho.vscode-svgviewer-2.0.0: cssho.vscode-svgviewer
+[2019-06-15 19:04:09.765] [cli] [info] Renamed to /home/serii/.vscode/extensions/cssho.vscode-svgviewer-2.0.0
+[2019-06-15 19:04:09.765] [cli] [info] Installation completed. cssho.vscode-svgviewer
+[2019-06-15 19:04:09.828] [cli] [info] Extensions installed successfully: cssho.vscode-svgviewer
+[2019-06-15 19:04:10.431] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"tungvn.wordpress-snippet"}
+[2019-06-15 19:04:10.481] [cli] [info] Scanned user extensions: 40
+[2019-06-15 19:04:11.082] [cli] [info] Installing extension: tungvn.wordpress-snippet
+[2019-06-15 19:04:11.295] [cli] [info] Scanned user extensions: 40
+[2019-06-15 19:04:11.942] [cli] [info] Downloaded extension: tungvn.wordpress-snippet /tmp/3e3c4b34-db78-4db5-aa19-a1f594730874
+[2019-06-15 19:04:11.976] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.tungvn.wordpress-snippet-1.1.5: tungvn.wordpress-snippet
+[2019-06-15 19:04:11.976] [cli] [info] Renamed to /home/serii/.vscode/extensions/tungvn.wordpress-snippet-1.1.5
+[2019-06-15 19:04:11.977] [cli] [info] Installation completed. tungvn.wordpress-snippet
+[2019-06-15 19:04:12.008] [cli] [info] Extensions installed successfully: tungvn.wordpress-snippet
+[2019-06-15 19:04:12.657] [cli] [info] main {"_":[],"diff":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"version":false,"help":false,"list-extensions":false,"show-versions":false,"verbose":false,"status":false,"prof-modules":false,"prof-startup":false,"disable-extensions":false,"disable-gpu":false,"logExtensionHostCommunication":false,"skip-getting-started":false,"skip-release-notes":false,"sticky-quickopen":false,"disable-restore-windows":false,"disable-telemetry":false,"disable-updates":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"nolazy":false,"issue":false,"file-write":false,"file-chmod":false,"driver-verbose":false,"force":false,"prof-code-loading":false,"install-extension":"wordpresstoolbox.wordpress-toolbox"}
+[2019-06-15 19:04:12.698] [cli] [info] Scanned user extensions: 41
+[2019-06-15 19:04:13.283] [cli] [info] Installing extension: wordpresstoolbox.wordpress-toolbox
+[2019-06-15 19:04:13.522] [cli] [info] Scanned user extensions: 41
+[2019-06-15 19:04:14.198] [cli] [info] Downloaded extension: wordpresstoolbox.wordpress-toolbox /tmp/a3a6666b-e970-4729-97ba-5160d54cf7ec
+[2019-06-15 19:04:14.222] [cli] [info] Extracted extension to /home/serii/.vscode/extensions/.wordpresstoolbox.wordpress-toolbox-1.3.4: wordpresstoolbox.wordpress-toolbox
+[2019-06-15 19:04:14.222] [cli] [info] Renamed to /home/serii/.vscode/extensions/wordpresstoolbox.wordpress-toolbox-1.3.4
+[2019-06-15 19:04:14.223] [cli] [info] Installation completed. wordpresstoolbox.wordpress-toolbox
+[2019-06-15 19:04:14.242] [cli] [info] Extensions installed successfully: wordpresstoolbox.wordpress-toolbox

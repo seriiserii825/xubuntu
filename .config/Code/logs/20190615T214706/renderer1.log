@@ -1,0 +1,2 @@
+[2019-06-15 21:47:08.438] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/home/serii/Sites/test/.vscode'
+[2019-06-15 22:19:35.683] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/home/serii/Sites/start-template.loc/.vscode'

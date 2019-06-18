@@ -1,0 +1,134 @@
+{
+   "add_button": {
+      "message": "Add"
+   },
+   "add_new_layer": {
+      "message": "Add new"
+   },
+   "add_new_layer_first": {
+      "message": "Add your first layer!"
+   },
+   "add_new_layer_top": {
+      "message": "Add new"
+   },
+   "add_url": {
+      "message": "Add url"
+   },
+   "are_you_sure_you_want_to_delete_layer": {
+      "message": "Are you sure you want to delete the layer?"
+   },
+   "ask_permissions_block1": {
+      "message": "PerfectPixel Add-on tracks anonymized usage information of panel UI with help of Google Analytics and Yandex.Metrika. It helps us to improve the add-on. 3rd party websites usage data isn't tracked."
+   },
+   "ask_permissions_block2": {
+      "message": "You can always change your mind on the Settings page which can be accessed with the top right menu."
+   },
+   "ask_permissions_block3": {
+      "message": "Do you want to allow us to gather that information?"
+   },
+   "ask_permissions_no_btn": {
+      "message": "No"
+   },
+   "ask_permissions_yes_btn": {
+      "message": "Yes"
+   },
+   "cancel_button": {
+      "message": "Cancel"
+   },
+   "drop_layer": {
+      "message": "Drop image to upload"
+   },
+   "drop_layer_first": {
+      "message": "or drop images to upload"
+   },
+   "error_image_not_found": {
+      "message": "No image found"
+   },
+   "error_invalid_url": {
+      "message": "Incorrect URL!"
+   },
+   "extension_description": {
+      "message": "This extension helps develop your websites with pixel perfect accuracy!"
+   },
+   "extension_name": {
+      "message": "PerfectPixel by WellDoneCode (pixel perfect)"
+   },
+   "extension_name_short": {
+      "message": "PerfectPixel"
+   },
+   "hide": {
+      "message": "Hide"
+   },
+   "invert_colors": {
+      "message": "Invert"
+   },
+   "layer_change_title_hint": {
+      "message": "Double click to add or change the title"
+   },
+   "layers": {
+      "message": "Layers"
+   },
+   "loading": {
+      "message": "Loading"
+   },
+   "lock": {
+      "message": "Lock"
+   },
+   "menu_paste_from_clipboard": {
+      "message": "Paste from clipboard"
+   },
+   "menu_paste_from_url": {
+      "message": "Paste from URL"
+   },
+   "menu_report_bug": {
+      "message": "Report bug"
+   },
+   "menu_settings": {
+      "message": "Settings"
+   },
+   "menu_upload_image": {
+      "message": "Upload image"
+   },
+   "opacity": {
+      "message": "Opacity"
+   },
+   "origin": {
+      "message": "Origin"
+   },
+   "panel_css_class": {
+      "message": "chromeperfectpixel-locale-en"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "scale": {
+      "message": "Scale"
+   },
+   "show": {
+      "message": "Show"
+   },
+   "supported_by": {
+      "message": "Supported by"
+   },
+   "supported_by_disable_link": {
+      "message": "Disable ads?"
+   },
+   "supported_by_disable_tooltip": {
+      "message": "In the extension options page"
+   },
+   "toggle_collapsed_mode": {
+      "message": "Double click to toggle Collapsed mode"
+   },
+   "toggle_collapsed_mode_single": {
+      "message": "Click to toggle Collapsed mode"
+   },
+   "uknown_error": {
+      "message": "Unknown error"
+   },
+   "uninvert_colors": {
+      "message": "Invert back"
+   },
+   "unlock": {
+      "message": "Unlock"
+   }
+}
