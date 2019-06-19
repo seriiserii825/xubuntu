@@ -108,7 +108,8 @@ fi
 
 alias gitlab='xdg-open https://gitlab.com/seriiburduja/knowledge_base &'
 alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
-alias ll='ls -alF'
+alias ll1='ls -a1'
+alias ll='ls -la'
 alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
@@ -142,6 +143,12 @@ HISTFILESIZE=2000
 #}
 
 # some more ls aliases
+alias p='cd ~/Documents/Projects'
+alias dw='cd ~/Downloads'
+alias xb='cd ~/xubuntu'
+alias vd='cd ~/Video'
+alias dc='cd ~/Documents'
+alias im='cd ~/Images'
 alias gl='git log --oneline --graph'
 alias gs='git status'
 alias ga='git add --all'
@@ -159,7 +166,6 @@ alias Purge='sudo apt purge'
 alias Search='sudo apt search'
 #alias cp="rsync -avz -P"
 alias mv="mv -v"
-alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias o='xdg-open'

@@ -26,13 +26,51 @@
 filetype on
 filetype plugin on
 "
-"Mapping=================
-"map <F3> :w!<CR>:w!/home/serii/tmp/vim-markdown.md<CR>:!pandoc -s -f markdown -t html -o /home/serii/tmp/vim-markdown.html /home/serii/tmp/vim-markdown.md<CR>:!google-chrome /home/serii/tmp/vim-markdown.html > /dev/null 2> /dev/null&<CR><CR>
+"Leader=================
+let g:mapleader = ','
+
+"Remove end of line
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
+"Easymotion
+map  <Leader>f <Plug>(easymotion-bd-f)
+nmap <Leader>f <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+nmap s <Plug>(easymotion-overwin-f2)
+
+" Move to line
+map <Leader>L <Plug>(easymotion-bd-jk)
+nmap <Leader>L <Plug>(easymotion-overwin-line)
+
+" Move to word
+map  <Leader>w <Plug>(easymotion-bd-w)
+nmap <Leader>w <Plug>(easymotion-overwin-w)
+
+"Windows
+map <silent> <C-h> :call WinMove('h')<CR>
+map <silent> <C-j> :call WinMove('j')<CR>
+map <silent> <C-k> :call WinMove('k')<CR>
+map <silent> <C-l> :call WinMove('l')<CR>
+
+function! WinMove(key)
+  let t:curwin = winnr()
+  exec "wincmd ".a:key
+  if (t:curwin == winnr())
+    if (match(a:key,'[jk]'))
+      wincmd v
+    else
+      wincmd s
+    endif
+    exec "wincmd ".a:key
+  endif
+endfunction
+
 
 "Vim autosave
-  let g:auto_save = 1 
-  let g:auto_save_no_updatetime = 1 
-  let g:auto_save_in_insert_mode = 0 
+  let g:auto_save = 1
+  let g:auto_save_no_updatetime = 1
+  let g:auto_save_in_insert_mode = 0
   let g:auto_save_silent = 0
 
 "vim-multicursor
@@ -67,6 +105,11 @@ filetype plugin on
   nmap <C-n> :NERDTreeToggle<CR>
 
 
+"Plugin 'jiangmiao/auto-pairs'
+let g:AutoPairsFlyMode = 1
+let g:AutoPairsShortcutBackInsert = '<M-b>'
+
+
 "color settings===================
   set t_Co=256
   if &term =~ "xterm"
@@ -98,12 +141,23 @@ filetype plugin on
   Plugin 'SirVer/ultisnips'
   Plugin 'honza/vim-snippets'
 
-"Plugin 'Valloric/YouCompleteMe'
+"Complete
+  Plugin 'Valloric/YouCompleteMe'
   Plugin 'dNitro/vim-pug-complete'
   Plugin 'ctrlp.vim'
 
 "search
-Plugin 'mileszs/ack.vim'
+  Plugin 'mileszs/ack.vim'
+
+"Code
+  Plugin 'jiangmiao/auto-pairs'
+
+"Git
+  Plugin 'tpope/vim-fugitive'
+  Plugin 'airblade/vim-gitgutter'
+
+"Motion
+  Plugin 'easymotion/vim-easymotion'
 
 "html
 "Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
@@ -117,40 +171,20 @@ Plugin 'mileszs/ack.vim'
 "javascript
 "Plugin 'jelera/vim-javascript-syntax'
 "Plugin 'pangloss/vim-javascript'
-"
-"========================================
-"
-"git
-"Plugin 'airblade/vim-gitgutter'
-"Plugin 'tpope/vim-fugitive'
-
-"search
-"Plugin 'kien/ctrlp.vim'
 
 "comment
 "Plugin 'tpope/vim-commentary'
 "
-"Plugin 'jiangmiao/auto-pairs'
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 "staus bar
 "Plugin 'scrooloose/syntastic'
 
-"Snippets=======
-" Track the engine.
 
-" Snippets are separated from the engine. Add this if you want them:
-
-"snippets
-"Plugin 'MarcWeber/vim-addon-mw-utils'
-"Plugin 'tomtom/tlib_vim'
-"Plugin 'garbas/vim-snipmate'
-
-" Optional:
-"Plugin 'honza/vim-snippets'
 call vundle#end()			 " required
 "Vundle end============================
 
 set background=dark
 syntax enable
 colorscheme gruvbox
+"hi Normal guibg=NONE ctermbg=NONE
