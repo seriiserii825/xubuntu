@@ -138,9 +138,9 @@ HISTFILESIZE=2000
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 #git commit function
-#gitcommit() {
-#    git commit -m "$*"
-#}
+gitcommit() {
+    git commit -m "$*"
+}
 
 # some more ls aliases
 alias p='cd ~/Documents/Projects'
@@ -152,8 +152,8 @@ alias im='cd ~/Images'
 alias gl='git log --oneline --graph'
 alias gs='git status'
 alias ga='git add --all'
-alias gc='git commit'
-alias gca='git add --all && git commit && git push'
+alias gc='gitcommit()'
+alias gca='git add --all && gitcommit() && git push'
 alias gp='git push'
 alias dg='sudo dpkg -i'
 alias Install="sudo apt install"
