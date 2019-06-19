@@ -143,6 +143,8 @@ gitcommit() {
 }
 
 # some more ls aliases
+alias vi3='vim ~/.config/i3/config'
+alias svi3='source ~/.config/i3/config'
 alias p='cd ~/Documents/Projects'
 alias dw='cd ~/Downloads'
 alias xb='cd ~/xubuntu'
@@ -152,8 +154,8 @@ alias im='cd ~/Images'
 alias gl='git log --oneline --graph'
 alias gs='git status'
 alias ga='git add --all'
-alias gc='gitcommit()'
-alias gca='git add --all && gitcommit() && git push'
+alias gc='gitcommit'
+alias gca='git add --all && git commit -m "auto" && git push'
 alias gp='git push'
 alias dg='sudo dpkg -i'
 alias Install="sudo apt install"
