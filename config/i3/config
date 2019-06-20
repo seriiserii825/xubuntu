@@ -5,6 +5,10 @@
 # this file and re-run i3-config-wizard(1).
 #
 
+#Autostart
+exec clipit
+exec --no-startup-id i3-msg 'workspace 1; exec google-chrome'
+
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
