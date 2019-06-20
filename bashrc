@@ -144,6 +144,7 @@ gitcommit() {
 
 # some more ls aliases
 alias vi3='vim ~/.config/i3/config'
+alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
 alias svi3='source ~/.config/i3/config'
 alias p='cd ~/Documents/Projects'
 alias dw='cd ~/Downloads'
