@@ -12,6 +12,13 @@ exec "setxkbmap -option 'grp:caps_toggle'"
 #bindsym $mod+caps exec ~/.config/i3/i3-keyboard-layout/i3-keyboard-layout set us
 #bindsym $mod+caps exec ~/.config/i3/i3-keyboard-layout/i3-keyboard-layout set ru
 
+#pass
+bindsym $mod+p exec passmenu
+
+#Autostart
+exec clipit
+exec --no-startup-id i3-msg 'workspace 1; exec google-chrome'
+
 #setxkbmap -option grp:caps_toggle 'us,ru' -option grp_led:caps
 
 # i3 config file (v4)

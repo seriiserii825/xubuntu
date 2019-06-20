@@ -84,7 +84,7 @@ endfunction
   let g:multi_cursor_quit_key            = '<Esc>'
 
 "Snippets setiings ================================
-  let g:UltiSnipsExpandTrigger="<tab>"
+  let g:UltiSnipsExpandTrigger="<c-j>"
   let g:UltiSnipsJumpForwardTrigger="<c-b>"
   let g:UltiSnipsJumpBackwardTrigger="<c-z>"
   let g:UltiSnipsEditSplit="vertical"
@@ -148,6 +148,10 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 
 "search
   Plugin 'mileszs/ack.vim'
+
+"Markdown
+  Plugin 'godlygeek/tabular'
+  Plugin 'plasticboy/vim-markdown'
 
 "Code
   Plugin 'jiangmiao/auto-pairs'
