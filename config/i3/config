@@ -5,8 +5,8 @@
 # this file and re-run i3-config-wizard(1).
 #
 #Change keyboard
-exec "setxkbmap -layout us,ru"
-exec "setxkbmap -option 'grp:caps_toggle'"
+exec_always "setxkbmap -layout us,ru"
+exec_always "setxkbmap -option 'grp:caps_toggle'"
 #exec "setxkbmap -option 'grp:capslock_toggle'"
 #bindsym $mod+space exec ~/.config/i3/i3-keyboard-layout/i3-keyboard-layout cycle us ru
 #bindsym $mod+caps exec ~/.config/i3/i3-keyboard-layout/i3-keyboard-layout set us
@@ -33,6 +33,9 @@ mode "$mode_launcher" {
     bindsym Escape mode "default"
     bindsym Return mode "default"
 }
+
+#Style
+hide_edge_borders smart
 
 
 #setxkbmap -option grp:caps_toggle 'us,ru' -option grp_led:caps
