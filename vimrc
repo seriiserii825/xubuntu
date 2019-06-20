@@ -134,7 +134,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
   Plugin 'vim-airline/vim-airline-themes'
 
 "Settings
-  Plugin 'vim-scripts/vim-auto-save'
+"Plugin 'vim-scripts/vim-auto-save'
   Plugin 'terryma/vim-multiple-cursors'
 
 "Snippets
