@@ -12,12 +12,12 @@ exec "setxkbmap -option 'grp:caps_toggle'"
 #bindsym $mod+caps exec ~/.config/i3/i3-keyboard-layout/i3-keyboard-layout set us
 #bindsym $mod+caps exec ~/.config/i3/i3-keyboard-layout/i3-keyboard-layout set ru
 
-#pass
-bindsym $mod+p exec passmenu
-
 #Autostart
 exec clipit
 exec --no-startup-id i3-msg 'workspace 1; exec google-chrome'
+
+#Screenshots
+bindsym --release $mod+x exec --no-startup-id import /tmp/screenshots/latest-screenshot.png
 
 #setxkbmap -option grp:caps_toggle 'us,ru' -option grp_led:caps
 
@@ -49,8 +49,9 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
-bindsym $mod+Shift+q kill
-# bindsym $mod+, kill
+# bindsym $mod+Shift+q kill
+#bindsym $mod+, kill
+bindcode $mod+34 kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
@@ -172,3 +173,4 @@ bindsym $mod+r mode "resize"
 bar {
   status_command i3status 
 }
+
