@@ -19,6 +19,22 @@ exec --no-startup-id i3-msg 'workspace 1; exec google-chrome'
 #Screenshots
 bindsym --release $mod+x exec --no-startup-id import /tmp/screenshots/latest-screenshot.png
 
+
+#Open applictions
+# Press $mod+o followed by either g, t, Escape or Return to launch firefox,
+# thunderbird or return to the default mode, respectively.
+set $mode_launcher Launch: [g]oogle-chrome [s]smplayer
+bindsym $mod+o mode "$mode_launcher"
+
+mode "$mode_launcher" {
+    bindsym g exec google-chrome
+    bindsym s exec smplayer
+
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+
+
 #setxkbmap -option grp:caps_toggle 'us,ru' -option grp_led:caps
 
 # i3 config file (v4)
@@ -26,6 +42,7 @@ bindsym --release $mod+x exec --no-startup-id import /tmp/screenshots/latest-scr
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
