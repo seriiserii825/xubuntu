@@ -224,7 +224,7 @@ assign [class="Cherrytree"] $workspace5
 
 #Autostart
 exec clipit
-exec --no-startup-id i3-msg 'workspace 1; exec google-chrome'
+exec --no-startup-id i3-msg $workspace1 '; exec google-chrome'
 
 
 # Volume control (type 1):
