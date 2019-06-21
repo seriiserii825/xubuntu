@@ -5,9 +5,6 @@
 # this file and re-run i3-config-wizard(1).
 #
 
-#Autostart
-exec clipit
-exec --no-startup-id i3-msg 'workspace 1; exec google-chrome'
 
 # i3 config file (v4)
 #
@@ -101,7 +98,7 @@ bindsym $mod+Shift+space floating toggle
 # focus the child container
 # bindsym $mod+d focus child
 
-set $workspace1 "1: "
+set $workspace1 "1: "
 set $workspace2 "2: "
 set $workspace3 "3: "
 set $workspace4 "4: "
@@ -213,16 +210,22 @@ bindsym $mod+Ctrl+Shift+l exec i3lock -c 000000 -i ~/Изображения/.Wat
 # bindsym $mod+b exec opera
 # bindsym $mod+b exec firefox
 bindsym $mod+g exec google-chrome
+bindsym $mod+n exec nautilus
 bindsym $mod+w exec terminator
 
 # Workspace for app:
 # (name of class - command: xprop)
-assign [class="Google-chrome"] $workspace1
-# assign [class="Mate-terminal"] $workspace1
-# assign [class="Caja"] $workspace7
-# assign [class="Opera"] $workspace10
+#assign [class="Google-chrome"] $workspace1
+assign [class="Nautilus"] $workspace3
+assign [class="Gparted"] $workspace4
+assign [class="Cherrytree"] $workspace5
 # assign [class="Firefox"] $workspace10
-assign [class="Terminator"] $workspace1
+#assign [class="Terminator"] $workspace1
+
+#Autostart
+exec clipit
+exec --no-startup-id i3-msg 'workspace 1; exec google-chrome'
+
 
 # Volume control (type 1):
 # bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
@@ -230,8 +233,8 @@ assign [class="Terminator"] $workspace1
 # bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
 
 # Volume control (type 2):
-# bindsym $mod+F12 exec amixer -q set Master 2+
-# bindsym $mod+F11 exec amixer -q set Master 2-
+bindsym $mod+F12 exec amixer -q set Master 2+
+bindsym $mod+F11 exec amixer -q set Master 2-
 
 # Change lang:
 # exec --no-startup-id setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
