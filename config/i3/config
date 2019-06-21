@@ -216,7 +216,7 @@ bindsym $mod+w exec terminator
 # Workspace for app:
 # (name of class - command: xprop)
 #assign [class="Google-chrome"] $workspace1
-assign [class="Nautilus"] $workspace3
+#assign [class="Nautilus"] $workspace3
 assign [class="Gparted"] $workspace4
 assign [class="Cherrytree"] $workspace5
 # assign [class="Firefox"] $workspace10
