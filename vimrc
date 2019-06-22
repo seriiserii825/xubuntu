@@ -152,10 +152,6 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "search
   Plugin 'mileszs/ack.vim'
 
-"Markdown
-"  Plugin 'godlygeek/tabular'
-"  Plugin 'plasticboy/vim-markdown'
-
 "Code
   Plugin 'jiangmiao/auto-pairs'
 
@@ -167,7 +163,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
   Plugin 'easymotion/vim-easymotion'
 
 "html
-"Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
+  Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
 "Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
 
 "css
