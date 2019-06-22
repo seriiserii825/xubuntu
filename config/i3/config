@@ -35,7 +35,7 @@ font pango:System San Francisco Display 8
 # font, it doesn’t scale on retina/hidpi displays.
 
 #Autostart
-exec clipit
+exec parcellite
 exec --no-startup-id i3-msg $workspace1 '; exec google-chrome'
 
 
@@ -226,9 +226,10 @@ bar {
 # Workspace for app:
 # (name of class - command: xprop)
 # assign [class="Gnome-terminal"] $workspace1
-assign [class="Smplayer"] $workspace4
+assign [class="smplayer"] $workspace1
 assign [class="Code"] $workspace2
-assign [class="Cherrytree"] $workspace3
+assign [class="Cherrytree"] $workspace4
+assign [class="qbittorrent"] $workspace5
 # assign [class="Opera"] $workspace10
 # assign [class="Firefox"] $workspace10
 #assign [class="Terminator"] $workspace1
