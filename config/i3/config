@@ -9,6 +9,14 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+#Change keyboard
+exec_always "setxkbmap -layout us,ru"
+exec_always "setxkbmap -option 'grp:caps_toggle'"
+
+
+#Screenshots
+bindsym --release $mod+x exec --no-startup-id import /tmp/screenshots/latest-screenshot.png
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -243,6 +251,10 @@ exec_always --no-startup-id numlockx on
 
 # Backgroung image:
 exec --no-startup-id feh --bg-scale ~/Изображения/.Wolf.jpg
+
+#Autostart
+exec clipit
+exec --no-startup-id i3-msg $workspace1 '; exec google-chrome'
 
 # Transparency:
 # exec --no-startup-id compton -f --vsync drm
