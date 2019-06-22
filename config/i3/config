@@ -45,6 +45,9 @@ bindcode $mod+34 kill
 
 # start dmenu (a program launcher)
 bindsym $mod+space exec dmenu_run -i -p run: -nb "#2f343f" -nf white -sb "#3C4049" -sf green
+bindsym $mod+n exec thunar
+
+
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -219,9 +222,9 @@ bar {
 # assign [class="Caja"] $workspace7
 # assign [class="Opera"] $workspace10
 # assign [class="Firefox"] $workspace10
-assign [class="Terminator"] $workspace1
-assign [class="Thunar"] $workspace7
-assign [class="Pale moon"] $workspace10
+#assign [class="Terminator"] $workspace1
+#assign [class="Thunar"] $workspace7
+#assign [class="Pale moon"] $workspace10
 
 # Volume control (type 1):
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
