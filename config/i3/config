@@ -226,8 +226,9 @@ bar {
 # Workspace for app:
 # (name of class - command: xprop)
 # assign [class="Gnome-terminal"] $workspace1
-# assign [class="Mate-terminal"] $workspace1
-# assign [class="Caja"] $workspace7
+assign [class="Smplayer"] $workspace4
+assign [class="Code"] $workspace2
+assign [class="Cherrytree"] $workspace3
 # assign [class="Opera"] $workspace10
 # assign [class="Firefox"] $workspace10
 #assign [class="Terminator"] $workspace1
@@ -251,10 +252,6 @@ exec_always --no-startup-id numlockx on
 
 # Backgroung image:
 exec --no-startup-id feh --bg-scale ~/Изображения/.Wolf.jpg
-
-#Autostart
-exec clipit
-exec --no-startup-id i3-msg $workspace1 '; exec google-chrome'
 
 # Transparency:
 # exec --no-startup-id compton -f --vsync drm
