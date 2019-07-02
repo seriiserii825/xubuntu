@@ -106,7 +106,7 @@ fi
 
 # some more ls aliases
 
-alias gitlab='xdg-open https://gitlab.com/seriiburduja/knowledge_base &'
+alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
 alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
 alias ll1='ls -a1'
 alias ll='ls -la'
