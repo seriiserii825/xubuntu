@@ -18,8 +18,7 @@
   set wildmode=full
 
 "tabs settings==========================
-  set tabstop=2			 " To match the sample file
-  set shiftwidth=2
+  set tabstop=2			 " To match the sample file set shiftwidth=2
   set expandtab		 " Use tabs, not spaces
   "%retab!						 " Retabulate the whole file
 
@@ -191,4 +190,3 @@ set background=dark
 syntax enable
 colorscheme gruvbox
 "hi Normal guibg=NONE ctermbg=NONE
->>>>>>> ac4314ded3b97c7035959ddfeb7958931d56f2fe

@@ -1,3 +1,70 @@
+
+# some more ls aliases
+
+alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
+alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
+alias ll1='ls -a1'
+alias ll='ls -la'
+alias la='ls -A'
+alias l='ls -CF'
+alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
+
+# broser
+alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
+alias gth='xdg-open https://github.com/seriiserii825?tab=repositories &'
+
+
+# some more ls aliases
+alias vi3='vim ~/.config/i3/config'
+alias svi3='source ~/.config/i3/config'
+alias st='cd ~/Documents/Sites'
+alias tm='cd ~/Documents/Sites/teammate'
+alias dw='cd ~/Downloads'
+alias xb='cd ~/xubuntu'
+alias vd='cd ~/Video'
+alias dc='cd ~/Documents'
+alias kw='cd /home/serii/Documents/Knowledge-base'
+alias im='cd ~/Images'
+alias gl='git log --oneline --graph'
+alias gs='git status'
+alias ga='git add --all'
+alias gc='gitcommit'
+alias gd='git diff'
+alias gca='git add --all && git commit -m "auto" && git push'
+alias gp='git push'
+alias dg='sudo dpkg -i'
+alias Install="sudo apt install"
+alias Update='sudo apt update'
+alias Upgrade='sudo apt upgrade'
+alias Search='apt-cache search'
+alias Autoremove='sudo apt autoremove'
+alias Autoclean='sudo apt autoclean'
+alias Purge='sudo apt purge'
+alias Search='sudo apt search'
+#alias cp="rsync -avz -P"
+alias mv="mv -v"
+alias la='ls -A'
+alias l='ls -CF'
+alias o='xdg-open'
+alias df='df -h'
+alias du='du -h'
+alias shn="sudo shutdown -h now"
+alias srn="sudo shutdown -r now"
+alias out='pastebinit'
+alias phpr="sudo systemctl restart apache2"
+alias mysqlr="sudo systemctl restart mysql"
+alias zshrc="vim ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
+alias svimrc="source ~/.vimrc"
+alias bashrc="vim ~/.bashrc"
+alias sbashrc="source ~/.bashrc"
+alias ya="yandex"
+alias hib="sudo pm-hibernate"
+alias gitlog='git log --graph --pretty=oneline --abbrev-commit --all --decorate'
+alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+alias scr="import -window root screenshot.jpg"
+alias scrm="import screenshot.jpg"
+
 # THE SIX LINES BELOW are the default prompt and the unset (which were in the original .bashrc)
 #if [ "$color_prompt" = yes ]; then
 #    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
@@ -104,15 +171,6 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-
-alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
-alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
-alias ll1='ls -a1'
-alias ll='ls -la'
-alias la='ls -A'
-alias l='ls -CF'
-alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 
 #save history interactive
 PROMPT_COMMAND='history -a'
@@ -142,57 +200,6 @@ gitcommit() {
     git commit -m "$*"
 }
 
-# some more ls aliases
-alias vi3='vim ~/.config/i3/config'
-alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
-alias svi3='source ~/.config/i3/config'
-alias p='cd ~/Documents/Projects'
-alias dw='cd ~/Downloads'
-alias xb='cd ~/xubuntu'
-alias vd='cd ~/Video'
-alias dc='cd ~/Documents'
-alias st='cd ~/Documents/Sites/start-template.loc'
-alias kw='cd /home/serii/Documents/Knowledge-base'
-alias im='cd ~/Images'
-alias gl='git log --oneline --graph'
-alias gs='git status'
-alias ga='git add --all'
-alias gc='gitcommit'
-alias gd='git diff'
-alias gca='git add --all && git commit -m "auto" && git push'
-alias gp='git push'
-alias dg='sudo dpkg -i'
-alias Install="sudo apt install"
-alias Update='sudo apt update'
-alias Upgrade='sudo apt upgrade'
-alias Search='apt-cache search'
-alias Autoremove='sudo apt autoremove'
-alias Autoclean='sudo apt autoclean'
-alias Purge='sudo apt purge'
-alias Search='sudo apt search'
-#alias cp="rsync -avz -P"
-alias mv="mv -v"
-alias la='ls -A'
-alias l='ls -CF'
-alias o='xdg-open'
-alias df='df -h'
-alias du='du -h'
-alias shn="sudo shutdown -h now"
-alias srn="sudo shutdown -r now"
-alias out='pastebinit'
-alias phpr="sudo /etc/init.d/apache2 restart"
-alias mysqlr="sudo systemctl restart mysql"
-alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
-alias svimrc="source ~/.vimrc"
-alias bashrc="vim ~/.bashrc"
-alias sbashrc="source ~/.bashrc"
-alias ya="yandex"
-alias hib="sudo pm-hibernate"
-alias gitlog='git log --graph --pretty=oneline --abbrev-commit --all --decorate'
-alias lg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
-alias scr="import -window root screenshot.jpg"
-alias scrm="import screenshot.jpg"
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
