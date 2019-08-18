@@ -1,8 +1,7 @@
 
 # some more ls aliases
 
-alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
-alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
+
 alias ll1='ls -a1'
 alias ll='ls -la'
 alias la='ls -A'
@@ -12,11 +11,15 @@ alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0
 # broser
 alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
 alias gth='xdg-open https://github.com/seriiserii825?tab=repositories &'
+alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
+alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
+alias ips='xdg-open https://193.124.187.230:1500/ispmgr &'
 
 
 # some more ls aliases
 alias vi3='vim ~/.config/i3/config'
 alias svi3='source ~/.config/i3/config'
+alias r='ranger'
 alias st='cd ~/Documents/Sites'
 alias tm='cd ~/Documents/Sites/teammate'
 alias dw='cd ~/Downloads'
