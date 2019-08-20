@@ -8,6 +8,9 @@ alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 
+#get path
+alias getp='pwd | xclip -sel clip'
+
 # broser
 alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
 alias gth='xdg-open https://github.com/seriiserii825?tab=repositories &'
