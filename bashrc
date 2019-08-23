@@ -1,6 +1,4 @@
-
 # some more ls aliases
-
 
 alias ll1='ls -a1'
 alias ll='ls -la'
@@ -23,6 +21,7 @@ alias r='ranger'
 
 #go to
 alias gS='cd ~/Documents/Sites'
+alias gl='cd ~/Links'
 alias gw='cd /var/www'
 alias gr='cd ~/.config/ranger'
 alias gt='cd ~/Documents/Sites/teammate'
@@ -35,11 +34,13 @@ alias gi='cd ~/Images'
 alias gm='cd ~/Music'
 
 # some more ls aliases
+
+alias rcconf='vim ~/home/serii/xubuntu/ranger/rc.conf'
 alias vi3='vim ~/.config/i3/config'
 alias svi3='source ~/.config/i3/config'
-alias gl='git log --oneline --graph'
+alias glg='git log --oneline --graph'
 alias gs='git status'
-alias ga='git add --all'
+alias gad='git add --all'
 alias gcm='gitcommit'
 alias gdf='git diff'
 alias gca='git add --all && git commit -m "auto" && git push'
