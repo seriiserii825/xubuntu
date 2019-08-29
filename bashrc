@@ -18,11 +18,14 @@ alias ips='xdg-open https://193.124.187.230:1500/ispmgr &'
 
 #programms
 alias r='ranger'
+alias fzfo='vim -o `fzf`'
 
 #go to
 alias gS='cd ~/Documents/Sites'
 alias gl='cd ~/Links'
 alias gw='cd /var/www'
+alias gB='cd /var/www/wp-benefis.loc/wp-content/themes/benefis
+'
 alias gr='cd ~/.config/ranger'
 alias gt='cd ~/Documents/Sites/teammate'
 alias gd='cd ~/Downloads'
@@ -245,3 +248,5 @@ export NVM_DIR="/home/serii/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
