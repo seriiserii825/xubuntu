@@ -21,7 +21,7 @@
   set tabstop=2			 " To match the sample file set shiftwidth=2
   set expandtab		 " Use tabs, not spaces
   "%retab!						 " Retabulate the whole file
-
+ 
 filetype on
 filetype plugin on
 "
@@ -29,7 +29,7 @@ filetype plugin on
 let g:mapleader = ','
 
 "Remove end of line
-nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+"nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
 "Markdown
 map <F2> :w!<CR>:w!/home/serii/tmp/vim-markdown.md<CR>:!pandoc -s -f markdown -t html -o /home/serii/tmp/vim-markdown.html /home/serii/tmp/vim-markdown.md<CR>:!google-chrome /home/serii/tmp/vim-markdown.html > /dev/null 2> /dev/null&<CR><CR>
@@ -130,6 +130,9 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "Nerdtree
   Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
 
+"Indentation
+ Plugin '2072/PHP-Indenting-for-VIm'
+
 " Colors
   Plugin 'flazz/vim-colorschemes'
   Plugin 'vim-airline/vim-airline'
@@ -154,6 +157,8 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "Code
   Plugin 'jiangmiao/auto-pairs'
 
+Plugin 'alvan/vim-closetag'
+
 "Git
   Plugin 'tpope/vim-fugitive'
   Plugin 'airblade/vim-gitgutter'
@@ -166,21 +171,19 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
 
 "css
-"Plugin 'ap/vim-css-color',{'for': ['css', 'scss']}
-"Plugin 'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
-"Plugin 'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
+Plugin 'ap/vim-css-color',{'for': ['css', 'scss']}
+Plugin 'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
+Plugin 'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
 
 "javascript
-"Plugin 'jelera/vim-javascript-syntax'
-"Plugin 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
 
-"comment
-"Plugin 'tpope/vim-commentary'
 "
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 "staus bar
-"Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
 
 call vundle#end()			 " required
