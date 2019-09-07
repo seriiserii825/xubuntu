@@ -24,6 +24,7 @@ alias f='vim -o `fzf`'
 
 #conver
 alias webp='find -iname '*.webp' -exec ffmpeg -i {} {}.png \;'
+alias png='find -iname "*.png" -exec ffmpeg -i {} {}.jpg \;'
 
 #go to
 alias gS='cd ~/Documents/Sites'
