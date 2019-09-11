@@ -147,9 +147,9 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
   Plugin 'honza/vim-snippets'
 
 "Complete
-  Plugin 'Valloric/YouCompleteMe'
+  "Plugin 'Valloric/YouCompleteMe'
   Plugin 'dNitro/vim-pug-complete'
-  Plugin 'ctrlp.vim'
+  "Plugin 'ctrlp.vim'
 
 "search
   Plugin 'mileszs/ack.vim'
@@ -164,7 +164,7 @@ Plugin 'alvan/vim-closetag'
   Plugin 'airblade/vim-gitgutter'
 
 "Motion
-  Plugin 'easymotion/vim-easymotion'
+  "Plugin 'easymotion/vim-easymotion'
 
 "html
   Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}

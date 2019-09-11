@@ -1,0 +1,13 @@
+search x
+mkdir Sites
+
+mkdir euc
+touch ideavimrc
+touch .ideavimrc
+open_with vim
+rename 09_09_19.zip
+open_with 
+rename filemgr.6XPkaJ.2019-09-10_17_29_00.zip
+mkdir wp-prodinfo.loc
+rename 10_09_19.zip
+delete
