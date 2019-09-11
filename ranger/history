@@ -11,3 +11,8 @@ rename filemgr.6XPkaJ.2019-09-10_17_29_00.zip
 mkdir wp-prodinfo.loc
 rename 10_09_19.zip
 delete
+rename ucauto
+rename ucauto.loc
+touch front-page.php
+q
+search fron
