@@ -1,6 +1,5 @@
 search x
 mkdir Sites
-
 mkdir euc
 touch ideavimrc
 touch .ideavimrc
@@ -10,9 +9,18 @@ open_with
 rename filemgr.6XPkaJ.2019-09-10_17_29_00.zip
 mkdir wp-prodinfo.loc
 rename 10_09_19.zip
-delete
 rename ucauto
 rename ucauto.loc
 touch front-page.php
 q
 search fron
+
+rename 11_10_19_18.zip
+rename 11_10_19.zip
+rename Raleway-Semibold.woff
+search popi
+rename 12_10_19.zip
+rename 12_09_19_18.zip
+rename moped.png
+delete
+rename 17_09_19.zip
