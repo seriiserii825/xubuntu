@@ -1,26 +1,50 @@
-search x
-mkdir Sites
-mkdir euc
-touch ideavimrc
-touch .ideavimrc
-open_with vim
-rename 09_09_19.zip
-open_with 
-rename filemgr.6XPkaJ.2019-09-10_17_29_00.zip
-mkdir wp-prodinfo.loc
-rename 10_09_19.zip
-rename ucauto
-rename ucauto.loc
-touch front-page.php
-q
-search fron
-
-rename 11_10_19_18.zip
-rename 11_10_19.zip
-rename Raleway-Semibold.woff
 search popi
 rename 12_10_19.zip
 rename 12_09_19_18.zip
 rename moped.png
-delete
 rename 17_09_19.zip
+mkdir pdf
+rename jju:q.jpg
+rename 27_09_19.zip
+mkdir egc
+rename 01_10_19.zip
+rename egc_01_10_19.zip
+rename euconsult_01_10_19.zip
+rename prodinfo_01_10_19.zip
+rename ucauto_categories.zip
+ucauto
+mkdir ucauto
+euconsult 
+mkdir eucnosult/backup
+rename euconsult_02_10_19.zip
+open_with libre
+open_with libreoffice
+
+touch wifi.md
+rename 03_10_19.zip
+rename search.svg
+rename 3.jpg
+rename 2.png
+rename 1.png
+mkdir blocks
+rename block-arrow.png
+rename iovudent_04_10_19.zip
+rename 6.jpg
+mkdir hostland
+rename Archive.zip
+rename ucauto_05_10_19.zip
+rename tooltipster
+rename gulpfile.js
+rename right-arrow-small.svg
+rename ucauto_07_10_19.zip
+rename iovudent_07_10_19.zip
+open_with 
+rename viscom.jpg
+deletey
+rename iovudent_10_10_19.zip
+mkdir iovudent
+mkdir duplicator
+rename dan_mereacre.jpg
+delete
+rename iovudent_10_10_19_16.zip
+mkdir benefis.loc
