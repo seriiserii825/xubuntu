@@ -1,7 +1,3 @@
-search popi
-rename 12_10_19.zip
-rename 12_09_19_18.zip
-rename moped.png
 rename 17_09_19.zip
 mkdir pdf
 rename jju:q.jpg
@@ -45,6 +41,10 @@ rename iovudent_10_10_19.zip
 mkdir iovudent
 mkdir duplicator
 rename dan_mereacre.jpg
-delete
 rename iovudent_10_10_19_16.zip
 mkdir benefis.loc
+cd  
+touch brother.md
+find 
+delete
+mkdir assets
