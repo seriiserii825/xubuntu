@@ -9,6 +9,7 @@ alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0
 #get path
 alias getp='pwd | xclip -sel clip'
 alias fc='xclip -selection clipboard'
+alias mg='mogrify -format jpg *.png'
 
 # broser
 alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
@@ -17,6 +18,12 @@ alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
 alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
 alias ips='xdg-open https://193.124.187.230:1500/ispmgr &'
 alias hstl='xdg-open https://panel.hostland.ru/ &'
+
+#sites
+alias gB='cd /home/serii/Документы/Sites/brother.loc'
+alias gF='cd /home/serii/Документы/Sites/benefis.loc'
+
+
 
 #programms
 alias r='ranger'
@@ -30,7 +37,6 @@ alias png='find -iname "*.png" -exec ffmpeg -i {} {}.jpg \;'
 alias gS='cd ~/Documents/Sites'
 alias gl='cd ~/Links'
 alias gw='cd /var/www'
-alias gB='cd /var/www/wp-benefis.loc/wp-content/themes/benefis'
 alias gE='cd ~/Documents/Sites/euconsult.loc'
 alias gr='cd ~/.config/ranger'
 alias gt='cd ~/Documents/Sites/teammate'
