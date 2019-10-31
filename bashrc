@@ -1,10 +1,14 @@
 # some more ls aliases
 
 alias ll1='ls -a1'
-alias ll='ls -la'
+alias ll='ls -lha'
 alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
+
+#images
+alias j='jpegoptim --strip-all --all-progressive -ptm85'
+alias op='optipng -strip all'
 
 #get path
 alias getp='pwd | xclip -sel clip'
@@ -84,8 +88,8 @@ alias mysqlr="sudo systemctl restart mysql"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias svimrc="source ~/.vimrc"
-alias bashrc="vim ~/.bashrc"
-alias sbashrc="source ~/.bashrc"
+alias b="vim ~/.bashrc"
+alias sb="source ~/.bashrc"
 alias ya="yandex"
 alias hib="sudo pm-hibernate"
 alias gitlog='git log --graph --pretty=oneline --abbrev-commit --all --decorate'
