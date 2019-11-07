@@ -12,7 +12,7 @@ alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0
 #}
 
 jpg() {
-  jpegoptim --strip-all --all-progressive -ptm "$1" "$@"
+  jpegoptim --strip-all --all-progressive -ptm "$1" $2
 }
 
 #images
