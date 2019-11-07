@@ -6,8 +6,17 @@ alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 
+#function
+#gitcommit() {
+    #git commit -m "$*"
+#}
+
+jpg() {
+  jpegoptim --strip-all --all-progressive -ptm "$1" "$2"
+}
+
 #images
-alias j='jpegoptim --strip-all --all-progressive -ptm85'
+alias j='jpg'
 alias op='optipng -strip all'
 
 #get path
