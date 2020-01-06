@@ -1,10 +1,13 @@
-# some more ls aliases
-
 alias ll1='ls -a1'
 alias ll='ls -lha'
 alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
+
+#docker
+alias drm='docker rm -v $(docker ps -aq -f status=exited)'
+alias dcu='docker-compose up -d nginx php-fpm mysql workspace'
+
 
 #function
 #gitcommit() {
@@ -54,6 +57,7 @@ alias gE='cd ~/Documents/Sites/euconsult.loc'
 alias gr='cd ~/.config/ranger'
 alias gt='cd ~/Documents/Sites/teammate'
 alias gd='cd ~/Downloads'
+alias gL='cd ~/Documents/Sites/l-laravel'
 alias gx='cd ~/xubuntu'
 alias gv='cd ~/Video'
 alias gD='cd ~/Documents'
@@ -114,8 +118,6 @@ alias scrm="import screenshot.jpg"
 #fi
 #unset color_prompt force_color_prompt
 # ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
 
 # If not running interactively, don't do anything
 case $- in
@@ -234,6 +236,8 @@ HISTFILESIZE=2000
 #shopt -s globstar
 
 # make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 #git commit function
