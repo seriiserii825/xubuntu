@@ -4,9 +4,29 @@ alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 
+#go to
+alias gS='cd ~/Sites'
+alias gl='cd ~/Links'
+alias gw='cd /var/www'
+alias gr='cd ~/.config/ranger'
+alias gt='cd ~/Sites/teammate'
+alias gd='cd ~/Downloads'
+alias gL='cd ~/Sites/l-laravel'
+alias ge='cd /home/serii/Sites/l-laravel/y-shopper.loc'
+alias gx='cd ~/xubuntu'
+alias gv='cd ~/Video'
+alias gD='cd ~/Documents'
+alias gk='cd /home/serii/Documents/Knowledge-base'
+alias gi='cd ~/Images'
+alias gm='cd ~/Music'
+
 #docker
 alias drm='docker rm -v $(docker ps -aq -f status=exited)'
-alias dcu='docker-compose up -d nginx php-fpm mysql workspace'
+alias dcu='sudo service mysql stop && docker-compose up -d apache2 php-fpm mysql phpmyadmin workspace'
+alias dcs='docker-compose stop'
+alias dcw='docker-compose exec --user=laradock workspace bash'
+alias dcm='docker-compose exec mysql bash'
+alias dcp='docker-compose ps'
 
 
 #function
@@ -49,28 +69,12 @@ alias f='vim -o `fzf`'
 alias webp='find -iname '*.webp' -exec ffmpeg -i {} {}.png \;'
 alias png='find -iname "*.png" -exec ffmpeg -i {} {}.jpg \;'
 
-#go to
-alias gS='cd ~/Documents/Sites'
-alias gl='cd ~/Links'
-alias gw='cd /var/www'
-alias gE='cd ~/Documents/Sites/euconsult.loc'
-alias gr='cd ~/.config/ranger'
-alias gt='cd ~/Documents/Sites/teammate'
-alias gd='cd ~/Downloads'
-alias gL='cd ~/Documents/Sites/l-laravel'
-alias gx='cd ~/xubuntu'
-alias gv='cd ~/Video'
-alias gD='cd ~/Documents'
-alias gk='cd /home/serii/Documents/Knowledge-base'
-alias gi='cd ~/Images'
-alias gm='cd ~/Music'
 
 # some more ls aliases
 
 alias rcconf='vim ~/home/serii/xubuntu/ranger/rc.conf'
 alias vi3='vim ~/.config/i3/config'
 alias svi3='source ~/.config/i3/config'
-alias glg='git log --oneline --graph'
 alias gs='git status'
 alias gad='git add --all'
 alias gcm='gitcommit'
