@@ -6,7 +6,7 @@ alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0
 
 #go to
 alias gS='cd ~/Sites'
-alias gl='cd ~/Links'
+alias gl='cd ~/Sites/laradock'
 alias gw='cd /var/www'
 alias gr='cd ~/.config/ranger'
 alias gt='cd ~/Sites/teammate'
