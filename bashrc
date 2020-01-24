@@ -20,14 +20,17 @@ alias gD='cd ~/Documents'
 alias gk='cd /home/serii/Documents/Knowledge-base'
 alias gi='cd ~/Images'
 alias gm='cd ~/Music'
+alias gC='cd /media/serii/f03fca48-4e28-4783-b0a6-eab91f130aa2/courses/Laravel'
 
 #docker
 alias drm='docker rm -v $(docker ps -aq -f status=exited)'
-alias dcu='docker-compose up -d apache2 php-fpm mysql phpmyadmin workspace'
+alias dcu='docker-compose up -d nginx php-fpm mysql phpmyadmin workspace'
 alias dcs='docker-compose stop'
 alias dcw='docker-compose exec --user=laradock workspace bash'
 alias dcm='docker-compose exec mysql bash'
 alias dcp='docker-compose ps'
+#alias dcb='docker-compose exec mysql /usr/bin/mysqldump -u root --password=root tlaravel > tlaravel.sql'
+alias dcb='docker-compose exec mysql /usr/bin/mysqldump -uroot -proot tlaravel > tlaravel.sql'
 
 
 #function
