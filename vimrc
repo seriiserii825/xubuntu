@@ -141,37 +141,37 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
   Plugin 'terryma/vim-multiple-cursors'
 
 "Snippets
-  Plugin 'SirVer/ultisnips'
-  Plugin 'honza/vim-snippets'
+  "Plugin 'SirVer/ultisnips'
+  "Plugin 'honza/vim-snippets'
 
 "Complete
   "Plugin 'Valloric/YouCompleteMe'
-  Plugin 'dNitro/vim-pug-complete'
+  "Plugin 'dNitro/vim-pug-complete'
   "Plugin 'ctrlp.vim'
 
 "search
-  Plugin 'mileszs/ack.vim'
+  "Plugin 'mileszs/ack.vim'
 
 "Code
-  Plugin 'jiangmiao/auto-pairs'
+  "Plugin 'jiangmiao/auto-pairs'
 
 Plugin 'alvan/vim-closetag'
 
 "Git
-  Plugin 'tpope/vim-fugitive'
-  Plugin 'airblade/vim-gitgutter'
+  "Plugin 'tpope/vim-fugitive'
+  "Plugin 'airblade/vim-gitgutter'
 
 "Motion
   "Plugin 'easymotion/vim-easymotion'
 
 "html
-  Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
+  "Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
 "Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
 
 "css
 Plugin 'ap/vim-css-color',{'for': ['css', 'scss']}
-Plugin 'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
-Plugin 'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
+"Plugin 'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
+"Plugin 'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
 
 "javascript
 Plugin 'jelera/vim-javascript-syntax'
@@ -181,7 +181,7 @@ Plugin 'pangloss/vim-javascript'
 "Plugin 'nathanaelkane/vim-indent-guides'
 
 "staus bar
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
 
 
 call vundle#end()			 " required
