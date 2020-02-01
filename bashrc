@@ -6,21 +6,23 @@ alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0
 
 #go to
 alias gS='cd ~/Sites'
-alias gl='cd ~/Sites/laradock'
-alias gw='cd /var/www'
 alias gr='cd ~/.config/ranger'
 alias gt='cd ~/Sites/teammate'
 alias gd='cd ~/Downloads'
 alias gL='cd ~/Sites/laradock'
-alias ge='cd /home/serii/Sites/laradock/y-shopper.loc'
-alias gA='/home/serii/Sites/administration'
 alias gx='cd ~/xubuntu'
 alias gv='cd ~/Video'
 alias gD='cd ~/Documents'
 alias gk='cd /home/serii/Documents/Knowledge-base'
 alias gi='cd ~/Images'
 alias gm='cd ~/Music'
-alias gC='cd /media/serii/f03fca48-4e28-4783-b0a6-eab91f130aa2/courses/Laravel'
+
+# broser
+alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
+alias gth='xdg-open https://github.com/seriiserii825?tab=repositories &'
+alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
+alias hstl='xdg-open https://panel.hostland.ru/ &'
+alias fa='xdg-open https://fontawesome.com/icons?d=gallery &'
 
 #docker
 alias drm='docker rm -v $(docker ps -aq -f status=exited)'
@@ -50,18 +52,6 @@ alias op='optipng -strip all'
 alias getp='pwd | xclip -sel clip'
 alias fc='xclip -selection clipboard'
 alias mg='mogrify -format jpg *.png'
-
-# broser
-alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
-alias gth='xdg-open https://github.com/seriiserii825?tab=repositories &'
-alias gkw='xdg-open https://github.com/seriiserii825/Knowledge-base &'
-alias gmail='xdg-open https://mail.google.com/mail/u/0/#inbox &'
-alias ips='xdg-open https://193.124.187.230:1500/ispmgr &'
-alias hstl='xdg-open https://panel.hostland.ru/ &'
-
-#sites
-alias gB='cd /home/serii/Документы/Sites/brother.loc'
-alias gF='cd /home/serii/Документы/Sites/benefis.loc'
 
 
 
