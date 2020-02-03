@@ -13,6 +13,7 @@ alias gt='cd ~/Sites/teammate'
 alias gd='cd ~/Downloads'
 alias gL='cd ~/Sites/laradock'
 alias ge='cd /home/serii/Sites/laradock/y-shopper.loc'
+alias gb='cd /home/serii/Sites/diber.loc'
 alias gA='/home/serii/Sites/administration'
 alias gx='cd ~/xubuntu'
 alias gv='cd ~/Video'
@@ -31,6 +32,10 @@ alias dcm='docker-compose exec mysql bash'
 alias dcp='docker-compose ps'
 #alias dcb='docker-compose exec mysql /usr/bin/mysqldump -u root --password=root tlaravel > tlaravel.sql'
 alias dcb='docker-compose exec mysql /usr/bin/mysqldump -uroot -proot tlaravel > tlaravel.sql'
+
+#hugo
+alias hs='hugo server'
+alias hsd='hugo server -D'
 
 
 #function
