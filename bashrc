@@ -19,7 +19,12 @@ alias gv='cd ~/Video'
 alias gD='cd ~/Documents'
 alias gk='cd /home/serii/Documents/Knowledge-base'
 alias gi='cd ~/Images'
-alias gm='cd ~/Music'
+alias gm='cd /home/serii/Sites/modena.loc/'
+alias gM='cd /home/serii/Sites/wp-modenaconsuleza.log/wp-content/themes/bs-modena'
+alias gg='cd /home/serii/Sites/gamerecords.loc'
+alias gh='cd /home/serii/Sites/h-test'
+alias gl='cd /home/serii/Sites/rosolina.loc/'
+
 
 # broser
 alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
@@ -40,8 +45,8 @@ alias dcb='docker-compose exec mysql /usr/bin/mysqldump -uroot -proot tlaravel >
 
 #hugo
 alias hs='hugo server'
-alias hsd='hugo server -D'
 
+alias rmf='rm * -rf'
 
 #function
 #gitcommit() {
@@ -49,7 +54,7 @@ alias hsd='hugo server -D'
 #}
 
 jpg() {
-  jpegoptim --strip-all --all-progressive -ptm "$1" $2
+  jpegoptim --strip-all --all-progressive -ptm 75 $1
 }
 
 #images
