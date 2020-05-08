@@ -11,9 +11,8 @@ alias gS='cd ~/Sites'
 alias gr='cd ~/.config/ranger'
 alias gt='cd ~/Sites/teammate'
 alias gd='cd ~/Downloads'
-alias gL='cd ~/Sites/laradock'
 alias ge='cd /home/serii/Sites/laradock/y-shopper.loc'
-alias gb='cd /home/serii/Sites/html-borgoluce'
+alias gb='cd /home/serii/Sites/bludelego'
 alias gB='cd /home/serii/Sites/bs-borgoluce'
 alias gh='cd /home/serii/Sites/h-test'
 alias gx='cd ~/xubuntu'
@@ -28,6 +27,8 @@ alias gh='cd /home/serii/Sites/h-test'
 alias ge='cd /home/serii/Sites/css-effects.loc'
 alias gf='cd /home/serii/Sites/html-fava/'
 alias gF='cd /home/serii/Sites/bs-fava'
+alias gl='cd /home/serii/Sites/html-delisa'
+alias gL='cd /home/serii/Sites/bs-delisa'
 
 # broser
 alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
@@ -68,6 +69,7 @@ alias op='optipng -strip all'
 alias getp='pwd | xclip -sel clip'
 alias fc='xclip -selection clipboard'
 alias mg='mogrify -format jpg *.png'
+alias mgj='mogrify -format png *.jpg'
 
 
 
