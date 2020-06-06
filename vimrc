@@ -28,6 +28,8 @@ filetype plugin on
 "Leader=================
 let g:mapleader = ','
 
+let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -g ""'
+
 "Remove end of line
 "nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 

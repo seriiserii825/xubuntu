@@ -4,7 +4,10 @@ alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 
+export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -print -o -type l -print 2> /dev/null | sed s/^..//" 
+
 #go to
+alias gp='cd ~/Projects/laradock'
 alias gv='cd /home/serii/Sites/html-bunavestire'
 alias gw='cd /home/serii/Sites/wordpress/wp-content/themes'
 alias gS='cd ~/Sites'
@@ -41,6 +44,7 @@ alias fa='xdg-open https://fontawesome.com/icons?d=gallery &'
 alias drm='docker rm -v $(docker ps -aq -f status=exited)'
 alias dcu='docker-compose up -d nginx php-fpm mysql phpmyadmin workspace'
 alias dcs='docker-compose stop'
+alias dcd='docker-compose down'
 alias dcw='docker-compose exec --user=laradock workspace bash'
 alias dcm='docker-compose exec mysql bash'
 alias dcp='docker-compose ps'
