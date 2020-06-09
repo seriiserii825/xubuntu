@@ -5,6 +5,7 @@ alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 
 #go to
+alias gp='cd /home/serii/Projects'
 alias gv='cd /home/serii/Sites/html-bunavestire'
 alias gw='cd /home/serii/Sites/wordpress/wp-content/themes'
 alias gS='cd ~/Sites'
@@ -39,8 +40,9 @@ alias fa='xdg-open https://fontawesome.com/icons?d=gallery &'
 
 #docker
 alias drm='docker rm -v $(docker ps -aq -f status=exited)'
-alias dcu='docker-compose up -d nginx php-fpm mysql phpmyadmin workspace'
+alias dcu='docker-compose up -d nginx php-fpm mysql workspace'
 alias dcs='docker-compose stop'
+alias dcd='docker-compose down'
 alias dcw='docker-compose exec --user=laradock workspace bash'
 alias dcm='docker-compose exec mysql bash'
 alias dcp='docker-compose ps'
