@@ -43,7 +43,7 @@ alias fa='xdg-open https://fontawesome.com/icons?d=gallery &'
 
 #docker
 alias drm='docker rm -v $(docker ps -aq -f status=exited)'
-alias dcu='docker-compose up -d nginx php-fpm mysql workspace'
+alias dcu='sudo service apache2 stop && docker-compose up -d nginx php-fpm mysql phpmyadmin workspace'
 alias dcs='docker-compose stop'
 alias dcd='docker-compose down'
 alias dcw='docker-compose exec --user=laradock workspace bash'
