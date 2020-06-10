@@ -6,6 +6,7 @@ alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0
 
 #go to
 alias gp='cd /home/serii/Projects'
+alias gT='cd /home/serii/Projects/tlaravel'
 alias gv='cd /home/serii/Sites/html-bunavestire'
 alias gw='cd /home/serii/Sites/wordpress/wp-content/themes'
 alias gS='cd ~/Sites'
