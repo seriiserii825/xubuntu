@@ -8,12 +8,12 @@ export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -prin
 
 #go to
 alias gT='cd /home/serii/Projects/tlaravel'
-alias gp='cd ~/Projects/laradock'
+alias gp='cd /home/serii/Sites/html-proseco'
 alias gv='cd /home/serii/Sites/html-bunavestire'
 alias gw='cd /home/serii/Sites/wordpress/wp-content/themes'
 alias gS='cd ~/Sites'
 alias gr='cd ~/.config/ranger'
-alias gt='cd ~/Sites/teammate'
+alias gt='cd /home/serii/.password-store'
 alias gd='cd ~/Downloads'
 alias ge='cd /home/serii/Sites/laradock/y-shopper.loc'
 alias gb='cd /home/serii/Sites/html-studiobazza.loc'
@@ -31,7 +31,7 @@ alias gh='cd /home/serii/Sites/h-test'
 alias ge='cd /home/serii/Sites/css-effects.loc'
 alias gf='cd /home/serii/Sites/html-fava/'
 alias gF='cd /home/serii/Sites/bs-fava'
-alias gl='cd /home/serii/Sites/html-delisa'
+alias gl='cd ~/Projects/laradock'
 alias gL='cd /home/serii/Sites/bs-delisa'
 
 # broser
@@ -93,7 +93,15 @@ gitcommit() {
 }
 
 p() {
+    pass "$*"
+}
+
+pi() {
     pass insert -m "$*"
+}
+
+pc() {
+    pass -c "$*"
 }
 
 
