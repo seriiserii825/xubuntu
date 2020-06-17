@@ -87,6 +87,15 @@ alias f='vim -o `fzf`'
 alias webp='find -iname '*.webp' -exec ffmpeg -i {} {}.png \;'
 alias png='find -iname "*.png" -exec ffmpeg -i {} {}.jpg \;'
 
+#git commit function
+gitcommit() {
+    git commit -m "$*"
+}
+
+p() {
+    pass insert -m "$*"
+}
+
 
 # some more ls aliases
 
@@ -263,11 +272,6 @@ HISTFILESIZE=2000
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
-
-#git commit function
-gitcommit() {
-    git commit -m "$*"
-}
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
