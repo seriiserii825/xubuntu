@@ -92,7 +92,7 @@ gitcommit() {
     git commit -m "$*"
 }
 
-p() {
+pa() {
     pass "$*"
 }
 
