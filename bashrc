@@ -34,6 +34,7 @@ alias gf='cd /home/serii/Sites/html-fava/'
 alias gF='cd /home/serii/Sites/bs-fava'
 alias gl='cd ~/Projects/laradock'
 alias gL='cd /home/serii/Sites/bs-delisa'
+alias gG='cd /home/serii/Sites/bs-gadda'
 
 # broser
 alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'

@@ -2,3 +2,5 @@ inoremap jj <esc>
 set clipboard=unnamedplus
 
 set clipboard+=ideaput
+nmap g; :action VcsShowNextChangeMarker<CR>
+nmap g, :action VcsShowPrevChangeMarker<CR>
