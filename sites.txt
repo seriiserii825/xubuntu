@@ -1,8 +1,7 @@
-Gamerecords 1
-Removed Elena Toffoli and add links for single artist.
+Bertan
+Add meta for all pages
 
-Fustellificio Gadda 3
-Add meta for all pages and done some small changes.
-
-Bassoservizi 3
-Page Servizi
+Bassoservizi
+Page Chi siamo
+Page Contatti
+Animation
