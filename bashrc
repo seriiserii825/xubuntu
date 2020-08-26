@@ -65,7 +65,7 @@ alias rmf='rm * -rf'
 #}
 
 jpg() {
-  jpegoptim --strip-all --all-progressive -ptm 75 $1
+  jpegoptim --strip-all --all-progressive -ptm 70 $1
 }
 
 #images
