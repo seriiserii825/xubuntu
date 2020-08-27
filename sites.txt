@@ -1,5 +1,6 @@
-Bertan
-Add meta for all pages
+Consorzium
+Home page with animation
+Cookie page
 
 Bassoservizi
-Page Chi siamo, Page Contatti, Animation
+Cookie page
