@@ -4,3 +4,4 @@ set clipboard=unnamedplus
 set clipboard+=ideaput
 nmap g; :action VcsShowNextChangeMarker<CR>
 nmap g, :action VcsShowPrevChangeMarker<CR>
+nnoremap ma :action ToggleBookmark1<CR>
