@@ -106,6 +106,11 @@ pc() {
     pass -c "$*"
 }
 
+function lgit() {
+    git add .
+    git commit -a -m "$*"
+    git push
+}
 
 # some more ls aliases
 
@@ -116,7 +121,7 @@ alias gs='git status'
 alias gad='git add --all'
 alias gcM='git checkout master'
 alias glg='git log --oneline --graph'
-alias gcm='gitcommit'
+alias gcm='git gitcommit'
 alias gdf='git diff'
 alias gca='git add --all && git commit -m "auto" && git push'
 alias gph='git push'
