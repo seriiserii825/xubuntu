@@ -30,7 +30,7 @@ alias gM='cd /home/serii/Sites/bs-maker/assets'
 alias gg='cd /home/serii/Sites/gulp'
 alias gh='cd /home/serii/Sites/h-test'
 alias ge='cd /home/serii/Sites/css-effects.loc'
-alias gF='cd /home/serii/Sites/bs-fava'
+alias gF='cd /home/serii/Sites/dimmidisi/wp-content/themes/franky'
 alias gl='cd ~/Projects/laradock'
 alias gL='cd /home/serii/Sites/bs-delisa'
 alias gG='cd /home/serii/Sites/bs-gadda'
@@ -70,6 +70,7 @@ jpg() {
 }
 
 #images
+alias jall='jpegoptim --strip-all --all-progressive -ptm 70'
 alias j='jpg'
 alias op='optipng -strip all'
 

@@ -18,9 +18,9 @@
   set wildmode=full
 
 "tabs settings==========================
-  set tabstop=2			 " To match the sample file set shiftwidth=2
-  set expandtab		 " Use tabs, not spaces
-  "%retab!						 " Retabulate the whole file
+:set ts=2
+:set et
+:%retab!
  
 filetype on
 filetype plugin on
