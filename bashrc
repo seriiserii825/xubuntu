@@ -126,6 +126,7 @@ alias gcm='git gitcommit'
 alias gdf='git diff'
 alias gca='git add --all && git commit -m "auto" && git push'
 alias gph='git push'
+alias gpl='git pull'
 alias dg='sudo dpkg -i'
 alias Install="sudo apt install"
 alias Update='sudo apt update'
