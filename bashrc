@@ -91,7 +91,7 @@ alias webp='find -iname '*.webp' -exec ffmpeg -i {} {}.png \;'
 alias png='find -iname "*.png" -exec ffmpeg -i {} {}.jpg \;'
 
 #git commit function
-gitcommit() {
+function gcm() {
     git commit -m "$*"
 }
 
@@ -122,7 +122,6 @@ alias gs='git status'
 alias gad='git add --all'
 alias gcM='git checkout master'
 alias glg='git log --oneline --graph'
-alias gcm='git gitcommit'
 alias gdf='git diff'
 alias gca='git add --all && git commit -m "auto" && git push'
 alias gph='git push'
