@@ -6,7 +6,7 @@ alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0
 alias nrd='npm run dev'
 alias nrs='npm run serve'
 alias grd='gridsome develop'
-alias rndg="rename 's/\d+/sprintf(\"%02d\", $&)/e'"
+alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
 
 export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -print -o -type l -print 2> /dev/null | sed s/^..//" 
 
