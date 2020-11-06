@@ -9,7 +9,7 @@ alias grd='gridsome develop'
 alias nrs='npm run serve'
 alias grd='gridsome develop'
 alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
-alias git-summary='/home/serii/Documents/git-summary/git-summary'
+alias gsm='/home/serii/Documents/git-summary/git-summary'
 
 export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -print -o -type l -print 2> /dev/null | sed s/^..//" 
 
