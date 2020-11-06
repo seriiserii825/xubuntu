@@ -4,6 +4,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
 alias nrd='npm run dev'
+alias grd='gridsome develop'
 alias nrs='npm run serve'
 alias grd='gridsome develop'
 alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
