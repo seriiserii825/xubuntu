@@ -73,11 +73,11 @@ alias rmf='rm * -rf'
 #}
 
 jpg() {
-  jpegoptim --strip-all --all-progressive -ptm 70 $1
+  jpegoptim --strip-all --all-progressive -ptm 80 $1
 }
 
 #images
-alias jall='jpegoptim --strip-all --all-progressive -ptm 70'
+alias jall='jpegoptim --strip-all --all-progressive -ptm 80'
 alias j='jpg'
 alias op='optipng -strip all'
 
