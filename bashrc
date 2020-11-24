@@ -77,7 +77,7 @@ jpg() {
 }
 
 #images
-alias jall='jpegoptim --strip-all --all-progressive -ptm 70'
+alias jall='jpegoptim --strip-all --all-progressive -ptm 80'
 alias j='jpg'
 alias op='optipng -strip all'
 
