@@ -1,3 +1,4 @@
+alias phpcs='/home/serii/.config/composer/vendor/bin/phpcs'
 alias ll1='ls -a1'
 alias ll='ls -lha'
 alias la='ls -A'
