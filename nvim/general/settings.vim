@@ -1,6 +1,8 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
