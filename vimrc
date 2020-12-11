@@ -1,3 +1,6 @@
+"packloadall
+au FileType css,scss let b:prettier_exec_cmd = "prettier-stylelint"
+
 "general settings
   set nocompatible
   set backspace=indent,eol,start
@@ -128,7 +131,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
   Plugin 'VundleVim/Vundle.vim'
 
 "Nerdtree
-  Plugin 'scrooloose/nerdtree', {'on':	'NERDTreeToggle' }
+  Plugin 'scrooloose/nerdtree', {'on':  'NERDTreeToggle' }
 
 "Indentation
  Plugin '2072/PHP-Indenting-for-VIm'
@@ -155,7 +158,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
   "Plugin 'mileszs/ack.vim'
 
 "Code
-  "Plugin 'jiangmiao/auto-pairs'
+  Plugin 'jiangmiao/auto-pairs'
 
 Plugin 'alvan/vim-closetag'
 
@@ -167,17 +170,20 @@ Plugin 'alvan/vim-closetag'
   "Plugin 'easymotion/vim-easymotion'
 
 "html
-  "Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
-"Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
+Plugin 'mattn/emmet-vim', {'for': ['html', 'javascript', 'css']}
+Plugin 'othree/html5.vim',{'for': ['html', 'javascript']}
 
 "css
 Plugin 'ap/vim-css-color',{'for': ['css', 'scss']}
-"Plugin 'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
+Plugin 'cakebaker/scss-syntax.vim',{'for': ['css', 'scss']}
 "Plugin 'hail2u/vim-css3-syntax',{'for': ['css', 'scss']}
 
 "javascript
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
+
+" post install (yarn install | npm install) then load plugin only for editing supported files
+"Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 "
 "Plugin 'nathanaelkane/vim-indent-guides'
@@ -186,7 +192,7 @@ Plugin 'pangloss/vim-javascript'
 "Plugin 'scrooloose/syntastic'
 
 
-call vundle#end()			 " required
+call vundle#end()      " required
 "Vundle end============================
 
 set background=dark

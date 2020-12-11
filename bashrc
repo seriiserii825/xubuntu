@@ -12,6 +12,11 @@ alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
 alias rnst="rename -v 's/\ /-/g' *"
 alias gsm='/home/serii/Documents/git-summary/git-summary'
 
+#Neovim
+alias n='nvim'
+alias nvms='nvim ~/.config/nvim/general/settings.vim'
+alias nvmp='nvim /home/serii/xubuntu/nvim/vim-plug/plugins.vim'
+
 export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -print -o -type l -print 2> /dev/null | sed s/^..//" 
 
 #go to
