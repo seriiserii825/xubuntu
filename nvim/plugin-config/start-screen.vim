@@ -6,6 +6,7 @@ let g:startify_lists = [
 
 let g:startify_bookmarks = [
             \ { 's': '/home/serii/xubuntu/nvim/plugin-config/start-screen.vim' },
+            \ { 'p': '/home/serii/xubuntu/nvim/vim-plug/plugins.vim' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
             \ '~/Sites',

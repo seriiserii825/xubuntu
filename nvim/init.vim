@@ -8,5 +8,6 @@ source $HOME/.config/nvim/plugin-config/fzf.vim
 source $HOME/.config/nvim/plugin-config/start-screen.vim
 source $HOME/.config/nvim/plugin-config/rainbow.vim
 source $HOME/.config/nvim/plugin-config/signify.vim
+source $HOME/.config/nvim/plugin-config/sneak.vim
 source $HOME/.config/nvim/themes/airline.vim
 lua require'plug-colorizer'
