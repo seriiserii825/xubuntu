@@ -30,5 +30,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     Plug 'mhinz/vim-startify'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'junegunn/rainbow_parentheses.vim'
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
 call plug#end()
 
