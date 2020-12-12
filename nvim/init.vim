@@ -5,3 +5,4 @@ source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/plugin-config/coc.vim
 source $HOME/.config/nvim/plugin-config/rnvimr.vim
 source $HOME/.config/nvim/plugin-config/fzf.vim
+source $HOME/.config/nvim/plugin-config/start-screen.vim

@@ -12,6 +12,7 @@ alias grd='gridsome develop'
 alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
 alias rnst="rename -v 's/\ /-/g' *"
 alias gsm='/home/serii/Documents/git-summary/git-summary'
+alias fd='fdfind'
 
 #Neovim
 alias n='nvim'
@@ -24,6 +25,7 @@ export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -prin
 
 #go to
 alias gT='cd /home/serii/Projects/tlaravel'
+alias gb='cd /home/serii/Sites/base-ecommerce'
 alias gp='cd /home/serii/Sites/html-proseco'
 alias gP='cd /home/serii/Sites/bs-proseccobordoluce'
 alias gv='cd /home/serii/Sites/html-bunavestire'
@@ -33,7 +35,6 @@ alias gr='cd ~/.config/ranger'
 alias gt='cd /home/serii/.password-store'
 alias gd='cd ~/Downloads'
 alias ge='cd /home/serii/Sites/laradock/y-shopper.loc'
-alias gb='cd /home/serii/Sites/html-proseco'
 alias gB='cd /home/serii/Sites/bs-borgoluce'
 alias gh='cd /home/serii/Sites/h-test'
 alias gx='cd ~/xubuntu'
