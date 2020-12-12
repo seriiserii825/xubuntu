@@ -1,5 +1,3 @@
-ucauto
-mkdir ucauto
 euconsult 
 mkdir eucnosult/backup
 rename euconsult_02_10_19.zip
@@ -44,7 +42,9 @@ search neo
 
 cd 
 mkdir .fonts
-delete
 touch nvim-fzf.txt
 touch nvim-multi-cursor.txt
 q
+touch html.snippets
+open_with nvim
+delete

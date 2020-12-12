@@ -41,5 +41,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
     Plug 'liuchengxu/vim-which-key'
     Plug 'honza/vim-snippets'
+    Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
 call plug#end()
 

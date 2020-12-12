@@ -7,9 +7,11 @@ let g:startify_lists = [
 let g:startify_bookmarks = [
             \ { 's': '/home/serii/xubuntu/nvim/plugin-config/start-screen.vim' },
             \ { 'p': '/home/serii/xubuntu/nvim/vim-plug/plugins.vim' },
+            \ { 'ps': '/home/serii/xubuntu/nvim/snips/php.snippets' },
+            \ { 'h': '/home/serii/xubuntu/nvim/snips/php.snippets' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'b': '/home/serii/Sites/base-ecommerce/front-page.php' },
-            \ { 'z': '~/.zshrc' },
+            \ { 'f': '/home/serii/Sites/wp-fictional-univesity/front-page.php' },
             \ '~/Sites',
             \ '~/Documents',
             \ '~/Downloads',
