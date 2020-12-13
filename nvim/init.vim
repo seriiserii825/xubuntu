@@ -12,4 +12,6 @@ source $HOME/.config/nvim/plugin-config/sneak.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/keys/which-key.vim
+source $HOME/.config/nvim/plugin-config/floaterm.vim
+source $HOME/.config/nvim/plugin-config/autosave.vim
 lua require'plug-colorizer'

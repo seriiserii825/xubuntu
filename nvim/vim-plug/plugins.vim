@@ -42,5 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     Plug 'honza/vim-snippets'
     Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
+    Plug 'voldikss/vim-floaterm'
+    Plug 'vim-scripts/vim-auto-save'
 call plug#end()
 
