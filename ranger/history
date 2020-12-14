@@ -1,11 +1,3 @@
-euconsult 
-mkdir eucnosult/backup
-rename euconsult_02_10_19.zip
-open_with libre
-open_with libreoffice
-touch wifi.md
-rename 03_10_19.zip
-rename search.svg
 rename 3.jpg
 rename 2.png
 rename 1.png
@@ -47,4 +39,12 @@ touch nvim-multi-cursor.txt
 q
 touch html.snippets
 open_with nvim
+mkdir fira
+rename cart-icon:q.svg
+rename cart-icon.svg
+rename arrow-left.png
+rename arrow-right.png
+rename Trustpilot_290.png
+shell 
 delete
+rename Trustpilot_brandmark-dark.png
