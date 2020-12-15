@@ -44,5 +44,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
     Plug 'voldikss/vim-floaterm'
     Plug 'vim-scripts/vim-auto-save'
+    Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 

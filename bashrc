@@ -13,6 +13,7 @@ alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
 alias rnst="rename -v 's/\ /-/g' *"
 alias gsm='/home/serii/Documents/git-summary/git-summary'
 alias fd='fdfind'
+alias xscl='xclip -sel clip'
 
 #Neovim
 alias n='nvim'
