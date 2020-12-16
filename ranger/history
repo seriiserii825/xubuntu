@@ -1,5 +1,3 @@
-rename block-arrow.png
-rename iovudent_04_10_19.zip
 rename 6.jpg
 mkdir hostland
 rename Archive.zip
@@ -48,3 +46,5 @@ shell
 open_with 
 
 delete
+touch acf-attributes.php
+mkdir woo
