@@ -7,6 +7,8 @@ let g:startify_bookmarks = [
             \ { 'm': '/home/serii/Sites/bs-madison/front-page.php' },
             \ { 'b': '/home/serii/Sites/base-ecommerce/front-page.php' },
             \ { 'r': '/home/serii/Sites/bs-rewind-telecomunicazioni/front-page.php' },
+            \ { 'r': '/home/serii/Sites/bs-rewind-telecomunicazioni/front-page.php' },
+            \ { 't': '/home/serii/Sites/test-html/index.html' },
             \ { 'f': '/home/serii/Sites/wp-fictional-univesity/front-page.php' },
             \ '~/Sites',
             \ '~/Documents',
