@@ -96,6 +96,7 @@ alias op='optipng -strip all'
 alias getp='pwd | xclip -sel clip'
 alias fc='xclip -selection clipboard'
 alias mg='mogrify -format jpg *.png'
+alias mr='mogrify -resize'
 alias mgj='mogrify -format png *.jpg'
 
 

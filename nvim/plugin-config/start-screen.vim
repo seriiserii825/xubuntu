@@ -6,6 +6,7 @@ let g:startify_bookmarks = [
             \ { 'st': '/home/serii/Sites/start-template.loc/src/pug/pages/index.pug' },
             \ { 'm': '/home/serii/Sites/bs-madison/front-page.php' },
             \ { 'b': '/home/serii/Sites/base-ecommerce/front-page.php' },
+            \ { 'r': '/home/serii/Sites/bs-rewind-telecomunicazioni/front-page.php' },
             \ { 'f': '/home/serii/Sites/wp-fictional-univesity/front-page.php' },
             \ '~/Sites',
             \ '~/Documents',

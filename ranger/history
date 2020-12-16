@@ -1,20 +1,9 @@
-rename 2.png
-rename 1.png
-mkdir blocks
-rename block-arrow.png
-rename iovudent_04_10_19.zip
-rename 6.jpg
-mkdir hostland
-rename Archive.zip
-rename ucauto_05_10_19.zip
 rename tooltipster
 rename gulpfile.js
 rename right-arrow-small.svg
 rename ucauto_07_10_19.zip
 rename iovudent_07_10_19.zip
-open_with 
 rename viscom.jpg
-deletey
 rename iovudent_10_10_19.zip
 mkdir iovudent
 mkdir duplicator
@@ -23,14 +12,12 @@ rename iovudent_10_10_19_16.zip
 mkdir benefis.loc
 cd  
 touch brother.md
-find 
 mkdir assets
 search nvim
 touch nvim-coc.txt
 mkdir Gpg
 touch gpg.txt
 search neo
-
 cd 
 mkdir .fonts
 touch nvim-fzf.txt
@@ -44,7 +31,20 @@ rename cart-icon.svg
 rename arrow-left.png
 rename arrow-right.png
 rename Trustpilot_290.png
+wc-patterlini.shop
+mkdir wc-patterlini.shop
+deletey
+touch wc-variation-price.php
+touch wc-list-variation-prices.php
+find 
 shell 
+<<<<<<< HEAD
 rename Trustpilot_brandmark-dark.png
 mkdir test-html
+=======
+open_with 
+
 delete
+touch acf-attributes.php
+mkdir woo
+>>>>>>> 39e1a3325ca51b8525e47ecdc9ee5426db26f843
