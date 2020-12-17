@@ -45,6 +45,6 @@ find
 shell 
 open_with 
 
-delete
 touch acf-attributes.php
 mkdir woo
+delete
