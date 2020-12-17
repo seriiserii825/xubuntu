@@ -41,10 +41,10 @@ open_with
 touch acf-attributes.php
 mkdir woo
 <<<<<<< HEAD
-delete
 =======
 >>>>>>> 39e1a3325ca51b8525e47ecdc9ee5426db26f843
 touch index.html
 wq
 search gulp
 >>>>>>> 6916f8c42853edf05f5722c8d27963186ab37cbe
+delete
