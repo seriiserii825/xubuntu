@@ -1,5 +1,3 @@
-mkdir benefis.loc
-cd  
 touch brother.md
 mkdir assets
 search nvim
@@ -47,4 +45,6 @@ rename footer.php
 rename header.php
 mkdir BrandonGrotesque
 mkdir MonetaSans
+rename cioccolata-optimized.jpg
 delete
+rename cioccolata:q.jpg
