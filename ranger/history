@@ -1,4 +1,3 @@
-touch brother.md
 mkdir assets
 search nvim
 touch nvim-coc.txt
@@ -11,7 +10,6 @@ touch nvim-fzf.txt
 touch nvim-multi-cursor.txt
 q
 touch html.snippets
-open_with nvim
 mkdir fira
 rename cart-icon:q.svg
 rename cart-icon.svg
@@ -46,5 +44,7 @@ rename header.php
 mkdir BrandonGrotesque
 mkdir MonetaSans
 rename cioccolata-optimized.jpg
-delete
 rename cioccolata:q.jpg
+open_with%space nvim
+open_with nvim
+delete
