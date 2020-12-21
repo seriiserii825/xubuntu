@@ -1,9 +1,3 @@
-mkdir benefis.loc
-cd  
-touch brother.md
-mkdir assets
-search nvim
-touch nvim-coc.txt
 mkdir Gpg
 touch gpg.txt
 search neo
@@ -47,4 +41,10 @@ rename footer.php
 rename header.php
 mkdir BrandonGrotesque
 mkdir MonetaSans
+mkdir gallery
+mkdir import
+touch check.svg
+open_with vim
+rename oferte-mobile.jpg
 delete
+rename gallery-3.jpg

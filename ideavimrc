@@ -1,8 +1,8 @@
 inoremap jj <esc>
 set clipboard=unnamedplus
-set sneak
 
 set clipboard+=ideaput
 nmap g; :action VcsShowNextChangeMarker<CR>
 nmap g, :action VcsShowPrevChangeMarker<CR>
 nnoremap ma :action ToggleBookmark1<CR>
+set sneak
