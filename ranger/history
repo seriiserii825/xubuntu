@@ -1,8 +1,3 @@
-search nvim
-touch nvim-coc.txt
-mkdir Gpg
-touch gpg.txt
-search neo
 cd 
 mkdir .fonts
 touch nvim-fzf.txt
@@ -28,13 +23,9 @@ open_with
 
 touch acf-attributes.php
 mkdir woo
-<<<<<<< HEAD
-=======
->>>>>>> 39e1a3325ca51b8525e47ecdc9ee5426db26f843
 touch index.html
 wq
 search gulp
->>>>>>> 6916f8c42853edf05f5722c8d27963186ab37cbe
 search gulpf
 rename .git
 search front
@@ -42,9 +33,18 @@ rename footer.php
 rename header.php
 mkdir BrandonGrotesque
 mkdir MonetaSans
+mkdir gallery
+mkdir import
+touch check.svg
+open_with vim
+rename oferte-mobile.jpg
 rename cioccolata-optimized.jpg
 rename cioccolata:q.jpg
 open_with%space nvim
 open_with nvim
 delete
+<<<<<<< HEAD
 rename acf-woocommerce.json
+=======
+rename gallery-3.jpg
+>>>>>>> 7e1cbbaaf42076b9b01a9ae46fa7e94831fda290
