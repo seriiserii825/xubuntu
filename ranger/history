@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 mkdir Gpg
 touch gpg.txt
 search neo
+=======
+>>>>>>> 3ba0244cd29fd0c276d17932d77f6ff04bb28769
 cd 
 mkdir .fonts
 touch nvim-fzf.txt
@@ -48,3 +51,11 @@ search map
 open_with nvim
 deletey
 delete
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+rename acf-woocommerce.json
+=======
+rename gallery-3.jpg
+>>>>>>> 7e1cbbaaf42076b9b01a9ae46fa7e94831fda290
+>>>>>>> 3ba0244cd29fd0c276d17932d77f6ff04bb28769
