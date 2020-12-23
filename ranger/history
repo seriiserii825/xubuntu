@@ -1,6 +1,3 @@
-mkdir assets
-search nvim
-touch nvim-coc.txt
 mkdir Gpg
 touch gpg.txt
 search neo
@@ -18,7 +15,6 @@ rename arrow-right.png
 rename Trustpilot_290.png
 wc-patterlini.shop
 mkdir wc-patterlini.shop
-deletey
 touch wc-variation-price.php
 touch wc-list-variation-prices.php
 find 
@@ -42,11 +38,13 @@ mkdir MonetaSans
 mkdir gallery
 mkdir import
 touch check.svg
-open_with vim
 rename oferte-mobile.jpg
 rename cioccolata-optimized.jpg
 rename cioccolata:q.jpg
 open_with%space nvim
-open_with nvim
-delete
 rename gallery-3.jpg
+open_with vim
+search map
+open_with nvim
+deletey
+delete
