@@ -14,6 +14,7 @@ alias rnst="rename -v 's/\ /-/g' *"
 alias gsm='/home/serii/Documents/git-summary/git-summary'
 alias fd='fdfind'
 alias xscl='xclip -sel clip'
+alias pe='pass edit'
 
 #Neovim
 alias n='nvim'
@@ -25,6 +26,7 @@ alias nvmk='nvim /home/serii/xubuntu/nvim/keys/mappings.vim'
 export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -print -o -type l -print 2> /dev/null | sed s/^..//" 
 
 #go to
+alias gc='cd /home/serii/Sites/components'
 alias gT='cd /home/serii/Projects/tlaravel'
 alias gb='cd /home/serii/Sites/base-ecommerce'
 alias gp='cd /home/serii/Sites/html-proseco'

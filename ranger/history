@@ -1,6 +1,3 @@
-cd 
-mkdir .fonts
-touch nvim-fzf.txt
 touch nvim-multi-cursor.txt
 q
 touch html.snippets
@@ -24,7 +21,6 @@ open_with
 touch acf-attributes.php
 mkdir woo
 touch index.html
-wq
 search gulp
 search gulpf
 rename .git
@@ -42,9 +38,13 @@ rename cioccolata-optimized.jpg
 rename cioccolata:q.jpg
 open_with%space nvim
 open_with nvim
-delete
 <<<<<<< HEAD
 rename acf-woocommerce.json
 =======
 rename gallery-3.jpg
 >>>>>>> 7e1cbbaaf42076b9b01a9ae46fa7e94831fda290
+rename preloader.gif
+touch searc.php
+rename search.php
+wq
+delete

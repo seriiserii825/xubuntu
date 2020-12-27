@@ -4,6 +4,7 @@ let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'st': '/home/serii/Sites/start-template.loc/src/pug/pages/index.pug' },
             \ { 'm': '/home/serii/Sites/bs-madison/front-page.php' },
+            \ { 'c': '/home/serii/Sites/components' },
             \ { 'b': '/home/serii/Sites/base-ecommerce/front-page.php' },
             \ { 'ps': '/home/serii/Sites/bs-pasticceriamiccifabio' },
             \ { 'r': '/home/serii/Sites/bs-rewind-telecomunicazioni/front-page.php' },
