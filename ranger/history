@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+mkdir Gpg
+touch gpg.txt
+search neo
+=======
+>>>>>>> 3ba0244cd29fd0c276d17932d77f6ff04bb28769
+cd 
+mkdir .fonts
+touch nvim-fzf.txt
+>>>>>>> d99229381acdda1aec2a3e9803875f90ae2d1b46
 touch nvim-multi-cursor.txt
 q
 touch html.snippets
@@ -9,7 +21,6 @@ rename arrow-right.png
 rename Trustpilot_290.png
 wc-patterlini.shop
 mkdir wc-patterlini.shop
-deletey
 touch wc-variation-price.php
 touch wc-list-variation-prices.php
 find 
@@ -32,19 +43,32 @@ mkdir MonetaSans
 mkdir gallery
 mkdir import
 touch check.svg
-open_with vim
 rename oferte-mobile.jpg
 rename cioccolata-optimized.jpg
 rename cioccolata:q.jpg
 open_with%space nvim
+rename gallery-3.jpg
+open_with vim
+search map
 open_with nvim
+<<<<<<< HEAD
+=======
+deletey
+delete
+>>>>>>> d99229381acdda1aec2a3e9803875f90ae2d1b46
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 rename acf-woocommerce.json
 =======
 rename gallery-3.jpg
 >>>>>>> 7e1cbbaaf42076b9b01a9ae46fa7e94831fda290
+<<<<<<< HEAD
 rename preloader.gif
 touch searc.php
 rename search.php
 wq
 delete
+=======
+>>>>>>> 3ba0244cd29fd0c276d17932d77f6ff04bb28769
+>>>>>>> d99229381acdda1aec2a3e9803875f90ae2d1b46
