@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-mkdir Gpg
-touch gpg.txt
-search neo
-=======
->>>>>>> 3ba0244cd29fd0c276d17932d77f6ff04bb28769
-cd 
-mkdir .fonts
 touch nvim-fzf.txt
 touch nvim-multi-cursor.txt
 q
@@ -45,14 +37,11 @@ rename oferte-mobile.jpg
 rename cioccolata-optimized.jpg
 rename cioccolata:q.jpg
 open_with%space nvim
-rename gallery-3.jpg
 open_with vim
 search map
 open_with nvim
 deletey
 delete
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 rename acf-woocommerce.json
 =======
