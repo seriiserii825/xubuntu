@@ -1,10 +1,7 @@
-rename Trustpilot_290.png
-wc-patterlini.shop
 mkdir wc-patterlini.shop
 touch wc-variation-price.php
 touch wc-list-variation-prices.php
 find 
-shell 
 rename Trustpilot_brandmark-dark.png
 mkdir test-html
 open_with 
@@ -30,6 +27,7 @@ open_with vim
 search map
 open_with nvim
 deletey
+>>>>>>> fd977f27982455e88df79f33653f8e2a15bd11c4
 rename acf-woocommerce.json
 rename gallery-3.jpg
 >>>>>>> 7e1cbbaaf42076b9b01a9ae46fa7e94831fda290
@@ -45,6 +43,8 @@ open_with google-chrome
 search pack
 mkdir import
 mkdir food
-delete
 open_with%spacegd
 search par
+shell 
+search 59
+delete
