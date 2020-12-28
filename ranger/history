@@ -1,9 +1,7 @@
-wc-patterlini.shop
 mkdir wc-patterlini.shop
 touch wc-variation-price.php
 touch wc-list-variation-prices.php
 find 
-shell 
 rename Trustpilot_brandmark-dark.png
 mkdir test-html
 open_with 
@@ -45,6 +43,8 @@ open_with google-chrome
 search pack
 mkdir import
 mkdir food
-delete
 open_with%spacegd
 search par
+shell 
+search 59
+delete
