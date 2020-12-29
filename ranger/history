@@ -1,8 +1,3 @@
-mkdir wc-patterlini.shop
-touch wc-variation-price.php
-touch wc-list-variation-prices.php
-find 
-rename Trustpilot_brandmark-dark.png
 mkdir test-html
 open_with 
 
@@ -47,4 +42,9 @@ open_with%spacegd
 search par
 shell 
 search 59
+mkdir site
 delete
+rename brandon.zip
+search date
+touch js-date.js
+touch js-window.js
