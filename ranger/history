@@ -1,14 +1,3 @@
-mkdir test-html
-open_with 
-
-touch acf-attributes.php
-mkdir woo
-touch index.html
-search gulp
-search gulpf
-rename .git
-search front
-rename footer.php
 rename header.php
 mkdir BrandonGrotesque
 mkdir MonetaSans
@@ -48,3 +37,14 @@ rename brandon.zip
 search date
 touch js-date.js
 touch js-window.js
+mkdir components
+mkdir header
+
+touch header.php
+touch header.scss
+touch header.js
+search header
+mkdir footer
+touch footer.php
+touch footer.scss
+search footer
