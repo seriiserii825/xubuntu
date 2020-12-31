@@ -1,7 +1,3 @@
-mkdir test-html
-open_with 
-
-touch acf-attributes.php
 mkdir woo
 touch index.html
 search gulp
@@ -43,8 +39,12 @@ search par
 shell 
 search 59
 mkdir site
-delete
 rename brandon.zip
 search date
 touch js-date.js
 touch js-window.js
+mkdir inc
+delete
+search xmlreques.js
+search touch xmlreques.js
+touch xmlreques.js
