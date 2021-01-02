@@ -1,5 +1,3 @@
-rename header.php
-mkdir BrandonGrotesque
 mkdir MonetaSans
 mkdir gallery
 touch check.svg
@@ -7,7 +5,6 @@ rename oferte-mobile.jpg
 rename cioccolata-optimized.jpg
 rename cioccolata:q.jpg
 open_with%space nvim
-open_with vim
 search map
 open_with nvim
 deletey
@@ -23,7 +20,6 @@ wq
 =======
 >>>>>>> 3ba0244cd29fd0c276d17932d77f6ff04bb28769
 >>>>>>> d99229381acdda1aec2a3e9803875f90ae2d1b46
-open_with google-chrome
 search pack
 mkdir import
 mkdir food
@@ -32,7 +28,6 @@ search par
 shell 
 search 59
 mkdir site
-delete
 rename brandon.zip
 search date
 touch js-date.js
@@ -48,3 +43,8 @@ mkdir footer
 touch footer.php
 touch footer.scss
 search footer
+open_with google-chrome
+delete
+mkdir modificators
+touch v-modificators.vue
+open_with vim
