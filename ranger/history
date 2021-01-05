@@ -1,50 +1,50 @@
-mkdir MonetaSans
-mkdir gallery
-touch check.svg
-rename oferte-mobile.jpg
-rename cioccolata-optimized.jpg
-rename cioccolata:q.jpg
-open_with%space nvim
-search map
-open_with nvim
-deletey
->>>>>>> fd977f27982455e88df79f33653f8e2a15bd11c4
-rename acf-woocommerce.json
-rename gallery-3.jpg
->>>>>>> 7e1cbbaaf42076b9b01a9ae46fa7e94831fda290
-<<<<<<< HEAD
-rename preloader.gif
-touch searc.php
-rename search.php
-wq
-=======
->>>>>>> 3ba0244cd29fd0c276d17932d77f6ff04bb28769
->>>>>>> d99229381acdda1aec2a3e9803875f90ae2d1b46
-search pack
-mkdir import
-mkdir food
-open_with%spacegd
-search par
-shell 
-search 59
-mkdir site
-rename brandon.zip
-search date
-touch js-date.js
-touch js-window.js
-mkdir components
-mkdir header
-
-touch header.php
-touch header.scss
-touch header.js
-search header
-mkdir footer
-touch footer.php
-touch footer.scss
-search footer
-open_with google-chrome
-delete
-mkdir modificators
-touch v-modificators.vue
+touch v-slot.vue
+open_with 
+open_with n
+open_with neovim
 open_with vim
+touch v-directive.vue
+touch v-lowercase.vue
+touch v-names.vue
+wq
+rename v-filter-lowercase.vue
+rename v-filter-names.vue
+rename v-checkbox.vue
+rename v-input.vue
+rename v-radio.vue
+rename v-select.vue
+rename v-validation.vue
+touch v-textarea.vue
+rename .git
+touch v-custom-elem.vue
+rename v-get.vue
+rename v-http.vue
+rename v-post.vue
+rename v-resource.vue
+rename 10.mp4
+rename 01.mp4
+rename 02.mp4
+rename 11.mp4
+rename 12.mp4
+rename 13.mp4
+rename 14.mp4
+rename 15.mp4
+rename 16.mp4
+rename 17.mp4
+rename 18.mp4
+rename 19.mp4
+rename 20.mp4
+rename 21.mp4
+rename 22.mp4
+rename 23.mp4
+rename 29.mp4
+rename .fuse_hidden0000001e00000006
+search vue
+search vuex
+
+mkdir animation
+touch v-transition.vue
+open_with nvim
+mkdir images
+delete
+rename about.svg
