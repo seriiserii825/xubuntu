@@ -46,5 +46,5 @@ mkdir animation
 touch v-transition.vue
 open_with nvim
 mkdir images
-delete
 rename about.svg
+delete
