@@ -1,23 +1,3 @@
-touch v-slot.vue
-open_with 
-open_with n
-open_with neovim
-open_with vim
-touch v-directive.vue
-touch v-lowercase.vue
-touch v-names.vue
-wq
-rename v-filter-lowercase.vue
-rename v-filter-names.vue
-rename v-checkbox.vue
-rename v-input.vue
-rename v-radio.vue
-rename v-select.vue
-rename v-validation.vue
-touch v-textarea.vue
-rename .git
-touch v-custom-elem.vue
-rename v-get.vue
 rename v-http.vue
 rename v-post.vue
 rename v-resource.vue
@@ -39,12 +19,32 @@ rename 22.mp4
 rename 23.mp4
 rename 29.mp4
 rename .fuse_hidden0000001e00000006
-search vue
 search vuex
 
 mkdir animation
 touch v-transition.vue
-open_with nvim
 mkdir images
 rename about.svg
+touch icons
+rename icons.js
+rename icons.vue
+rename v-validation-props.vue
+touch v-validation-email.vue
+rename v-validation-password.vue
+rename v-validation.vue
+touch v-validation-custom.vue
+rename v-validation-login.vue
+rename v-validation-registration.vue
+touch v-form.vue
+search fron
+search
+c
+touch 
+touch v-sass.vue
+open_with n
 delete
+mkdir products
+rename 1'z'a.jpg
+search vue
+touch v-image-src.vue
+open_with nvim
