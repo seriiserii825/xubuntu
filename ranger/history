@@ -1,4 +1,3 @@
-rename v-http.vue
 rename v-post.vue
 rename v-resource.vue
 rename 10.mp4
@@ -42,9 +41,10 @@ c
 touch 
 touch v-sass.vue
 open_with n
-delete
 mkdir products
 rename 1'z'a.jpg
-search vue
 touch v-image-src.vue
 open_with nvim
+mkdir static
+search vue
+delete
