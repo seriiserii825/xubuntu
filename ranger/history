@@ -1,4 +1,3 @@
-rename v-post.vue
 rename v-resource.vue
 rename 10.mp4
 rename 01.mp4
@@ -46,5 +45,6 @@ rename 1'z'a.jpg
 touch v-image-src.vue
 open_with nvim
 mkdir static
-search vue
 delete
+search vue
+touch logout.js
