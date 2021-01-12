@@ -55,6 +55,7 @@ alias gl='cd ~/Projects/laradock'
 alias gL='cd /home/serii/Sites/bs-delisa'
 alias gG='cd /home/serii/Sites/bs-gadda'
 alias gW='cd /home/serii/Web/wordpress-plugins'
+alias gm='cd /home/serii/Sites/modules'
 
 # broser
 alias cl='xdg-open https://cloud.mail.ru/home/Web/Sites_Mail/ &'
