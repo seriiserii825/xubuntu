@@ -1,6 +1,3 @@
-rename v-resource.vue
-rename 10.mp4
-rename 01.mp4
 rename 02.mp4
 rename 11.mp4
 rename 12.mp4
@@ -48,3 +45,6 @@ mkdir static
 delete
 search vue
 touch logout.js
+search javascr
+mkdir scrollToFixed
+touch Readme.txt
