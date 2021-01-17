@@ -1,4 +1,6 @@
 inoremap jj <esc>
+set backupcopy=yes
+set noswapfile
 set clipboard=unnamedplus
 
 set clipboard+=ideaput

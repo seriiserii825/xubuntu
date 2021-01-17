@@ -1,4 +1,3 @@
-rename 02.mp4
 rename 11.mp4
 rename 12.mp4
 rename 13.mp4
@@ -15,7 +14,6 @@ rename 23.mp4
 rename 29.mp4
 rename .fuse_hidden0000001e00000006
 search vuex
-
 mkdir animation
 touch v-transition.vue
 mkdir images
@@ -48,3 +46,5 @@ touch logout.js
 search javascr
 mkdir scrollToFixed
 touch Readme.txt
+
+touch r-state.js
