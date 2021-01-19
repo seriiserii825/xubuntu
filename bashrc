@@ -1,20 +1,12 @@
-alias phpcs='/home/serii/.config/composer/vendor/bin/phpcs'
-alias ll1='ls -a1'
-alias ll='ls -lha'
-alias la='ls -A'
-alias l='ls -CF'
-alias pe='pass edit'
-alias nvminit='curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash'
-alias nrd='npm run dev'
-alias grd='gridsome develop'
-alias nrs='npm run serve'
-alias grd='gridsome develop'
-alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
+andg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
 alias rnst="rename -v 's/\ /-/g' *"
 alias gsm='/home/serii/Documents/git-summary/git-summary'
 alias fd='fdfind'
 alias xscl='xclip -sel clip'
 alias pe='pass edit'
+alias ns='npm start'
+alias nrs='npm run serve'
+alias gcM='git checkout main'
 
 #Neovim
 alias n='nvim'
