@@ -1,19 +1,3 @@
-rename v-post.vue
-rename v-resource.vue
-rename 10.mp4
-rename 01.mp4
-rename 02.mp4
-rename 11.mp4
-rename 12.mp4
-rename 13.mp4
-rename 14.mp4
-rename 15.mp4
-rename 16.mp4
-rename 17.mp4
-rename 18.mp4
-rename 19.mp4
-rename 20.mp4
-rename 21.mp4
 rename 22.mp4
 rename 23.mp4
 rename 29.mp4
@@ -22,7 +6,6 @@ search vuex
 
 mkdir animation
 touch v-transition.vue
-mkdir images
 rename about.svg
 touch icons
 rename icons.js
@@ -44,7 +27,24 @@ open_with n
 mkdir products
 rename 1'z'a.jpg
 touch v-image-src.vue
-open_with nvim
 mkdir static
 search vue
+touch user-autologin-on-reload.js
+touch v-image-upload.vue
+search java
+search cook
+search javascri
+touch js-check-index.js
+rename form-dark.jpg
+touch branchAddress.php
+touch test.php
+search javascr
+open_with nvim
+mkdir images
+open_with%space
+search staf
 delete
+rename components
+rename index.css
+rename index.js
+search re
