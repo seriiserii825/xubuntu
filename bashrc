@@ -7,6 +7,7 @@ alias pe='pass edit'
 alias ns='npm start'
 alias nrs='npm run serve'
 alias gcM='git checkout main'
+alias gdv='gatsby develop'
 
 #Neovim
 alias n='nvim'
