@@ -8,6 +8,7 @@ alias ns='npm start'
 alias nrs='npm run serve'
 alias gcM='git checkout main'
 alias ll='ls -la'
+alias gdv='gatsby develop'
 
 #Neovim
 alias n='nvim'
