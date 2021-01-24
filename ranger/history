@@ -3,6 +3,12 @@ search Git
 search rea
 mkdir gatsby-projects
 rename products.module.css
-delete
 search gats
 search gat
+mkdir google-analytics-4
+touch google-analytics-4.php
+mkdir images
+touch google-analitycs-display.php
+delete
+rename gb-portfolio-strapi
+rename gb-portfolio
