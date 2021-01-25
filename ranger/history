@@ -5,10 +5,10 @@ mkdir gatsby-projects
 rename products.module.css
 search gats
 search gat
-mkdir Gatsby
-touch g-variables.js
-mkdir set-google-analitycs
-touch set-google-analitics.php
-rename set-google-analitics
-rename set-google-analitycs.zip
+mkdir google-analytics-4
+touch google-analytics-4.php
+mkdir images
+touch google-analitycs-display.php
 delete
+rename gb-portfolio-strapi
+rename gb-portfolio

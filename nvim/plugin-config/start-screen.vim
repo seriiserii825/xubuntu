@@ -12,6 +12,7 @@ let g:startify_bookmarks = [
             \ { 'r': '/home/serii/Sites/bs-rewind-telecomunicazioni/front-page.php' },
             \ { 't': '/home/serii/Sites/test-html/index.html' },
             \ { 'k': '/home/serii/Documents/Knowledge-base/pass.md' },
+            \ { 'gp': '/home/serii/Sites/gatsby-projects/starter-project-gatsby-strapi-portfolio-2020/src/pages/index.js' },
             \ '~/Sites',
             \ '~/Documents',
             \ '~/Downloads',

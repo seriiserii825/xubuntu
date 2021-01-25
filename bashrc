@@ -21,6 +21,7 @@ alias nvmk='nvim /home/serii/xubuntu/nvim/keys/mappings.vim'
 export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -print -o -type l -print 2> /dev/null | sed s/^..//" 
 
 #go to
+alias gst='cd /home/serii/Sites/gatsby-projects/starter-project-gatsby-strapi-portfolio-2020'
 alias gc='cd /home/serii/Sites/components'
 alias gT='cd /home/serii/Projects/tlaravel'
 alias gb='cd /home/serii/Sites/base-ecommerce'
