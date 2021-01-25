@@ -10,6 +10,7 @@ alias gcM='git checkout main'
 alias gdv='gatsby develop'
 alias ll='ls -la'
 alias gdv='gatsby develop'
+alias nrd='npm run develop'
 
 #Neovim
 alias n='nvim'
