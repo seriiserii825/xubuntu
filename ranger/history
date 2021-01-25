@@ -3,6 +3,12 @@ search Git
 search rea
 mkdir gatsby-projects
 rename products.module.css
-delete
 search gats
 search gat
+mkdir Gatsby
+touch g-variables.js
+mkdir set-google-analitycs
+touch set-google-analitics.php
+rename set-google-analitics
+rename set-google-analitycs.zip
+delete
