@@ -5,10 +5,17 @@ mkdir gatsby-projects
 rename products.module.css
 search gats
 search gat
-mkdir google-analytics-4
-touch google-analytics-4.php
-mkdir images
-touch google-analitycs-display.php
+mkdir Gatsby
+touch g-variables.js
+mkdir set-google-analitycs
+touch set-google-analitics.php
+rename set-google-analitics
+rename set-google-analitycs.zip
+mkdir strapi
+q
+mkdir bs-spacefood
+open_with nvim
+search head
 delete
-rename gb-portfolio-strapi
-rename gb-portfolio
+rename screenshot.png
+search Pop
