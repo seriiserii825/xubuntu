@@ -16,6 +16,11 @@ q
 mkdir bs-spacefood
 open_with nvim
 search head
-delete
 rename screenshot.png
 search Pop
+mkdir wp-projects
+mkdir wp-plugins
+mkdir vue
+mkdir html
+mkdir react
+delete
