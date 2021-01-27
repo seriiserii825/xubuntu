@@ -14,8 +14,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'scrooloose/NERDTree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'posva/vim-vue'
 
     Plug 'joshdick/onedark.vim'
+    " Plug 'dracula/vim', { 'as': 'dracula' }
 
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}

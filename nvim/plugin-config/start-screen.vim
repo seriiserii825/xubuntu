@@ -3,7 +3,7 @@ let g:startify_bookmarks = [
             \ { 'p': '/home/serii/xubuntu/nvim/vim-plug/plugins.vim' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'st': '/home/serii/Sites/start-template.loc/src/pug/pages/index.pug' },
-            \ { 'm': '/home/serii/Sites/bs-madison/front-page.php' },
+            \ { 'med': '/home/serii/Sites/vue/mediumclone_vue/src/views/Home.vue' },
             \ { 'vp': '/home/serii/Sites/vue-project/src/App.vue' },
             \ { 'fp': '/home/serii/Sites/js-food-petricenco/src/index.html' },
             \ { 'c': '/home/serii/Sites/components' },

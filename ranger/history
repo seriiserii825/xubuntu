@@ -27,7 +27,7 @@ rename logo-webleaders-small.png
 delete'
 rename google-analytics-4.zip
 mkdir fullpage
-delete
 mkdir full-page-scroll
 touch instructioins.txt
 CocConfig
+delete
