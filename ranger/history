@@ -14,8 +14,15 @@ rename set-google-analitycs.zip
 mkdir strapi
 q
 mkdir bs-spacefood
-open_with nvim
 search head
-delete
 rename screenshot.png
+rename Operator Mono.ttf
+mkdir .fonts
 search Pop
+open_with nvim
+mkdir Indie_Flower
+mkdir volkorn
+open_with k
+rename Volkorn
+delete
+rename google-analytics-4.zip
