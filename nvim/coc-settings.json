@@ -11,5 +11,6 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "php", "html", "vue", "scss", "js"]
 }
