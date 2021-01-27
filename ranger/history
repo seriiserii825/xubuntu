@@ -19,3 +19,14 @@ rename screenshot.png
 rename Operator Mono.ttf
 mkdir .fonts
 search Pop
+mkdir wp-activate-plugin-error.php
+touch wp-activate-plugin-error.php
+open_with%space
+rename logo-webleaders-small.svg
+rename logo-webleaders-small.png
+delete'
+rename google-analytics-4.zip
+mkdir fullpage
+delete
+mkdir full-page-scroll
+touch instructioins.txt
