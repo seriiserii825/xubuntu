@@ -34,4 +34,8 @@ mkdir jq-inview
 touch jq-inview.txt
 mkdir full-view-scroll
 rename smooth-page-scrolling-mk
+mkdir one-page-scroll
+mkdir javascript
+mkdir wp-test
 delete
+rename package.json
