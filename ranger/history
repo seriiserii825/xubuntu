@@ -30,4 +30,8 @@ mkdir fullpage
 mkdir full-page-scroll
 touch instructioins.txt
 CocConfig
+mkdir jq-inview
+touch jq-inview.txt
+mkdir full-view-scroll
+rename smooth-page-scrolling-mk
 delete
