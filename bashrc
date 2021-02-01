@@ -8,7 +8,11 @@ alias ns='npm start'
 alias nrs='npm run serve'
 alias gcM='git checkout main'
 alias gdv='gatsby develop'
+<<<<<<< HEAD
 alias ll='ls -lha'
+=======
+alias ll='ls -lah'
+>>>>>>> a941c23e4948901ddf29a1deb372eeff28cac634
 alias gdv='gatsby develop'
 alias nrd='npm run develop'
 
@@ -26,10 +30,8 @@ alias gst='cd /home/serii/Sites/gatsby-projects/starter-project-gatsby-strapi-po
 alias gc='cd /home/serii/Sites/components'
 alias gT='cd /home/serii/Projects/tlaravel'
 alias gb='cd /home/serii/Sites/base-ecommerce'
-alias gp='cd /home/serii/Sites/html-proseco'
-alias gP='cd /home/serii/Sites/bs-proseccobordoluce'
 alias gv='cd /home/serii/Sites/vue'
-alias gw='cd /home/serii/Sites/wp-projects'
+alias gp='cd /home/serii/Sites/wp-projects'
 alias gS='cd ~/Sites'
 alias gr='cd ~/.config/ranger'
 alias gt='cd /home/serii/.password-store'
