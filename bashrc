@@ -8,7 +8,7 @@ alias ns='npm start'
 alias nrs='npm run serve'
 alias gcM='git checkout main'
 alias gdv='gatsby develop'
-alias ll='ls -la'
+alias ll='ls -lha'
 alias gdv='gatsby develop'
 alias nrd='npm run develop'
 

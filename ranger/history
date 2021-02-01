@@ -21,7 +21,6 @@ mkdir .fonts
 search Pop
 mkdir wp-activate-plugin-error.php
 touch wp-activate-plugin-error.php
-open_with%space
 rename logo-webleaders-small.svg
 rename logo-webleaders-small.png
 delete'
@@ -34,4 +33,17 @@ mkdir jq-inview
 touch jq-inview.txt
 mkdir full-view-scroll
 rename smooth-page-scrolling-mk
+open_with%space
+rename product.jpg
+rename product-h.jpg
+rename product-horizontal.jpg
+rename product-resized.jpg
+search Medi
+search woocom
+search pp
+search pop
+open_with nvim
+mkdir instructions
+open_with vim
+rename eco-home-mobile-optimized.jpg
 delete
