@@ -37,5 +37,14 @@ rename smooth-page-scrolling-mk
 mkdir one-page-scroll
 mkdir javascript
 mkdir wp-test
-delete
 rename package.json
+rename pexels-photo-4326005.jpg
+rename car-original.jpg
+rename car-optimized.jpg
+rename car-original-400x300-optimized.jpg
+rename eco-home-original.jpg
+rename eco-home-RESIZED-400.jpg
+mkdir Vue
+mkdir Grdisome-graphql
+mkdir Zip
+delete
