@@ -8,8 +8,8 @@ alias ns='npm start'
 alias nrs='npm run serve'
 alias gcM='git checkout main'
 alias gdv='gatsby develop'
-alias ll='ls -lah'
-alias gdv='gatsby develop'
+alias grdv='gridsome develop'
+alias ll='ls -lha'
 alias nrd='npm run develop'
 
 #Neovim
