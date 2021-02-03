@@ -1,9 +1,3 @@
-search git
-search Git
-search rea
-mkdir gatsby-projects
-rename products.module.css
-search gats
 search gat
 mkdir Gatsby
 touch g-variables.js
@@ -12,7 +6,6 @@ touch set-google-analitics.php
 rename set-google-analitics
 rename set-google-analitycs.zip
 mkdir strapi
-q
 mkdir bs-spacefood
 search head
 rename screenshot.png
@@ -47,4 +40,11 @@ rename eco-home-RESIZED-400.jpg
 mkdir Vue
 mkdir Grdisome-graphql
 mkdir Zip
+touch cart-checkout.php
+touch wp-webp.php
+rename nature.jpg
+mkdir Javascript
+rename p-rusu-croped.png
+mkdir React
+q
 delete
