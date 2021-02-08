@@ -1,4 +1,3 @@
-mkdir strapi
 mkdir bs-spacefood
 search head
 rename screenshot.png
@@ -48,3 +47,4 @@ mkdir acf
 delete
 open_with vim
 find f
+mkdir fonts
