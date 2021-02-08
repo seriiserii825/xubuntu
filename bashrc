@@ -134,6 +134,7 @@ function lgit() {
 
 alias rcconf='vim ~/home/serii/xubuntu/ranger/rc.conf'
 alias vi3='vim ~/.config/i3/config'
+alias vi3l='vim ~/.config/i3/lock.sh'
 alias svi3='source ~/.config/i3/config'
 alias gs='git status'
 alias gad='git add --all'
