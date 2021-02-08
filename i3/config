@@ -1,4 +1,4 @@
-exec --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle"
+exec --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:caps_toggle"
 exec xinput --disable 17
 exec parcellite
 exec flameshot
@@ -183,6 +183,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 	position top
+font pango:mono 14
+ #status_command i3blocks
 }
 # Moving workspaces between screens 
 bindsym $mod+p move workspace to output right
