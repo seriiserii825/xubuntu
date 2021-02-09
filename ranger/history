@@ -46,5 +46,5 @@ mkdir fonts
 rename about-bg.png
 rename modernizr-custom.js
 wq
-delete
 rename nature-original.jpeg
+delete

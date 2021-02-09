@@ -294,7 +294,7 @@ export HISTIGNORE="ls:ll:ps:history"
 #control history
 export HISTCONTROL=ignorespace:erasedups
 
-export VISUAL=nvim
+export VISUAL=vim
 export EDITOR="$VISUAL"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
