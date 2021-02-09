@@ -26,4 +26,4 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-feh --bg-scale $HOME/Images/screenshot.jpg
+feh --bg-scale $HOME/xubuntu/i3/screenshot.jpg

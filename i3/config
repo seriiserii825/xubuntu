@@ -47,9 +47,11 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
+# Close focused window
+bindsym $mod+q kill
 
-# kill focused window
-bindsym $mod+Shift+q kill
+# Close all windows on all workspaces (any class string)
+bindsym $mod+Shift+q [class=”.*”] kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
@@ -61,8 +63,11 @@ bindsym $mod+d exec dmenu_run
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
-bindsym $mod+l focus up
+#bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
+
+# Lock desktop
+bindsym $mod+l exec ~/.config/i3/lock.sh
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -152,6 +157,8 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
+#bindsym Mod1+Shift+e exec exit
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         bindsym j resize shrink width 10 px or 10 ppt
@@ -191,4 +198,4 @@ assign [class="Google-chrome"] $ws4
 assign [class="Slack"] $ws5
 assign [class="Skype"] $ws6
 
-
+bindsym Print exec "flameshot gui"
