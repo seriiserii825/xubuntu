@@ -1,4 +1,4 @@
-andg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
+alias randg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
 alias rnst="rename -v 's/\ /-/g' *"
 alias gsm='/home/serii/Documents/git-summary/git-summary'
 alias fd='fdfind'
@@ -13,11 +13,11 @@ alias ll='ls -lha'
 alias nrd='npm run develop'
 
 #Neovim
-alias n='nvim'
-alias nvmi='nvim ~/.config/nvim/init.vim'
-alias nvms='nvim ~/.config/nvim/general/settings.vim'
-alias nvmp='nvim /home/serii/xubuntu/nvim/vim-plug/plugins.vim'
-alias nvmk='nvim /home/serii/xubuntu/nvim/keys/mappings.vim'
+#alias n='nvim'
+#alias nvmi='nvim ~/.config/nvim/init.vim'
+#alias nvms='nvim ~/.config/nvim/general/settings.vim'
+#alias nvmp='nvim /home/serii/xubuntu/nvim/vim-plug/plugins.vim'
+#alias nvmk='nvim /home/serii/xubuntu/nvim/keys/mappings.vim'
 
 export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -print -o -type l -print 2> /dev/null | sed s/^..//" 
 
@@ -294,7 +294,7 @@ export HISTIGNORE="ls:ll:ps:history"
 #control history
 export HISTCONTROL=ignorespace:erasedups
 
-export VISUAL=nvim
+export VISUAL=vim
 export EDITOR="$VISUAL"
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
