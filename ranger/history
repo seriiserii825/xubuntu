@@ -1,32 +1,3 @@
-open_with%space
-rename logo-webleaders-small.svg
-rename logo-webleaders-small.png
-delete'
-rename google-analytics-4.zip
-mkdir fullpage
-mkdir full-page-scroll
-touch instructioins.txt
-CocConfig
-mkdir jq-inview
-touch jq-inview.txt
-mkdir full-view-scroll
-rename smooth-page-scrolling-mk
-mkdir one-page-scroll
-mkdir javascript
-mkdir wp-test
-rename package.json
-rename pexels-photo-4326005.jpg
-rename car-original.jpg
-rename car-optimized.jpg
-rename car-original-400x300-optimized.jpg
-rename eco-home-original.jpg
-rename eco-home-RESIZED-400.jpg
-mkdir Vue
-mkdir Grdisome-graphql
-mkdir Zip
-touch cart-checkout.php
-touch wp-webp.php
-rename nature.jpg
 mkdir Javascript
 rename p-rusu-croped.png
 mkdir React
@@ -36,9 +7,6 @@ search ter
 open_with  vim
 open_with%
 mkdir acf
-open_with vim
-find f
-mkdir fonts
 rename about-bg.png
 rename modernizr-custom.js
 wq
@@ -47,4 +15,36 @@ mkdir .password-store
 mkdir Sites
 mkdir wp-projects
 rename Bigiotteria.jpg
+search header
+rename package.json
+rename main-footer.scss_
+rename fonts.scss_
+rename base.scss
+rename fonts.scss
+rename mixins.scss
+rename variables.scss
+search footer
+rename footer.php
+rename animation.js
+rename acf-simple.json
+touch show-menu.js
+mkdir fonts
+mkdir Web
+mkdir Copperplate
+rename Copperplate.ttc
+rename Copperplate.ttf
+rename Copperplate-Bold.ttf
+rename Copperplate-Light.ttf
+find fv
+find f
+rename Bigiotteria-1.jpg
+rename Cucito-e-ricamo-1.jpg
+rename Sciarpe-e-accessori-1.jpg
+rename Un-vasto-assortimento-di-orecchini,-anelli,-collane-e-gioielli-1.jpg
+rename slide-1.jpg
+rename slide-2.jpg
+rename slide-3.jpg
+mkdir tiny-slider
 delete
+open_with vim
+mkdir gr-diber
