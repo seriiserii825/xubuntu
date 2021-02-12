@@ -1,7 +1,3 @@
-mkdir Javascript
-rename p-rusu-croped.png
-mkdir React
-q
 mkdir vue
 search ter
 open_with  vim
@@ -45,6 +41,10 @@ rename slide-1.jpg
 rename slide-2.jpg
 rename slide-3.jpg
 mkdir tiny-slider
-delete
 open_with vim
 mkdir gr-diber
+rename acf-to-rest-api.zip
+delete
+rename webp
+mkdir jpg
+rename jpg-resized
