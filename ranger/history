@@ -1,8 +1,3 @@
-mkdir Javascript
-rename p-rusu-croped.png
-mkdir React
-q
-mkdir vue
 search ter
 open_with  vim
 open_with%
@@ -45,6 +40,11 @@ rename slide-1.jpg
 rename slide-2.jpg
 rename slide-3.jpg
 mkdir tiny-slider
-delete
 open_with vim
 mkdir gr-diber
+mkdir wp-gridsome
+mkdir wp-gridsome-diber
+rename wg-diber
+delete
+rename grappe.jpg
+rename vini.jpg
