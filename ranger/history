@@ -42,3 +42,6 @@ rename slide-3.jpg
 mkdir tiny-slider
 open_with vim
 mkdir gr-diber
+rename assetsjjj
+mkdir .vscode
+touch settings.json
