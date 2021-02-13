@@ -42,9 +42,3 @@ rename slide-3.jpg
 mkdir tiny-slider
 open_with vim
 mkdir gr-diber
-mkdir wp-gridsome
-mkdir wp-gridsome-diber
-rename wg-diber
-delete
-rename grappe.jpg
-rename vini.jpg
