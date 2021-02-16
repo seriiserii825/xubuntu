@@ -46,3 +46,4 @@ mkdir .vscode
 touch settings.json
 open_with vim
 delete
+rename home-intro.jpg
