@@ -1,5 +1,3 @@
-search ter
-open_with  vim
 open_with%
 mkdir acf
 rename about-bg.png
@@ -44,6 +42,9 @@ mkdir gr-diber
 rename assetsjjj
 mkdir .vscode
 touch settings.json
+rename home-intro.jpg
+rename test-copy.jpg
+mkdir images
 open_with vim
 delete
-rename home-intro.jpg
+rename archive-wp.zip
