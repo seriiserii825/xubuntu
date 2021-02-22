@@ -1,4 +1,4 @@
-alias randg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
+alias rndg="rename 's/\d+/sprintf(\"%03d\", $&)/e'"
 alias rnst="rename -v 's/\ /-/g' *"
 alias gsm='/home/serii/Documents/git-summary/git-summary'
 alias fd='fdfind'
@@ -9,6 +9,7 @@ alias nrs='npm run serve'
 alias gcM='git checkout main'
 alias gdv='gatsby develop'
 alias grdv='gridsome develop'
+alias grb='gridsome build'
 alias ll='ls -lha'
 alias nrd='npm run develop'
 
