@@ -1,25 +1,3 @@
-mkdir vue
-search ter
-open_with  vim
-open_with%
-mkdir acf
-rename about-bg.png
-rename modernizr-custom.js
-wq
-rename nature-original.jpeg
-mkdir .password-store
-mkdir Sites
-mkdir wp-projects
-rename Bigiotteria.jpg
-search header
-rename package.json
-rename main-footer.scss_
-rename fonts.scss_
-rename base.scss
-rename fonts.scss
-rename mixins.scss
-rename variables.scss
-search footer
 rename footer.php
 rename animation.js
 rename acf-simple.json
@@ -40,11 +18,33 @@ rename Un-vasto-assortimento-di-orecchini,-anelli,-collane-e-gioielli-1.jpg
 rename slide-1.jpg
 rename slide-2.jpg
 rename slide-3.jpg
-mkdir tiny-slider
-open_with vim
 mkdir gr-diber
 rename acf-to-rest-api.zip
-delete
 rename webp
 mkdir jpg
 rename jpg-resized
+mkdir wg-projects
+rename wordpress-gridsome-projects
+rename inc_
+rename package.json
+1
+open_with
+mkdir tiny-slider
+search tiny
+rename tiny-slider-new.js
+rename gallery-4.jpg
+rename gallery-5gS.jpg
+touch 404.php
+open_with vim
+search inc
+mkdir wp-plugins
+rename fixedHeader.js
+rename map.js
+mkdir Baske
+rename Salumi.jpg
+mkdir mogrify
+
+rename gallery-5.jpg
+rename 404.php
+mkdir UI
+delete
