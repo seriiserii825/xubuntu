@@ -1,0 +1,11 @@
+rename paste.png
+rename single-product-original
+rename single-product
+rename content-single-product-original.php
+rename content-single-product.php
+rename single-product-orginal.scss
+rename single-product.scss
+q
+rename arrow-rightjjjjjjjjjjj.svg
+delete
+mkdir react
