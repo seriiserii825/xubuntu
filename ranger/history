@@ -1,11 +1,3 @@
-rename about-bg.png
-rename modernizr-custom.js
-wq
-rename nature-original.jpeg
-mkdir .password-store
-mkdir Sites
-mkdir wp-projects
-rename Bigiotteria.jpg
 search header
 rename package.json
 rename main-footer.scss_
@@ -43,8 +35,16 @@ touch settings.json
 rename home-intro.jpg
 rename test-copy.jpg
 mkdir images
-open_with vim
 rename archive-wp.zip
-delete
 mkdir strapi
 open_with 
+open_with vim
+mkdir typology
+rename SingleTypology.vue
+mkdir gatsby
+rename river-fixed.jpg
+rename river-fluid.jpg
+rename rewind.jpg
+rename rewind-fixed.jpg
+rename rewind-fluid.jpg
+delete
