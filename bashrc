@@ -14,6 +14,10 @@ alias grb='gridsome build'
 alias ll='ls -lha'
 alias nrd='npm run develop'
 
+mkr() { 
+   mkdir -p -- "$1" && touch -- "$1"/"$1.js" "$1"/"$1.module.css"
+}
+
 #Neovim
 alias n='nvim'
 alias nvmi='nvim ~/.config/nvim/init.vim'
@@ -346,3 +350,5 @@ export NVM_DIR="/home/serii/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+
