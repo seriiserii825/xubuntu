@@ -12,8 +12,10 @@ mkdir react
 mkdir bs-ilpasticcere
 search qu
 rename 404.php
-delete
 =======
 >>>>>>> e3c371470d2317edb2cd7781086f734bff87d043
 rename Movies.js
 rename Movies.module.css
+rename package.json
+delete
+touch wc-variation-equal-price.php
