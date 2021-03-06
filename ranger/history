@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-rename paste.png
-rename single-product-original
 rename single-product
 rename content-single-product-original.php
 rename content-single-product.php
@@ -18,7 +15,6 @@ rename Movies.js
 rename Movies.module.css
 rename package.json
 touch wc-variation-equal-price.php
-open_with vim
 mkdir images
 mkdir svg
 rename app-design.svg_
@@ -40,4 +36,15 @@ rename g-backroads
 rename gb-backroads
 mkdir base-ecommerce-plugins
 rename wp-graphql-acf.zip
+mkdir Eina01
+mkdir Web
+open_with vim
+search foot
+search footer
+mkdir sanity
+touch sn-graphql
+rename sn-graphql.txt
+mkdir Gridsome
+touch gr-install.txt
+rename .gitignore
 delete
