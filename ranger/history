@@ -1,10 +1,3 @@
-touch wc-variation-equal-price.php
-mkdir images
-mkdir svg
-rename app-design.svg_
-rename app-design-o.svg
-rename app-design.svg
-rename design-o.svg
 rename design.svg
 rename services-o.svg
 rename services.svg
@@ -22,9 +15,7 @@ mkdir base-ecommerce-plugins
 rename wp-graphql-acf.zip
 mkdir Eina01
 mkdir Web
-open_with vim
 search foot
-search footer
 mkdir sanity
 touch sn-graphql
 rename sn-graphql.txt
@@ -42,9 +33,18 @@ q
 search git
 open_with k
 mark jpg
-delete
 unmark
 shell 
 shell mogrify -resize 400x *.jpg
 shell jall *
 search conf
+search abou
+shell j about.jpg
+search footer
+open_with vm
+open_with vim
+mkdir jamstack
+mkdir portfolio
+mkdir services
+mkdir diber
+delete
