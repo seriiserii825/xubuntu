@@ -4,6 +4,7 @@ let g:startify_bookmarks = [
             \ { 'ps': '/home/serii/xubuntu/nvim/snips/php.snippets' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'st': '/home/serii/Sites/start-template.loc/src/pug/pages/index.pug' },
+            \ { 'svsn': '/home/serii/Sites/jamstack/services/snservices/schemas/schema.js' },
             \ { 'b': '/home/serii/Sites/base-ecommerce/front-page.php' },
             \ { 'f': '/home/serii/Sites/wp-fictional-univesity/front-page.php' },
             \ '~/Sites',

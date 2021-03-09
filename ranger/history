@@ -1,5 +1,3 @@
-rename design.svg
-rename services-o.svg
 rename services.svg
 rename altuofianco
 rename altuofianco.php
@@ -48,3 +46,5 @@ mkdir portfolio
 mkdir services
 mkdir diber
 delete
+search sani
+rename sanity-single.txt
