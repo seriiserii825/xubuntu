@@ -40,7 +40,6 @@ search abou
 shell j about.jpg
 search footer
 open_with vm
-open_with vim
 mkdir jamstack
 mkdir portfolio
 mkdir services
@@ -48,3 +47,4 @@ mkdir diber
 search sani
 rename sanity-single.txt
 delete
+open_with vim
