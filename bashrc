@@ -9,10 +9,13 @@ alias nrs='npm run serve'
 alias nrst='npm run start'
 alias gcM='git checkout main'
 alias gdv='gatsby develop'
+alias gdc='gatsby clean'
+alias gdb='gatsby build'
 alias grdv='gridsome develop'
 alias grb='gridsome build'
 alias ll='ls -lha'
 alias nrd='npm run develop'
+alias sgd='sanity graphql deploy'
 
 mkr() { 
    mkdir -p -- "$1" && touch -- "$1"/"$1.js" "$1"/"$1.module.css"
@@ -30,6 +33,7 @@ export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -prin
 #go to
 alias gst='cd /home/serii/Sites/gatsby-projects/starter-project-gatsby-strapi-portfolio-2020'
 alias gc='cd /home/serii/Sites/components'
+alias gsn='cd /home/serii/Sites/jamstack/services/snservices'
 alias gT='cd /home/serii/Projects/tlaravel'
 alias gb='cd /home/serii/Sites/base-ecommerce'
 alias gv='cd /home/serii/Sites/vue'
