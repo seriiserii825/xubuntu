@@ -1,0 +1,9 @@
+open_with h
+
+mkdir jamstack
+mkdir pizza
+rename gb-pizza
+rename gr-pizza
+mkdir portfolio
+delete
+rename fire.png

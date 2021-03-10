@@ -4,6 +4,7 @@ set hidden
 " Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
+"let g:coc_node_path = '/path/to/node'
 
 " Give more space for displaying messages.
 set cmdheight=2
