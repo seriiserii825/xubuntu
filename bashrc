@@ -33,7 +33,7 @@ export FZF_DEFAULT_COMMAND="find . -path '*/\.*' -type d -prune -o -type f -prin
 #go to
 alias gst='cd /home/serii/Sites/gatsby-projects/starter-project-gatsby-strapi-portfolio-2020'
 alias gjss='cd /home/serii/Sites/jamstack/services/snservices'
-alias gjsg='cd /home/serii/Sites/jamstack/services/gb-serivces'
+alias gservice='cd /home/serii/Sites/jamstack/services/gb-services'
 alias gc='cd /home/serii/Sites/components'
 alias gsn='cd /home/serii/Sites/jamstack/services/snservices'
 alias gT='cd /home/serii/Projects/tlaravel'

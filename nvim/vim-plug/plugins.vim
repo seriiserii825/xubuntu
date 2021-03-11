@@ -12,11 +12,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
+    Plug 'MaxMEllon/vim-jsx-pretty'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
     Plug 'joshdick/onedark.vim'
     Plug 'moll/vim-bbye'
+    Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
