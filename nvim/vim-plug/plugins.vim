@@ -16,6 +16,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
 
     Plug 'joshdick/onedark.vim'
+    Plug 'moll/vim-bbye'
 
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
