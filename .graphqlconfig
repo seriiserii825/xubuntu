@@ -1,9 +1,9 @@
 {
-  "name": "Craft App",
-  "schemaPath": "project_schema.graphql",
+  "name": "My App",
+  "schemaPath": "my_endpoint_schema.graphql",
   "extensions": {
     "endpoints": {
-      "Remote GraphQL Endpoint": {
+      "My App Endpoint": {
         "url": "http://localhost:8080/___graphql",
         "headers": {
           "Authorization": "Bearer TOKEN"

@@ -11,3 +11,4 @@ delete
 mkdir 09
 mkdir today
 open_with nvim
+open_with 
