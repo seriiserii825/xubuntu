@@ -11,4 +11,11 @@ mkdir 09
 mkdir today
 open_with nvim
 open_with 
+rename inc-custom
+rename footer-custom.php
+rename header-custom.php
+search Ei
+find 
+rename Professionalita.svg
+open_with vim
 delete
