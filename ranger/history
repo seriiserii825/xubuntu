@@ -7,8 +7,8 @@ rename gr-pizza
 mkdir portfolio
 rename fire.png
 rename online.zip
-delete
 mkdir 09
 mkdir today
 open_with nvim
 open_with 
+delete
