@@ -9,12 +9,11 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
-    Plug 'posva/vim-vue'
+    "Plug 'posva/vim-vue'
     Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
     Plug 'tomtom/tcomment_vim'
-    Plug 'MaxMEllon/vim-jsx-pretty'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
