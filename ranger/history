@@ -17,5 +17,5 @@ rename header-custom.php
 search Ei
 find 
 rename Professionalita.svg
-open_with vim
 delete
+open_with vim

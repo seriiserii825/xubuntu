@@ -17,6 +17,10 @@ alias ll='ls -lha'
 alias nrd='npm run develop'
 alias sgd='sanity graphql deploy'
 
+sanityb() {
+curl https://6jc32alz.api.sanity.io/v1/data/export/production/ > "$1.ndjson"
+}
+
 mkr() { 
    mkdir -p -- "$1" && touch -- "$1"/"$1.js" "$1"/"$1.module.css"
 }
