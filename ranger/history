@@ -19,3 +19,4 @@ find
 rename Professionalita.svg
 delete
 open_with vim
+w
