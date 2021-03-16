@@ -17,6 +17,8 @@ rename header-custom.php
 search Ei
 find 
 rename Professionalita.svg
-delete
 open_with vim
+mkdir react
 w
+rename react-examples
+delete
