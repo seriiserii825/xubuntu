@@ -9,7 +9,6 @@ rename fire.png
 rename online.zip
 mkdir 09
 mkdir today
-open_with nvim
 open_with 
 rename inc-custom
 rename footer-custom.php
@@ -20,3 +19,7 @@ rename Professionalita.svg
 delete
 open_with vim
 w
+touch r-useEffect.js
+touch r-useContext.js
+open_with neovim
+open_with nvim
