@@ -1,0 +1,7 @@
+{
+  "Title": {
+    "prefix": ["ttl"],
+    "body": ["<h2 class=\"title\">$1</h2>"],
+    "description": "class title"
+  }
+}

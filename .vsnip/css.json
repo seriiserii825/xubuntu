@@ -1,0 +1,123 @@
+{
+  "mcus": {
+    "prefix": "mcus",
+    "body": ["@media screen and (max-width: $1px) {", "\t $2", "}"]
+  },
+  "mc5": {
+    "prefix": "mc5",
+    "body": ["@media screen and (max-width: 576px) {", "\t $2", "}"]
+  },
+  "mc7": {
+    "prefix": "mc7",
+    "body": ["@media screen and (max-width: 768px) {", "\t $2", "}"]
+  },
+  "mc9": {
+    "prefix": "mc9",
+    "body": ["@media screen and (max-width: 992px) {", "\t $2", "}"]
+  },
+  "mc12": {
+    "prefix": "mc12",
+    "body": ["@media screen and (max-width: 1200px) {", "\t $2", "}"]
+  },
+  "trf5": {
+    "scope": "css,scss",
+    "prefix": "trf5",
+    "body": ["transform: translate(-50%, -50%);"],
+    "description": "Transform 50%"
+  },
+  "Grid": {
+    "scope": "css,scss",
+    "prefix": "grd",
+    "body": [
+      "margin: 0 -$1rem;",
+      "flex-basis: calc($3% - $2rem);",
+      "margin: 0 $1rem 68px;"
+    ],
+    "description": "Transform"
+  },
+  "trfx": {
+    "scope": "css,scss",
+    "prefix": "trfx",
+    "body": ["transform: translateX(-50%);"],
+    "description": "Transform"
+  },
+  "lts": {
+    "scope": "css,scss",
+    "prefix": "lts",
+    "body": ["letter-spacing: $1;"],
+    "description": "Transform"
+  },
+  "trfy": {
+    "scope": "css,scss",
+    "prefix": "trfy",
+    "body": ["transform: translateY(-50%);"],
+    "description": "Transform"
+  },
+  "trfsc": {
+    "scope": "css,scss",
+    "prefix": "trfsc",
+    "body": ["transform: scale($1);"],
+    "description": "Transform"
+  },
+  "trs": {
+    "scope": "css,scss",
+    "prefix": "trs",
+    "body": ["transition: all .${1:ms}s;"],
+    "description": "transition"
+  },
+  "bdrs5": {
+    "scope": "css,scss",
+    "prefix": "bdrs5",
+    "body": ["border-radius: 50%;"],
+    "description": "border"
+  },
+  "dfc": {
+    "scope": "css,scss",
+    "prefix": "dfc",
+    "body": ["display: flex; justify-content: center; align-items: center;"],
+    "description": "dfc"
+  },
+  "dfbc": {
+    "scope": "css,scss",
+    "prefix": "dfbc",
+    "body": [
+      "display: flex; justify-content: space-between; align-items: center;"
+    ],
+    "description": "dfc"
+  },
+  "dfb": {
+    "scope": "css,scss",
+    "prefix": "dfb",
+    "body": ["display: flex; justify-content: space-between;"],
+    "description": "dfb"
+  },
+  "imp": {
+    "scope": "css,scss",
+    "prefix": "imp",
+    "body": ["!important"],
+    "description": "important"
+  },
+  "pao": {
+    "prefix": "pao",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: 100%;",
+      "height: 100%;",
+      "object-fit: cover;"
+    ],
+    "description": "Log output to console"
+  },
+  "pa": {
+    "prefix": "pa",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: 100%;",
+      "height: 100%;"
+    ],
+    "description": "Log output to console"
+  }
+}

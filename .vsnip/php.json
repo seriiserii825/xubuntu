@@ -1,0 +1,41 @@
+{
+  "Loop": {
+    "prefix": "loop",
+    "body": [
+      "<?php if (have_posts()): ?>",
+      "\t<?php while (have_posts()): ?>",
+      "\t\t<?php the_post();?>",
+      "\t\t<?php endwhile;?>",
+      "\t<?php wp_reset_postdata();?>",
+      "<?php endif;?>"
+    ],
+    "description": "loop"
+  },
+  "Looph": {
+    "prefix": "looph",
+    "body": [
+      "<?php if ($$1->have_posts()): ?>",
+      "\t<?php while ($$1->have_posts()): ?>",
+      "\t\t<?php $$1->the_post();?>",
+      "\t\t<?php endwhile;?>",
+      "\t<?php wp_reset_postdata();?>",
+      "<?php endif;?>"
+    ],
+    "description": "looph"
+  },
+  "get field": {
+    "prefix": "gf",
+    "body": ["get_field('$1')"],
+    "description": "defined"
+  },
+  "php": {
+    "prefix": "php",
+    "body": ["<?php echo $1 ?>"],
+    "description": "defined"
+  },
+  "php": {
+    "prefix": "pv",
+    "body": ["<?php echo $1 ?>"],
+    "description": "defined"
+  }
+}
