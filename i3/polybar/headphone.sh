@@ -12,6 +12,8 @@ sink_info=$(pactl list sinks | awk -v s="$sink" '
 # Get active port
 active_port=$(echo "$sink_info" | awk '/Active Port:/ { print $3 }')
 
+# device_desc=$(echo "$sink_info" | grep "Description:" | sed 's/.*Description: //')
+
 # Show icon + name
 if [[ "$active_port" == *"headphone"* ]]; then
     echo " Headphones"
