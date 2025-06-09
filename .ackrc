@@ -91,7 +91,6 @@
 --ignore-directory=is:autoload
 --ignore-directory=is:venv
 --ignore-directory=is:mysql
---ignore-directory=is:.mypy_cache
 
 # CMake cache
 # https://www.cmake.org/
@@ -104,8 +103,6 @@
 # Cabal (Haskell) sandboxes
 # https://www.haskell.org/cabal/users-guide/installing-packages.html
 --ignore-directory=is:.cabal-sandbox
---ignore-directory=is:slick
---ignore-directory=is:libs
 
 # Python caches
 # https://docs.python.org/3/tutorial/modules.html
@@ -116,8 +113,7 @@
 --ignore-directory=is:__MACOSX
 --ignore-file=is:.DS_Store
 --ignore-file=is:assets/js/webpack.js
---ignore-file=match:/leaflet\.js$
---ignore-file=match:/nouislider\.js$
+--ignore-file=is:assets/js/webpack.js
 
 ### Files to ignore
 
