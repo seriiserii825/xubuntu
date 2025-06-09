@@ -91,6 +91,7 @@
 --ignore-directory=is:autoload
 --ignore-directory=is:venv
 --ignore-directory=is:mysql
+--ignore-directory=is:.mypy_cache
 
 # CMake cache
 # https://www.cmake.org/
