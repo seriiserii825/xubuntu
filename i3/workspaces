@@ -2,11 +2,11 @@ default_orientation horizontal
 # default_orientation vertical
 workspace_layout default
 
-workspace 1 output VGA-1 
-workspace 7 output VGA-1
-workspace 2 output DVI-D-1 
-workspace 4 output DVI-D-1
-workspace 6 output DVI-D-1
+# workspace 1 output VGA-1 
+# workspace 7 output VGA-1
+# workspace 2 output DVI-D-1 
+# workspace 4 output DVI-D-1
+# workspace 6 output DVI-D-1
 
 #startup
 assign [class="figma-linux" instance="figma-linux"] 1
@@ -17,9 +17,10 @@ assign [class="TelegramDesktop" instance="telegram-desktop"] → 7
 # assign [class="qBittorrent" instance="qbittorrent"] 9
 assign [class="Audacious" instance="audacious"] 9
 assign [class="Gimp" instance="gimp"] 10
+# assign [class="qBittorrent" instance="qbittorrent"] 10
+assign [class="qBittorrent"] 10
 
 for_window [class="teams-for-linux" instance="teams-for-linux"] focus
-for_window [class="qbittorrent"] focus
 for_window [class="jetbrains-phpstorm"] focus
 for_window [class="firefox"] focus
 # "Navigator", "firefw wx"
