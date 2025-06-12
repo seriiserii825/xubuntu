@@ -1,51 +1,39 @@
-py_private_url="/home/serii/Documents/python/py-private"
-alias py-private="${py_private_url}/venv/bin/python3 ${py_private_url}/main.py"
+dir_path="/home/serii/Documents/python/py-private"
+alias py-private="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-wp_url="/home/serii/Documents/python/wp-python"
-alias wb="${wp_url}/venv/bin/python3 ${wp_url}/main.py"
+dir_path="/home/serii/Documents/python/wp-python"
+alias wb="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_scripts_url="/home/serii/Documents/python/python-scripts"
-alias pyscripts="${py_scripts_url}/venv/bin/python3.12 ${py_scripts_url}/main.py"
-# alias pyscripts="pypy ${py_scripts_url}/python-scripts.py"
+dir_path="/home/serii/Documents/python/python-scripts"
+alias pyscripts="${dir_path}/venv/bin/python3.12 ${dir_path}/main.py"
 
-py_parsing_url="/home/serii/Documents/python/py-parsing"
-alias py_parsing="${py_parsing_url}/venv/bin/python3 ${py_parsing_url}/py-parsing.py"
+dir_path="/home/serii/Documents/python/py-pacman"
+alias pc="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_pacman_path="/home/serii/Documents/python/py-pacman"
-alias pc="${py_pacman_path}/venv/bin/python3 ${py_pacman_path}/main.py"
+dir_path="/home/serii/Documents/python/py-scss"
+alias scs="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_scss_path="/home/serii/Documents/python/py-scss"
-alias scs="${py_scss_path}/venv/bin/python3 ${py_scss_path}/main.py"
+dir_path="/home/serii/Documents/python/py-sync-settings"
+alias lf="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_git_path="/home/serii/Documents/python/py-sync-settings"
-alias lf="${py_git_path}/venv/bin/python3 ${py_git_path}/main.py"
+dir_path="/home/serii/Documents/python/py-clipboard"
+alias cl="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_clipboard_path="/home/serii/Documents/python/py-clipboard"
-alias cl="${py_clipboard_path}/venv/bin/python3 ${py_clipboard_path}/main.py"
+dir_path="/home/serii/Documents/python/py-commit"
+alias cmt="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_commit_path="/home/serii/Documents/python/py-commit"
-alias cmt="${py_commit_path}/venv/bin/python3 ${py_commit_path}/main.py"
+dir_path="/home/serii/Documents/python/py-lv"
+alias lv="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_lv_path="/home/serii/Documents/python/py-lv"
-alias lv="${py_lv_path}/venv/bin/python3 ${py_lv_path}/main.py"
+dir_path="/home/serii/Documents/python/py-arch"
+alias arch="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_arch_path="/home/serii/Documents/python/py-arch"
-alias arch="${py_arch_path}/venv/bin/python3 ${py_arch_path}/main.py"
+dir_path="/home/serii/Documents/python/py-vue"
+alias vue="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_vue="/home/serii/Documents/python/py-vue"
-alias vue="${py_vue}/venv/bin/python3 ${py_vue}/main.py"
+dir_path="/home/serii/Documents/python/py-files"
+alias dir_path="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_angular="/home/serii/Documents/python/py-angular"
-alias angular="${py_angular}/venv/bin/python3 ${py_angular}/main.py"
+dir_path="/home/serii/Documents/python/py-bitbucket"
+alias py_bitbucket="${dir_path}/venv/bin/python3 ${dir_path}/main.py"
 
-py_files="/home/serii/Documents/python/py-files"
-alias py_files="${py_files}/venv/bin/python3 ${py_files}/main.py"
-
-py_files="/home/serii/Documents/python/py-30-projects"
-alias py_30="${py_files}/venv/bin/python3 ${py_files}/main.py"
-
-py_files="/home/serii/Documents/python/py-bitbucket"
-alias py_bitbucket="${py_files}/venv/bin/python3 ${py_files}/main.py"
-
-# py_gpl_path="/home/serii/Documents/python/py-gpl"
-# alias gpl="${py_gpl_path}/venv/bin/python3 ${py_gpl_path}/main.py"
