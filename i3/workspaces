@@ -2,11 +2,11 @@ default_orientation horizontal
 # default_orientation vertical
 workspace_layout default
 
-# workspace 1 output VGA-1 
-# workspace 7 output VGA-1
-# workspace 2 output DVI-D-1 
-# workspace 4 output DVI-D-1
-# workspace 6 output DVI-D-1
+workspace 1 output VGA-1 
+workspace 7 output VGA-1
+workspace 2 output DVI-D-1 
+workspace 4 output DVI-D-1
+workspace 6 output DVI-D-1
 
 #startup
 assign [class="figma-linux" instance="figma-linux"] 1
