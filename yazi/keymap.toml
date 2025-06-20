@@ -399,7 +399,3 @@ on   = [ "c", "a" ]
 run  = "plugin compress"
 desc = "Archive selected files"
 
-[[manager.prepend_keymap]]
-on = [ "g", "H" ]
-run = '''shell --confirm -- "tac ~/.yazi_history | awk '!seen[$0]++' | fzf | xargs -I {} yazi {}"'''
-desc = "Jump to a directory from history"

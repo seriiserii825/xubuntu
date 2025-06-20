@@ -92,9 +92,6 @@ fetchers = [
 	# Mimetype
 	{ id = "mime", name = "*", run = "mime", prio = "high" },
 ]
-prepend_plugins = [
-    { name = "history", path = "~/.config/yazi/plugins/history.lua" },
-]
 spotters = [
 	{ name = "*/", run = "folder" },
 	# Code
