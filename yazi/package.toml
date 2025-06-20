@@ -1,9 +1,4 @@
 [[plugin.deps]]
-use = "aresler/path-from-root"
-rev = "7d05b87"
-hash = "46977a29d4349d11465af1817f17d414"
-
-[[plugin.deps]]
 use = "dedukun/bookmarks"
 rev = "95b2c58"
 hash = "17a094653b7d0db4ac68ed531d2e1412"
@@ -17,6 +12,11 @@ hash = "ee025be766240cc98e671754ac836da3"
 use = "AnirudhG07/plugins-yazi:copy-file-contents"
 rev = "71545f4"
 hash = "f8530ee84fee95dbcc26bb1d8d8019c7"
+
+[[plugin.deps]]
+use = "aresler/path-from-root"
+rev = "22b6fb5"
+hash = "98cdb2e889b73c4d4a8945f166486605"
 
 [flavor]
 deps = []
