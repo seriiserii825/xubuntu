@@ -36,6 +36,7 @@
 # When submodules are used, .git is a file.
 --ignore-file=is:normalize.css
 --ignore-file=is:vifminfo.json
+--ignore-file=is:webpack.js
 
 # Mercurial
 # https://www.mercurial-scm.org/
