@@ -78,7 +78,8 @@ keymap = [
 	{ on = "<C-s>",     run = "escape --search",             desc = "Cancel the ongoing search" },
 	{ on =  "E" , run = "shell zsh --block --confirm" },
 	{ on = "z",         run = "plugin zoxide",               desc = "Jump to a directory via zoxide" },
-	{ on = "s",         run = "plugin fzf",                  desc = "Jump to a file/directory via fzf" },
+	# { on = "s",         run = "plugin fzf",                  desc = "Jump to a file/directory via fzf" },
+	{ on = "s",         run = "search --via=fd",             desc = "Search files by name via fd" },
 
 	# Linemode
 	{ on = [ "M", "s" ], run = "linemode size",        desc = "Linemode: size" },
