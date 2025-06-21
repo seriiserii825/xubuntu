@@ -1,4 +1,5 @@
 alias q="exit"
+alias clear_downloads="rm -rf ~/Downloads/* && rm -rf ~/Downloads/.*"
 # alias v="vifm ."
 alias hpr="nvim ~/.config/hypr/hypr.conf"
 alias wbr="nvim ~/.config/waybar/config"
@@ -9,6 +10,8 @@ alias rconf="nvim ~/.config/ranger/rc.conf"
 alias lz="lazygit"
 alias sns="sudo systemctl stop nginx"
 alias search_emojji="google-chrome-stable https://search-emoji-pi.vercel.app/ru#Symbols &"
+
+alias gs='git status'
 # function yy() {
 # 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
 # 	yazi "$@" --cwd-file="$tmp"
