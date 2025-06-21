@@ -18,7 +18,6 @@ keymap = [
 	{ on = [ "g", "m" ],       run = "cd /mnt/projects",   desc = "Goto /mnt/projects" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 
-	{ on = "Z", run = "unxip {path} -d {parent}",             desc = "Unzip file" },
 	{ on = "<Esc>", run = "escape",             desc = "Exit visual mode, clear selected, or cancel search" },
 	{ on = "<C-[>", run = "escape",             desc = "Exit visual mode, clear selected, or cancel search" },
 	{ on = "q",     run = "quit",               desc = "Quit the process" },
