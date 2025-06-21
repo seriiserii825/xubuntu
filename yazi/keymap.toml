@@ -15,6 +15,7 @@ keymap = [
 	{ on = [ "g", "k" ],       run = "cd ~/Documents/Knowledge-base_",   desc = "Goto ~/Knowledge-base_" },
 	{ on = [ "g", "f" ],       run = "cd ~/Documents/my-fonts",   desc = "Goto ~/my-fonts" },
 	{ on = [ "g", "b" ],       run = "cd ~/Documents/Sites/wp-projects/bs-vite",   desc = "Goto ~/bs-vite" },
+	{ on = [ "g", "m" ],       run = "cd /mnt/projects",   desc = "Goto /mnt/projects" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 
 	{ on = "Z", run = "unxip {path} -d {parent}",             desc = "Unzip file" },
@@ -70,6 +71,9 @@ keymap = [
 	{ on = "Y",         run = "unyank",                      desc = "Cancel the yank status" },
 	{ on = "d",         run = "remove --permanently",        desc = "Permanently delete selected files" },
 	{ on = "a",         run = "create",                      desc = "Create a file (ends with / for directories)" },
+	{ on = "A",         run = "rename --cursor=end",  desc = "Rename selected file(s)" },
+	{ on = "I",         run = "rename --cursor=start",  desc = "Rename selected file(s)" },
+	{ on = "i",         run = "rename --cursor=start --empty=stem",  desc = "Rename selected file(s)" },
 	{ on = "r",         run = "rename --cursor=before_ext",  desc = "Rename selected file(s)" },
 	{ on = ";",         run = "shell --interactive",         desc = "Run a shell command" },
 	{ on = ":",         run = "shell --block --interactive", desc = "Run a shell command (block until finishes)" },
