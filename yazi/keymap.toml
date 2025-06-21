@@ -71,7 +71,7 @@ keymap = [
 	{ on = "Y",         run = "unyank",                      desc = "Cancel the yank status" },
 	{ on = "d",         run = "remove --permanently",        desc = "Permanently delete selected files" },
 	{ on = "a",         run = "create",                      desc = "Create a file (ends with / for directories)" },
-	{ on = "A",         run = "rename --cursor=end",  desc = "Rename selected file(s)" },
+	{ on = "A",         run = "rename --cursor=end --empty=ext",  desc = "Rename selected file(s)" },
 	{ on = "I",         run = "rename --cursor=start",  desc = "Rename selected file(s)" },
 	{ on = "i",         run = "rename --cursor=start --empty=stem",  desc = "Rename selected file(s)" },
 	{ on = "r",         run = "rename --cursor=before_ext",  desc = "Rename selected file(s)" },
