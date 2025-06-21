@@ -33,5 +33,10 @@ use = "AnirudhG07/rich-preview"
 rev = "843c3fa"
 hash = "b4040931f0d2f9670ddb4923e55cd881"
 
+[[plugin.deps]]
+use = "yazi-rs/plugins:vcs-files"
+rev = "3d1efb7"
+hash = "a25fa4416b4135e51bb163ac5a45df66"
+
 [flavor]
 deps = []

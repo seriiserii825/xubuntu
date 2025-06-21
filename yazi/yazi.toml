@@ -159,7 +159,6 @@ preloaders = [
 previewers = [
   { name = "*/", run = "folder", sync = true },
   { name = "*.csv", run = "rich-preview"}, # for csv files
-  # { name = "*.csv", run = 'piper -- bat -p --color=always "$1"' },
   { name = "*.md", run = "rich-preview" }, # for markdown (.md) files
   { name = "*.rst", run = "rich-preview"}, # for restructured text (.rst) files
   { name = "*.ipynb", run = "rich-preview"}, # for jupyter notebooks (.ipynb)
