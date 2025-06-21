@@ -23,7 +23,7 @@ export PATH;
 source ~/Documents/bash/bash-scripts/n.sh
 source ~/xubuntu/scripts/docker.sh
 
-plugins=(zsh-z npm zsh-autosuggestions zsh-syntax-highlighting you-should-use copybuffer sudo colored-man-pages vi-mode extract)
+plugins=(z npm zsh-autosuggestions zsh-syntax-highlighting you-should-use copybuffer sudo colored-man-pages vi-mode extract)
 
 set ZSH_HIGHLIGHT_MAXLENGTH=100
 ZSH_THEME="powerlevel10k/powerlevel10k"
