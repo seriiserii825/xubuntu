@@ -1,0 +1,139 @@
+
+
+[Documents/typescript/ts-course]
+checkout = git clone 'git@github.com:seriiserii825/ts-course.git' 'ts-course'
+
+[Documents/bash-arch]
+checkout = git clone 'git@github.com:seriiserii825/bash-arch.git' 'bash-arch'
+
+[Documents/chrome-extenstions/fill-form]
+checkout = git clone 'git@bitbucket.org:seriiserii825/fill-form.git' 'fill-form'
+
+[Documents/chrome-extenstions/quick-tabs-project]
+checkout = git clone 'git@bitbucket.org:seriiserii825/quick-tabs-project.git' 'quick-tabs-project'
+
+[Documents/chrome-extenstions/tabs-copy]
+checkout = git clone 'git@bitbucket.org:seriiserii825/tabs-copy.git' 'tabs-copy'
+
+[Documents/chrome-extenstions/autofill]
+checkout = git clone 'git@bitbucket.org:seriiserii825/autofill.git' 'autofill'
+
+[Documents/chrome-extenstions/fontawesome-icon-finder]
+checkout = git clone 'https://github.com/CS76/fontawesome-icon-finder.git' 'fontawesome-icon-finder'
+
+[Documents/python/python-scripts]
+checkout = git clone 'git@github.com:seriiserii825/python-scripts.git' 'python-scripts'
+
+[Documents/python/python-selenium]
+checkout = git clone 'git@github.com:seriiserii825/python-selenium.git' 'python-selenium'
+
+[Documents/python/python-course]
+checkout = git clone 'git@github.com:seriiserii825/python-course.git' 'python-course'
+
+[Documents/python/py-vue]
+checkout = git clone 'git@github.com:seriiserii825/py-vue.git' 'py-vue'
+
+[Documents/python/py-parsing]
+checkout = git clone 'git@github.com:seriiserii825/py-parsing.git' 'py-parsing'
+
+[Documents/python/py-weather]
+checkout = git clone 'git@github.com:seriiserii825/py-weather.git' 'py-weather'
+
+[Documents/python/py-arch]
+checkout = git clone 'git@github.com:seriiserii825/py-arch.git' 'py-arch'
+
+[Documents/python/py-bitbucket]
+checkout = git clone 'git@github.com:seriiserii825/py-bitbucket.git' 'py-bitbucket'
+
+[Documents/python/py-private]
+checkout = git clone 'git@github.com:seriiserii825/py-private.git' 'py-private'
+
+[Documents/python/py-files]
+checkout = git clone 'git@github.com:seriiserii825/py-files.git' 'py-files'
+
+[Documents/python/py-clipboard]
+checkout = git clone 'git@github.com:seriiserii825/py-clipboard.git' 'py-clipboard'
+
+[Documents/python/py-oop]
+checkout = git clone 'git@github.com:seriiserii825/py-oop.git' 'py-oop'
+
+[Documents/python/py-sync-settings]
+checkout = git clone 'git@github.com:seriiserii825/py-sync-settings.git' 'py-sync-settings'
+
+[Documents/python/py-commit]
+checkout = git clone 'git@github.com:seriiserii825/py-commit.git' 'py-commit'
+
+[Documents/python/py-pacman]
+checkout = git clone 'git@github.com:seriiserii825/py-pacman.git' 'py-pacman'
+
+[Documents/python/py-lv]
+checkout = git clone 'git@github.com:seriiserii825/py-lv.git' 'py-lv'
+
+[Documents/python/py-scss]
+checkout = git clone 'git@github.com:seriiserii825/py-scss.git' 'py-scss'
+
+[Documents/python/wp-python]
+checkout = git clone 'git@github.com:seriiserii825/wp-python.git' 'wp-python'
+
+[Documents/python/py-classes]
+checkout = git clone 'git@github.com:seriiserii825/py-classes.git' 'py-classes'
+
+[Documents/Knowledge-base_]
+checkout = git clone 'git@github.com:seriiserii825/Knowledge-base_.git' 'Knowledge-base_'
+
+[Documents/Apps/nvim-lua]
+checkout = git clone 'git@github.com:seriiserii825/nvim-lua.git' 'nvim-lua'
+
+[Documents/Apps/nvim]
+checkout = git clone 'git@github.com:seriiserii825/nvim-coc.git' 'nvim'
+
+[Documents/bash]
+checkout = git clone 'git@github.com:seriiserii825/bash.git' 'bash'
+
+[Documents/vscode]
+checkout = git clone 'git@bitbucket.org:seriiserii825/vscode.git' 'vscode'
+
+[Documents/my-fonts]
+checkout = git clone 'git@bitbucket.org:seriiserii825/my-fonts.git' 'my-fonts'
+
+[Documents/plugins-wp]
+checkout = git clone 'git@bitbucket.org:seriiserii825/plugins-wp.git' 'plugins-wp'
+
+[Documents/bash-apps]
+checkout = git clone 'git@github.com:seriiserii825/bash-apps.git' 'bash-apps'
+
+[Documents/bash-course]
+checkout = git clone 'git@github.com:seriiserii825/bash-course.git' 'bash-course'
+
+[.password-store]
+checkout = git clone 'git@github.com:seriiserii825/passwords.git' '.password-store'
+
+[python-course]
+checkout = git clone 'git@github.com:seriiserii825/python-course.git' 'python-course'
+
+[xubuntu]
+checkout = git clone 'git@github.com:seriiserii825/xubuntu.git' 'xubuntu'
+
+[.config/nvm]
+checkout = git clone 'https://github.com/nvm-sh/nvm.git' 'nvm'
+
+[Picture/wallpapers]
+checkout = git clone 'git@github.com:seriiserii825/wallpapers.git' 'wallpapers'
+
+[.oh-my-zsh/custom/plugins/zsh-z]
+checkout = git clone 'https://github.com/agkozak/zsh-z' 'zsh-z'
+
+[.oh-my-zsh/custom/plugins/you-should-use]
+checkout = git clone 'https://github.com/MichaelAquilina/zsh-you-should-use.git' 'you-should-use'
+
+[.oh-my-zsh/custom/plugins/zsh-autosuggestions]
+checkout = git clone 'https://github.com/zsh-users/zsh-autosuggestions' 'zsh-autosuggestions'
+
+[.oh-my-zsh/custom/plugins/zsh-syntax-highlighting]
+checkout = git clone 'https://github.com/zsh-users/zsh-syntax-highlighting.git' 'zsh-syntax-highlighting'
+
+[.oh-my-zsh/custom/themes/powerlevel10k]
+checkout = git clone 'https://github.com/romkatv/powerlevel10k.git' 'powerlevel10k'
+
+[.oh-my-zsh]
+checkout = git clone 'https://github.com/ohmyzsh/ohmyzsh.git' '.oh-my-zsh'
