@@ -1,5 +1,5 @@
 alias q="exit"
-alias v="vifm ."
+# alias v="vifm ."
 alias hpr="nvim ~/.config/hypr/hypr.conf"
 alias wbr="nvim ~/.config/waybar/config"
 alias jpegtojpg="rnst * && rename -v s/jpeg/jpg/g *"
@@ -9,14 +9,14 @@ alias rconf="nvim ~/.config/ranger/rc.conf"
 alias lz="lazygit"
 alias sns="sudo systemctl stop nginx"
 alias search_emojji="google-chrome-stable https://search-emoji-pi.vercel.app/ru#Symbols &"
-function yy() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
-}
+# function yy() {
+# 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+# 	yazi "$@" --cwd-file="$tmp"
+# 	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+# 		cd -- "$cwd"
+# 	fi
+# 	rm -f -- "$tmp"
+# }
 
 alias rp="venv/bin/python3 -m main"
 

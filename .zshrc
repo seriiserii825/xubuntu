@@ -17,7 +17,7 @@ export PATH=~/Documents/bash/bash-wp:$PATH
 export PATH=~/Documents/bash-arch:$PATH
 export PATH=~/Documents/bash:$PATH
 # export PATH=~/Documents/bash/bash-scripts/bash-git:$PATH
-export PATH=~/.config/vifm:$PATH
+# export PATH=~/.config/vifm:$PATH
 export ZSH="/home/serii/.oh-my-zsh"
 export PATH;
 # alias scraping="/home/serii/Documents/python/py-parsing/venv/bin/python3 /home/serii/Documents/python/py-parsing/scrapping.py"
@@ -30,10 +30,10 @@ source ~/xubuntu/scripts/docker.sh
 # ZSH_AUTOSUGGEST_ACCEPT_WIDGETS=("${(@)ZSH_AUTOSUGGEST_ACCEPT_WIDGETS:#forward-char}")
 # bindkey '$' autosuggest-accept
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init --path)"
+# eval "$(pyenv init -)"
 
 plugins=(zsh-z npm zsh-autosuggestions zsh-syntax-highlighting you-should-use copybuffer sudo colored-man-pages vi-mode extract)
 
